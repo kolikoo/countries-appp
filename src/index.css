@@ -126,6 +126,7 @@ background-color: #f2f1f1;
 border-radius: 10px;
   margin: auto;
   
+  
 }
 
 .article_Card{
@@ -160,10 +161,9 @@ span{color: rgb(206, 150, 89);}
 
 
 footer{
- position: absolute;
- left: -0px;
+
   height: 200px;
-  width: 3450px;
+  width: 100%;
   margin-top:50px ;
   background-color: rgb(173, 100, 4);
 }
