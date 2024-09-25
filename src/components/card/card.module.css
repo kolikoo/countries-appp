@@ -1,0 +1,46 @@
+
+article{
+  width: 30%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+background-color: #f2f1f1;
+border-radius: 10px;
+  margin: auto;
+  
+  
+}
+
+.article_Card{
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 77%;
+  height: 400px;
+  background-image: url(../src/images/georgia.png);
+  background-size: cover;
+  display: flex;
+justify-content: center;
+align-items: center;
+  
+}
+.text_Article{
+  background-color: rgb(44, 44, 44,0.5);
+height: 325px;
+border-radius: 10px;
+width: 60%;
+display: flex;
+justify-content: space-around;
+flex-direction: column;
+align-items: center;
+text-align: center;
+color: antiquewhite;
+line-height: 1.7;
+
+}
+
+.article_H2{color: black;}
+.article_p1{color: rgb(173, 100, 4);}
+span{color: rgb(206, 150, 89);}
+
+.article_footer{background-color: rgb(48, 48, 48);}

@@ -1,14 +1,11 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: white;
-
- 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+
+
 
 
 
@@ -22,164 +19,23 @@ body {
  
 }
 /* header  *//* header  *//* header  *//* header  *//* header  */
-header{
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  
-  align-items: center;
-}
-
-.headerlogo{
-  width: 250px;
-  margin-right: 20%;
-}
-
-nav{width: 15%;}
-
-li{
-  color: #2c2c2c;
-  font-weight: 500;
-  font-size: 18px;
-}
-
-ul{
-
-  width: 120%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  
-  
-  list-style-type: none; 
-  padding: 0;           
-  margin: 0;           
-
-
- }
 
 /* header  *//* header  *//* header  *//* header  *//* header  */
 
 /* section_herosection_herosection_herosection_herosection_herosection_hero */
-.sectionHero{
-  display: flex;
-justify-content: center;
-align-items: flex-end;
-margin: 50px 0 ;
-width: 100%;
-}
-
-
-.section1_hero{
-  
-  width: 80%;
-  
-  background-image: url(../src/images/hero.background.png);
-  background-size: cover;
-  height: 500px;
-  background-position: top;
-  border-radius: 10px;
-  color: rgb(255, 255, 255);
-}
-
-.hero_Text{
-  width: 50%;
-
-
-margin: 130px auto;
-}
-.heroH3{font-size: 35px;
-text-transform: capitalize;
- background: linear-gradient(to right, gold, white, orange);
- -webkit-background-clip: text;
- color: transparent;
- font-weight: bold;
-}
-.heroP{
-  font-weight: 300;
-}
-button{
-  background-color: rgba(46, 46, 46, 0.4);
-  border: 1px solid white;
-  border-radius: 5px;
-  width: 200px;
-  height: 70px;
-  font-size: 30px;
-}
-
-button:hover{
-  background-color: white;
-  color: #2c2c2c;
-  transition: 0.5s;
-}
 
 /* section_herosection_herosection_herosection_herosection_herosection_herosection_hero */
 /* articlearticlearticlearticlearticlearticlearticlearticlearticlearticlearticlearticle */
 
-article{
-  width: 30%;
-  height: 500px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-background-color: #f2f1f1;
-border-radius: 10px;
-  margin: auto;
-  
-  
-}
-
-.article_Card{
-  border: 1px solid black;
-  border-radius: 10px;
-  width: 77%;
-  height: 400px;
-  background-image: url(../src/images/georgia.png);
-  background-size: cover;
-  display: flex;
-justify-content: center;
-align-items: center;
-  
-}
-.text_Article{
-  background-color: rgb(44, 44, 44,0.5);
-height: 325px;
-border-radius: 10px;
-width: 60%;
-display: flex;
-justify-content: space-around;
-flex-direction: column;
-color: antiquewhite;
-line-height: 1.7;
-
-}
-span{color: rgb(206, 150, 89);}
 
 
 
 /* articlearticlearticlearticlearticlearticlearticlearticlearticlearticlearticlearticle */
 
 
-footer{
-
-  height: 200px;
-  width: 100%;
-  margin-top:50px ;
-  background-color: rgb(173, 100, 4);
-}
-
-
-#root {
-  padding: 2rem 0px;
-}
 
 
 
 
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-}
+

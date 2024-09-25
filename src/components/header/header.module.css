@@ -1,0 +1,38 @@
+.header{
+  width: 95%;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  margin-top: 20px;
+  align-items: center;
+
+
+}
+
+.headerlogo{
+  width: 250px;
+  margin-right: 20%;
+}
+
+Nav{width: 15%;}
+
+.header_Nav_Li{
+  color: gold;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+ul{
+
+  width: 120%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  
+  list-style-type: none; 
+  padding: 0;           
+  margin: 0;           
+
+
+ }
