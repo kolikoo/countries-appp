@@ -19,22 +19,23 @@ const App: React.FC = () => {
   return (
     <>
       <body>
+
         <Header />
 
         {/* sectionsectionsectionsectionsectionsectionsectionsectionsectionsection */}
+
         <SectionHero />
+
         {/* sectionsectionsectionsectionsectionsectionsectionsectionsectionsection */}
+
         {/* artickle artickle artickle artickle artickle artickle artickle artickle */}
 
-       
-          
         <Card />
 
-        {/* <Card/> */}
-
         {/* artickle artickle artickle artickle artickle artickle artickle artickle */}
 
-       <Footer/>
+        <Footer />
+        
       </body>
     </>
   );
