@@ -18,11 +18,11 @@ const Card: React.FC<CardProps> = ({ children }) => {
     <article className={style.article}>
       <div className={style.article_Card}>
         <div className={style.text_Article}>
-          <CardHeader />
-          <CardContent />
+          {/* <CardHeader />
+          <CardContent /> */}
           {/* Render children here */}
           {children}
-          <CardFooter />
+          {/* <CardFooter /> */}
         </div>
       </div>
     </article>
