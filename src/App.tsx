@@ -9,10 +9,10 @@ import { country }from "./myScript";
 
 import Card from '&/card/card';
 
-import CardHeader from '&/components/card/ CardHeader/CardHeader';
-import CardContent from './components/card/CardContent/CardContent';
-import CardFooter from './components/card/CardFooter/CardFooter';
-import Layout from './components/layout/layout';
+import CardHeader from '&/card/ CardHeader/CardHeader';
+import CardContent from '&/card/CardContent/CardContent';
+import CardFooter from '&/card/CardFooter/CardFooter';
+import Layout from '&/layout/layout';
 
 
 
