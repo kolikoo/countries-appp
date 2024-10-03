@@ -1,43 +1,30 @@
-
-
-
+import React, { Suspense, lazy } from "react";
 import "@/App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+import DefaultLayout from "&/layout/layout";
 
- 
-import { country }from "./myScript";
-
-import Card from '&/card/card';
-
-import CardHeader from '&/card/ CardHeader/CardHeader';
-import CardContent from '&/card/CardContent/CardContent';
-import CardFooter from '&/card/CardFooter/CardFooter';
-import Layout from '&/layout/layout';
-
-
-
+// Lazy loaded components
+const ArticleListWiev = lazy(() => import("./pages/home/views"));
+const AboutView = lazy(() => import("./pages/about/view/about-view"));
+const ContactPageView = lazy(() => import("./pages/contact/views"));
 
 const App: React.FC = () => {
-
-
   return (
     <>
-      <body>
-        <Layout>
-
-          <Card>
-            <CardHeader />
-            <CardContent name = {country.name} population={country.population} city={country.city}/>
-            <CardFooter />
-          </Card>
-
-        </Layout>
-
-     
-
-      </body>
+      <BrowserRouter>
+        <Suspense fallback={<div>Loading...</div>}>
+          <Routes>
+            <Route element={<DefaultLayout />}>
+              <Route path="/" element={<ArticleListWiev />} />
+              <Route path="about" element={<AboutView />} />
+              <Route path="contact us" element={<ContactPageView />} />
+            </Route>
+          </Routes>
+        </Suspense>
+      </BrowserRouter>
     </>
   );
-}
+};
 
-export default App
+export default App;

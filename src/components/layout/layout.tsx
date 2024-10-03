@@ -1,14 +1,14 @@
 import Header from "&/header/header";
-import SectionHero from "&/section/section-hero/section-hero";
 import Footer from "&/footer/footer";
 import {  PropsWithChildren } from "react";
+import { Outlet } from "react-router-dom";
 
-const Layout : React.FC<PropsWithChildren> =({children})=>{
+const DefaultLayout =()=>{
  return(
   <>
 <Header/>
-<SectionHero/>
-{children}
+
+<Outlet/>
 <Footer/>
 
 
@@ -18,4 +18,4 @@ const Layout : React.FC<PropsWithChildren> =({children})=>{
  )
 }
 
-export default Layout;
+export default DefaultLayout;

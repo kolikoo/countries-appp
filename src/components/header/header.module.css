@@ -9,21 +9,30 @@
 
 }
 
+
 .headerlogo{
   width: 250px;
   margin-right: 20%;
 }
 
-Nav{width: 15%;}
+Nav{width: 15%;
+}
 
 .header_Nav_Li{
   color: gold;
   font-weight: 700;
   font-size: 20px;
+  text-decoration: none;
+}
+
+.header_Nav_Li:hover{
+  font-size: 23px;
+  color: rgb(63, 63, 63);
+ transition: 0.7s;
 }
 
 ul{
-
+  text-decoration: none;
   width: 120%;
   display: flex;
   justify-content: space-between;
@@ -36,3 +45,27 @@ ul{
 
 
  }
+ *{  text-decoration: none;}
+
+ .active_nav{ color: rgb(161, 95, 29);
+  font-weight: 700;
+  font-size: 20px;
+  text-decoration: none;}
+
+ .no_active_nav{
+   color: gold;
+  font-weight: 700;
+  font-size: 20px;
+  text-decoration: none;
+ }
+
+  .active_nav:hover{
+    font-size: 23px;
+  color: rgb(63, 63, 63);
+ transition: 0.7s;
+  }
+  .no_active_nav:hover{
+    font-size: 23px;
+  color: rgb(63, 63, 63);
+ transition: 0.7s;
+  }
