@@ -13,15 +13,32 @@ const App: React.FC = () => {
   return (
     <>
       <BrowserRouter>
-        <Suspense fallback={<div>Loading...</div>}>
           <Routes>
             <Route element={<DefaultLayout />}>
-              <Route path="/" element={<ArticleListWiev />} />
-              <Route path="about" element={<AboutView />} />
-              <Route path="contact us" element={<ContactPageView />} />
+
+                  <Route path="/"
+                    element={
+                      <Suspense fallback={<div>Loading...</div>}>
+                        <ArticleListWiev />             
+                          </Suspense>
+                    } />
+
+              <Route path="about" element={
+                <Suspense fallback={<div>Loading...</div>}>
+                   <AboutView />
+                     </Suspense>
+             } />
+
+
+              <Route path="contact us" element={
+                <Suspense fallback={<div>loading...</div>}>
+                  <ContactPageView />
+                  </Suspense>
+                 } />
+                  
+                  
             </Route>
           </Routes>
-        </Suspense>
       </BrowserRouter>
     </>
   );

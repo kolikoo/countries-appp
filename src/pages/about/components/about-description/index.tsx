@@ -1,5 +1,5 @@
 import Style from "./about-description.module.css";
-import Img from './brazil.jpeg'
+
 const Section1 = () => {
   return (
     <section className={Style.aboutsection}>
