@@ -20,9 +20,7 @@ if(!articleInfo){
      
         <SingleList  /> 
     
-        <div>Article not found</div>
-    
-      <div>eifeigjoigj</div>
+        
     </>
   );
 };

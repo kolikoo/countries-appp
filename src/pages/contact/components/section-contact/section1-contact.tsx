@@ -2,12 +2,14 @@ import React, { useState } from "react";
 import styles from "./about-section.module.css";
 
 const Section1Contact = () => {
-  const [formData, setFormData] = useState({
+  const initialFormData = {
     name: "",
     surname: "",
     email: "",
     message: "",
-  });
+  };
+
+  const [formData, setFormData] = useState(initialFormData);
 
   const handleChange = (
     event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
@@ -19,6 +21,7 @@ const Section1Contact = () => {
   const handleSubmit = (event: React.FormEvent) => {
     event.preventDefault(); // Prevent the default form submission
     console.log(formData); // Log the form data
+    setFormData(initialFormData); // Reset the form fields
   };
 
   return (
