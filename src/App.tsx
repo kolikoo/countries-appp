@@ -1,5 +1,4 @@
 import React, { Suspense, lazy } from "react";
-import "@/App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import DefaultLayout from "&/layout/layout";
@@ -8,39 +7,54 @@ import DefaultLayout from "&/layout/layout";
 const ArticleListWiev = lazy(() => import("./pages/home/views"));
 const AboutView = lazy(() => import("./pages/about/view/about-view"));
 const ContactPageView = lazy(() => import("./pages/contact/views"));
+const SingleListView = lazy(() => import("./pages/home/views/singleListview/singleList")
+);
 
 const App: React.FC = () => {
   return (
-    <>
-      <BrowserRouter>
-          <Routes>
-            <Route element={<DefaultLayout />}>
+    <BrowserRouter>
+      <Routes>
 
-                  <Route path="/"
-                    element={
-                      <Suspense fallback={<div>Loading...</div>}>
-                        <ArticleListWiev />             
-                          </Suspense>
-                    } />
+        <Route element={<DefaultLayout />}>
 
-              <Route path="about" element={
-                <Suspense fallback={<div>Loading...</div>}>
-                   <AboutView />
-                     </Suspense>
-             } />
+          <Route
+            path="/"
+            element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <ArticleListWiev />
+              </Suspense>
+            }
+          />
 
+          <Route path="/:id"
+          element={<SingleListView/>}
+          
+          />
 
-              <Route path="contact us" element={
-                <Suspense fallback={<div>loading...</div>}>
-                  <ContactPageView />
-                  </Suspense>
-                 } />
-                  
-                  
-            </Route>
-          </Routes>
-      </BrowserRouter>
-    </>
+          
+
+          <Route
+            path="about"
+            element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <AboutView />
+              </Suspense>
+            }
+          />
+
+          <Route
+            path="contact us"
+            element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <ContactPageView />
+              </Suspense>
+            }
+          />
+
+        </Route>
+
+      </Routes>
+    </BrowserRouter>
   );
 };
 

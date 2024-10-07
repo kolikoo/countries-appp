@@ -1,6 +1,7 @@
 import styles from "./section-hero.module.css"
 
 
+
 const SectionHero: React.FC = () =>{
 return (
   <section className={styles.sectionHero}>
@@ -13,7 +14,7 @@ return (
           თქვენი კომფორტი
         </p>
 
-        <button>Follow Us</button>
+        <button >Follow Us</button>
       </div>
     </div>
   </section>

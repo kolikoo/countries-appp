@@ -5,6 +5,7 @@ import CardContent from "../components/card/CardContent/CardContent";
 import { country } from "@/myScript";
 import CardFooter from "../components/card/CardFooter/CardFooter";
 import { lazy } from "react";
+import ArticleList from "../components/homeArticle/homeArticle";
 
 const LazySectionHero = lazy(
   () => import("@/pages/home/components/section/section-hero/section-hero")
@@ -25,25 +26,23 @@ const LazyCardFooter = lazy(
   () => import("../components/card/CardFooter/CardFooter")
 );
 
+const ArticleListWiev = () => {
+  return (
+    <>
+      <SectionHero />
 
+      <Card>
+        <CardHeader />
+        <CardContent
+          name={country.name}
+          population={country.population}
+          city={country.city}
+        />
+        <CardFooter />
+      </Card>
 
-
-const ArticleListWiev = () => { 
-
- return (
-   <>
-     <SectionHero />
-
-     <Card>
-       <CardHeader />
-       <CardContent
-         name={country.name}
-         population={country.population}
-         city={country.city}
-       />
-       <CardFooter />
-     </Card>
-   </>
- );
-}
+      <ArticleList />
+    </>
+  );
+};
 export default ArticleListWiev;
