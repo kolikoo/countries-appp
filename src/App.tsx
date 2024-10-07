@@ -1,5 +1,5 @@
 import React, { Suspense, lazy } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
 import DefaultLayout from "&/layout/layout";
 
@@ -7,32 +7,26 @@ import DefaultLayout from "&/layout/layout";
 const ArticleListWiev = lazy(() => import("./pages/home/views"));
 const AboutView = lazy(() => import("./pages/about/view/about-view"));
 const ContactPageView = lazy(() => import("./pages/contact/views"));
-const SingleListView = lazy(() => import("./pages/home/views/singleListview/singleList")
+const SingleListView = lazy(
+  () => import("./pages/home/views/singleListview/singleList")
 );
 
 const App: React.FC = () => {
   return (
     <BrowserRouter>
       <Routes>
-
         <Route element={<DefaultLayout />}>
-
+          <Route path="/" element={<Navigate to="/home" />} />{" "}
+          {/* Redirect root to /home */}
           <Route
-            path="/"
+            path="/home"
             element={
               <Suspense fallback={<div>Loading...</div>}>
                 <ArticleListWiev />
               </Suspense>
             }
           />
-
-          <Route path="/:id"
-          element={<SingleListView/>}
-          
-          />
-
-          
-
+          <Route path="/home/:id" element={<SingleListView />} />
           <Route
             path="about"
             element={
@@ -41,7 +35,6 @@ const App: React.FC = () => {
               </Suspense>
             }
           />
-
           <Route
             path="contact us"
             element={
@@ -50,9 +43,7 @@ const App: React.FC = () => {
               </Suspense>
             }
           />
-
         </Route>
-
       </Routes>
     </BrowserRouter>
   );

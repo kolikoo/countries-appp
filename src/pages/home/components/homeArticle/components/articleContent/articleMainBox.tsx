@@ -4,8 +4,7 @@ import React, { PropsWithChildren } from "react";
 
 const ArticleMainBox: React.FC<PropsWithChildren<{id:string}>> = ({id, children }) => {
   return (
-
-    <Link style={{color:"black",textDecoration:"none"}} to={`${id}`}>
+    <Link style={{ color: "black", textDecoration: "none" }} to={`/home/${id}`}>
       <div className={style.articleBox}>
         {children} {/* Render children here */}
       </div>

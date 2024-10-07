@@ -1,93 +1,80 @@
-import React, { useState } from "react";
+import React, { useRef } from "react";
 import styles from "./about-section.module.css";
 
-const Section1Contact = () => {
-  const initialFormData = {
-    name: "",
-    surname: "",
-    email: "",
-    message: "",
-  };
+const ContactForm = () => {
+  const formRef = useRef<HTMLFormElement>(null);
 
-  const [formData, setFormData] = useState(initialFormData);
+  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    const userInfo = {
+      name: (document.getElementById("name") as HTMLInputElement).value,
+      surname: (document.getElementById("surname") as HTMLInputElement).value,
+      email: (document.getElementById("email") as HTMLInputElement).value,
+      message: (document.getElementById("message") as HTMLTextAreaElement)
+        .value,
+    };
 
-  const handleChange = (
-    event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
-  ) => {
-    const { id, value } = event.target;
-    setFormData((prev) => ({ ...prev, [id]: value }));
-  };
+    console.log(userInfo);
 
-  const handleSubmit = (event: React.FormEvent) => {
-    event.preventDefault(); // Prevent the default form submission
-    console.log(formData); // Log the form data
-    setFormData(initialFormData); // Reset the form fields
+    // Reset the form fields
+    if (formRef.current) {
+      formRef.current.reset();
+    }
   };
 
   return (
-    <section className={styles.aboutSection}>
-      <div className={styles.aboutFirstBox}>
-        <h1 className={styles.boxTitle}>Contact Form</h1>
+    <div className={`${styles.contact_form} ${styles.container}`}>
+      <h1>Contact</h1>
+      <form className={styles.form} onSubmit={handleSubmit} ref={formRef}>
+        <div className={styles.contact_fields}>
+          <label htmlFor="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="your name"
+            required
+          />
+        </div>
 
-        <form onSubmit={handleSubmit} id="contactForm">
-          <div className={styles.aboutTopBox}>
-            <div className={styles.formGroup}>
-              <label htmlFor="name">Name</label>
-              <input
-                className={styles.inputParametrs}
-                type="text"
-                id="name"
-                value={formData.name}
-                onChange={handleChange}
-              />
-            </div>
+        <div className={styles.contact_fields}>
+          <label htmlFor="surname">Surname:</label>
+          <input
+            type="text"
+            id="surname"
+            name="surname"
+            placeholder="your surname"
+            required
+          />
+        </div>
 
-            <div className={styles.formGroup}>
-              <label htmlFor="surname">Surname</label>
-              <input
-                className={styles.inputParametrs}
-                type="text"
-                id="surname"
-                value={formData.surname}
-                onChange={handleChange}
-              />
-            </div>
+        <div className={styles.contact_fields}>
+          <label htmlFor="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="your email"
+            required
+          />
+        </div>
 
-            <div className={styles.formGroup}>
-              <label htmlFor="email">Email</label>
-              <input
-                className={styles.inputParametrs}
-                type="email"
-                id="email"
-                value={formData.email}
-                onChange={handleChange}
-              />
-            </div>
-          </div>
+        <div className={styles.contact_text}>
+          <label htmlFor="message">Message:</label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="leave a message for us..."
+            required
+          />
+        </div>
 
-          <div className={styles.textAreaDiv}>
-            <label className={styles.textAreaTitle} htmlFor="message">
-              Send Us Message
-            </label>
-            <textarea
-              className={styles.textArea}
-              id="message"
-              rows={6}
-              value={formData.message}
-              onChange={handleChange}
-              style={{ width: "100%", boxSizing: "border-box", padding: "8px" }}
-            />
-          </div>
-
-          <div className={styles.buttonDiv}>
-            <button className={styles.button} type="submit">
-              Send Form
-            </button>
-          </div>
-        </form>
-      </div>
-    </section>
+        <button className={styles.contact_button} type="submit">
+          Submit
+        </button>
+      </form>
+    </div>
   );
 };
 
-export default Section1Contact;
+export default ContactForm;
