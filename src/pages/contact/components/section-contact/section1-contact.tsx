@@ -16,7 +16,7 @@ const handleSubmit = (event:FormEvent<HTMLFormElement>)=>{
 
     console.log(userInfo);
 
-    // Reset the form fields
+    
     if (formRef.current) {
       formRef.current.reset();
     }

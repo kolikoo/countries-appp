@@ -2,7 +2,7 @@
 margin-top: 50px;
 width: 100%;
 
-  height: 750px;
+  height: 650px;
   display: flex;
   align-items: start;
   justify-content: start;
@@ -15,9 +15,9 @@ border-radius: 10px;
 
 .articleBox{
 padding:20px 30px;
- width: 90%;
+ width: 220%;
  display: flex;
- margin: 20px auto;
+ margin: 20px 40px;
  gap: 30px;
  background-color: white;
  border-radius: 10px;
@@ -39,4 +39,20 @@ margin-top: 100px;
 
 .img{border-radius: 5px;}
 
-.title{color: yellow;}
+.moreInfoClick{
+  border: 3px solid red;
+  color: red;
+}
+button{width: 30%;
+font-size: 20px;
+background-color: rgb(199, 116, 21);
+color: white;
+
+}
+
+button:hover{
+  background-color: black;
+  color: white;
+}
+
+.sortbutton{background-color: red;}

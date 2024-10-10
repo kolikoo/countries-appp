@@ -1,14 +1,13 @@
-import { Link } from "react-router-dom";
 import style from "../articleContent/components/articleDescription.module.css";
 import React, { PropsWithChildren } from "react";
 
-const ArticleMainBox: React.FC<PropsWithChildren<{id:string}>> = ({id, children }) => {
+const ArticleMainBox: React.FC<PropsWithChildren<{ id: string }>> = ({
+  children,
+}) => {
   return (
-    <Link style={{ color: "black", textDecoration: "none" }} to={`/home/${id}`}>
-      <div className={style.articleBox}>
-        {children} {/* Render children here */}
-      </div>
-    </Link>
+    <div className={style.articleBox}>
+      {children} {/* Render children here */}
+    </div>
   );
 };
 

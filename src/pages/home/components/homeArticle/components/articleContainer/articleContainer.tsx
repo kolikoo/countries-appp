@@ -1,81 +1,90 @@
-import articleContent from '@/pages/home/static/dummy-data';
-import style from '../articleContent/components/articleDescription.module.css'
-import ArticleBox from '../articleContent/ArticleBox';
-import ArticleTitle from '../articleContent/components/articleTitle';
-import ArticleDescription from '../articleContent/components/articleDescription';
-import { PropsWithChildren } from 'react';
-import ArticleMainBox from '../articleContent/articleMainBox';
+import React, { useState } from "react";
+import articleContent from "@/pages/home/static/dummy-data";
+import style from "../articleContent/components/articleDescription.module.css";
+import ArticleBox from "../articleContent/ArticleBox";
+import ArticleTitle from "../articleContent/components/articleTitle";
+import ArticleDescription from "../articleContent/components/articleDescription";
+import ArticleMainBox from "../articleContent/articleMainBox";
+import { Link } from "react-router-dom";
+import LikeButton from "../articleContent/components/likebutton";
 
+const ArticleContainer: React.FC = () => {
+  const [isSortedByLikes, setIsSortedByLikes] = useState(false);
+  const [likeCounts, setLikeCounts] = useState<{ [key: string]: number }>({
+    "1": 0,
+    "2": 0,
+  });
 
+  const handleLike = (id: string) => {
+    setLikeCounts((prevCounts) => {
+      const newCount = (prevCounts[id] || 0) + 1;
+      console.log(`Article ${id} has ${newCount} likes`);
+      return {
+        ...prevCounts,
+        [id]: newCount,
+      };
+    });
+  };
 
+  const toggleSort = () => {
+    setIsSortedByLikes((prev) => !prev);
+  };
 
+  const sortedArticles = [...articleContent].sort((a, b) => {
+    const likesA = likeCounts[a.id] || 0;
+    const likesB = likeCounts[b.id] || 0;
+    return isSortedByLikes ? likesB - likesA : 0;
+  });
 
-
-
-const ArticleConteiner: React.FC<PropsWithChildren> = () => {
   return (
     <>
-      <ArticleMainBox id={articleContent[0].id}>
-        <div className={style.articleImg}>
-          <img
-            className={style.img}
-            src={articleContent[0].img}
-            height="200px"
-            width="150px"
-            alt="gamodi" // Updated to use title for better accessibility
-          />
-        </div>
+      <button onClick={toggleSort}>
+        {isSortedByLikes ? "Show All Articles" : "Sort by Most Likes"}
+      </button>
 
-        <ArticleBox {...articleContent[0]}>
-          <ArticleTitle>{articleContent[0].title}</ArticleTitle>
+      {sortedArticles.map((content) => {
+        return (
+          <ArticleMainBox key={content.id} id={content.id}>
+            <div className={style.articleImg}>
+              <img
+                className={style.img}
+                src={content.img}
+                height="200px"
+                width="150px"
+                alt={content.title}
+              />
+            </div>
 
-          <ArticleDescription>
-            {articleContent[0].description1}
-          </ArticleDescription>
+            <ArticleBox {...content}>
+              <ArticleTitle>{content.title}</ArticleTitle>
+              <ArticleDescription>{content.description1}</ArticleDescription>
+              <ArticleDescription>{content.description2}</ArticleDescription>
 
-          <ArticleDescription>
-            {articleContent[0].description2}
-          </ArticleDescription>
+              <Link
+                style={{
+                  color: "white",
+                  textDecoration: "none",
+                  padding: "10px",
+                  borderRadius: "10px",
+                  backgroundColor: "#8d8d8d",
+                }}
+                to={`/home/${content.id}`}
+              >
+                <ArticleDescription>
+                  {content.descriptionSpan}
+                </ArticleDescription>
+              </Link>
 
-          <ArticleDescription>
-            {articleContent[0].descriptionSpan}
-          </ArticleDescription>
-        </ArticleBox>
-      </ArticleMainBox>
-      {/* {firstcardfirstcardfirstcardfirstcardfirstcardfirstcardfirstcard} */}
-
-      {/* {second cardsecond cardsecond cardsecond cardsecond cardsecond card} */}
-
-      <ArticleMainBox id={articleContent[1].id}>
-        <div className={style.articleImg}>
-          <img
-            className={style.img}
-            src={articleContent[1].img}
-            height="200px"
-            width="150px"
-            alt="gamodi" // Updated to use title for better accessibility
-          />
-        </div>
-
-        <ArticleBox {...articleContent[1]}>
-          <ArticleTitle>{articleContent[1].title}</ArticleTitle>
-
-          <ArticleDescription>
-            {articleContent[1].description1}
-          </ArticleDescription>
-
-          <ArticleDescription>
-            {articleContent[1].description2}
-          </ArticleDescription>
-
-          <ArticleDescription>
-            {articleContent[1].descriptionSpan}
-          </ArticleDescription>
-        </ArticleBox>
-        
-      </ArticleMainBox>
+              <LikeButton
+                onClick={() => handleLike(content.id)}
+                count={likeCounts[content.id]}
+              />
+            </ArticleBox>
+          </ArticleMainBox>
+        );
+      })}
     </>
   );
 };
 
-export default ArticleConteiner;
+export default ArticleContainer;
