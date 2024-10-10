@@ -14,6 +14,7 @@ const articleContent = [
     description2: "ენა: პორტუგალიური",
     descriptionSpan: "მეტი ინფორმაციისთვის დააჭირეთ...",
     id: "1",
+    likeCount : 0
   },
   {
     img: img_georgia,
@@ -22,6 +23,7 @@ const articleContent = [
     description2: "ენა: ქართული",
     descriptionSpan: "მეტი ინფორმაციისთვის დააჭირეთ...",
     id: "2",
+    likeCount : 0
   },
 ];
 

@@ -9,32 +9,30 @@ import { Link } from "react-router-dom";
 import LikeButton from "../articleContent/components/likebutton";
 
 const ArticleContainer: React.FC = () => {
-  const [isSortedByLikes, setIsSortedByLikes] = useState(false);
-  const [likeCounts, setLikeCounts] = useState<{ [key: string]: number }>({
-    "1": 0,
-    "2": 0,
-  });
 
-  const [articles, setArticles] = useState(articleContent); 
+  const [articles, setArticles] = useState(
+    articleContent.map((article) => ({ ...article, likeCount: 0 })) 
+  );
 
   const handleLike = (id: string) => {
-    setLikeCounts((prevCounts) => {
-      const newCount = (prevCounts[id] || 0) + 1;
-      console.log(`Article ${id} has ${newCount} likes`);
-      return {
-        ...prevCounts,
-        [id]: newCount,
-      };
-    });
+    setArticles((prevArticles) =>
+      prevArticles.map((article) =>
+        article.id === id
+          ? { ...article, likeCount: article.likeCount + 1 }
+          : article
+      )
+    );
   };
+
+  const [isSortedByLikes, setIsSortedByLikes] = useState(false);
 
   const toggleSort = () => {
     setIsSortedByLikes((prev) => !prev);
   };
 
   const sortedArticles = [...articles].sort((a, b) => {
-    const likesA = likeCounts[a.id] || 0;
-    const likesB = likeCounts[b.id] || 0;
+    const likesA = a.likeCount || 0;
+    const likesB = b.likeCount || 0;
     return isSortedByLikes ? likesB - likesA : 0;
   });
 
@@ -48,10 +46,9 @@ const ArticleContainer: React.FC = () => {
         <ArticleMainBox key={content.id} id={content.id}>
           <div className={style.articleImg}>
             <img
-              className={style.img}
               src={content.img}
-              height="200px"
-              width="150px"
+              height="200"
+              width="150"
               alt={content.title}
             />
           </div>
@@ -63,11 +60,10 @@ const ArticleContainer: React.FC = () => {
 
             <Link
               style={{
-                color: "white",
-                textDecoration: "none",
-                padding: "10px",
                 borderRadius: "10px",
-                backgroundColor: "#8d8d8d",
+                backgroundColor: "#c77415",
+                padding: "10px",
+                color:"white"
               }}
               to={`/home/${content.id}`}
             >
@@ -76,7 +72,7 @@ const ArticleContainer: React.FC = () => {
 
             <LikeButton
               onClick={() => handleLike(content.id)}
-              count={likeCounts[content.id]}
+              count={content.likeCount}
             />
           </ArticleBox>
         </ArticleMainBox>
