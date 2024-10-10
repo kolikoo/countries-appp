@@ -15,6 +15,8 @@ const ArticleContainer: React.FC = () => {
     "2": 0,
   });
 
+  const [articles, setArticles] = useState(articleContent); 
+
   const handleLike = (id: string) => {
     setLikeCounts((prevCounts) => {
       const newCount = (prevCounts[id] || 0) + 1;
@@ -30,7 +32,7 @@ const ArticleContainer: React.FC = () => {
     setIsSortedByLikes((prev) => !prev);
   };
 
-  const sortedArticles = [...articleContent].sort((a, b) => {
+  const sortedArticles = [...articles].sort((a, b) => {
     const likesA = likeCounts[a.id] || 0;
     const likesB = likeCounts[b.id] || 0;
     return isSortedByLikes ? likesB - likesA : 0;
@@ -42,47 +44,43 @@ const ArticleContainer: React.FC = () => {
         {isSortedByLikes ? "Show All Articles" : "Sort by Most Likes"}
       </button>
 
-      {sortedArticles.map((content) => {
-        return (
-          <ArticleMainBox key={content.id} id={content.id}>
-            <div className={style.articleImg}>
-              <img
-                className={style.img}
-                src={content.img}
-                height="200px"
-                width="150px"
-                alt={content.title}
-              />
-            </div>
+      {sortedArticles.map((content) => (
+        <ArticleMainBox key={content.id} id={content.id}>
+          <div className={style.articleImg}>
+            <img
+              className={style.img}
+              src={content.img}
+              height="200px"
+              width="150px"
+              alt={content.title}
+            />
+          </div>
 
-            <ArticleBox {...content}>
-              <ArticleTitle>{content.title}</ArticleTitle>
-              <ArticleDescription>{content.description1}</ArticleDescription>
-              <ArticleDescription>{content.description2}</ArticleDescription>
+          <ArticleBox {...content}>
+            <ArticleTitle>{content.title}</ArticleTitle>
+            <ArticleDescription>{content.description1}</ArticleDescription>
+            <ArticleDescription>{content.description2}</ArticleDescription>
 
-              <Link
-                style={{
-                  color: "white",
-                  textDecoration: "none",
-                  padding: "10px",
-                  borderRadius: "10px",
-                  backgroundColor: "#8d8d8d",
-                }}
-                to={`/home/${content.id}`}
-              >
-                <ArticleDescription>
-                  {content.descriptionSpan}
-                </ArticleDescription>
-              </Link>
+            <Link
+              style={{
+                color: "white",
+                textDecoration: "none",
+                padding: "10px",
+                borderRadius: "10px",
+                backgroundColor: "#8d8d8d",
+              }}
+              to={`/home/${content.id}`}
+            >
+              <ArticleDescription>{content.descriptionSpan}</ArticleDescription>
+            </Link>
 
-              <LikeButton
-                onClick={() => handleLike(content.id)}
-                count={likeCounts[content.id]}
-              />
-            </ArticleBox>
-          </ArticleMainBox>
-        );
-      })}
+            <LikeButton
+              onClick={() => handleLike(content.id)}
+              count={likeCounts[content.id]}
+            />
+          </ArticleBox>
+        </ArticleMainBox>
+      ))}
     </>
   );
 };
