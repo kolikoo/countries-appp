@@ -16,6 +16,7 @@ const articleContent = [
     id: "1",
     likeCount : 0
   },
+  
   {
     img: img_georgia,
     title: "GEORGIA",
@@ -25,6 +26,18 @@ const articleContent = [
     id: "2",
     likeCount : 0
   },
+    {
+    img: imgBrazil,
+    title: "BRAZIL_2",
+    description1: "კონტინენტი: სამხრეთ ამერიკა",
+    description2: "ენა: პორტუგალიური",
+    descriptionSpan: "მეტი ინფორმაციისთვის დააჭირეთ...",
+    id: "3",
+    likeCount : 0
+  },
+  
+  
+  
 ];
 
 export default articleContent;

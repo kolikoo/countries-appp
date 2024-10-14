@@ -14,8 +14,9 @@ border-radius: 10px;
 }
 
 .articleBox{
+
 padding:20px 30px;
- width: 220%;
+ width: 95%;
  display: flex;
  margin: 20px 40px;
  gap: 30px;
@@ -38,3 +39,26 @@ margin-top: 100px;
 }
 
 .img{border-radius: 5px;}
+
+
+.createInputs{
+  display: flex;
+  flex-direction: column;
+}
+
+.formAndButton{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+
+.deleteButtonN{color:"red"}
+
+
+
+
+
+
+

@@ -1,4 +1,4 @@
-import React, { FormEvent, useRef } from "react";
+import  { FormEvent, useRef } from "react";
 import styles from "./about-section.module.css";
 
 const ContactForm = () => {

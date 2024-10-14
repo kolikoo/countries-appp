@@ -26,7 +26,15 @@ const App: React.FC = () => {
               </Suspense>
             }
           />
-          <Route path="/home/:id" element={<SingleListView />} />
+          
+          <Route path="/home/:id" element={
+          <Suspense>
+              <SingleListView/>
+          </Suspense> }/>
+
+
+
+
           <Route
             path="about"
             element={

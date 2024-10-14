@@ -14,7 +14,7 @@ return (
           თქვენი კომფორტი
         </p>
 
-        <button >Follow Us</button>
+        <button style={{backgroundColor:"gold",border:"0px"}}  >Follow Us</button>
       </div>
     </div>
   </section>

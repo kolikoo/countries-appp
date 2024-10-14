@@ -8,7 +8,10 @@ interface LikeButtonProps {
 
 const LikeButton: React.FC<LikeButtonProps> = ({ onClick, count }) => {
   return (
-    <button className="likebutton" type="button" onClick={onClick}>
+    <button style={{height:"40px"}} className="likebutton" type="button" onClick={(event)=>{
+      event.preventDefault()
+      onClick()
+    }}>
       Likes: {count}
     </button>
   );

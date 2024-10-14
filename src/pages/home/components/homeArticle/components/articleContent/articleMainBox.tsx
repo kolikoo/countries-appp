@@ -1,12 +1,19 @@
 import style from "../articleContent/components/articleDescription.module.css";
 import React, { PropsWithChildren } from "react";
 
-const ArticleMainBox: React.FC<PropsWithChildren<{ id: string }>> = ({
+interface ArticleMainBoxProps {
+  id: string;
+  className?: string; 
+}
+
+const ArticleMainBox: React.FC<PropsWithChildren<ArticleMainBoxProps>> = ({
   children,
+  className,
 }) => {
   return (
-    <div className={style.articleBox}>
-      {children} {/* Render children here */}
+    <div className={`${style.articleBox} ${className}`}>
+ 
+      {children}
     </div>
   );
 };

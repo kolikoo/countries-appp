@@ -1,9 +1,19 @@
+import style from "../articleContent/components/articleDescription.module.css"
 import React, { PropsWithChildren } from "react";
-import style from "../articleContent/components/articleDescription.module.css";
 
-
-
-const ArticleBox : React.FC <PropsWithChildren>=({children})=>{
- return <div className={style.boxText}>{children}</div>;
+interface ArticleTitleProps extends PropsWithChildren {
+  className?: string; 
 }
-export default ArticleBox;
+
+export const ArticleTitle: React.FC<ArticleTitleProps> = ({
+  children,
+  className,
+}) => {
+  return (
+    <div className="articleTitleDiv">
+      <h1 className={`${style.title} ${className}`}>{children}</h1>;
+    </div>
+  );
+};
+
+export default ArticleTitle;

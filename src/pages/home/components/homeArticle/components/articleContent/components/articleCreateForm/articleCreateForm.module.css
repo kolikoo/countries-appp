@@ -1,0 +1,77 @@
+
+
+.contact_form h1 {
+  color: gold;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: normal;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.contact_fields {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 80px;
+  gap: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.form {
+ gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 250px;
+}
+label {
+  color: gold;
+  font-weight: 700;
+}
+
+input {
+    
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 450px;
+  height: 50px;
+  border: gold 2px solid ;
+  border-radius: 5px;
+  background: #f1f1f1;
+}
+.contact_text {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 15px;
+}
+.contact_text textarea {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 450px;
+  height: 120px;
+  border: gold 2px solid ;
+  border-radius: 5px;
+  background: #f1f1f1;
+  resize: none;
+  padding: 10px;
+}
+.contact_button {
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.33;
+  width: 50%;
+  height: 50px;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  background-color: gold;
+  transition: 0.5s ease-out;
+  margin-top: 15px;
+}
+.contact_button:hover {
+  background-color: goldenrod;
+}
+
