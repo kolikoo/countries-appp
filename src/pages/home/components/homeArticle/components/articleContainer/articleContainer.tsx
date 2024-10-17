@@ -1,5 +1,4 @@
-import React, { FormEvent, useReducer } from "react";
-
+import React, { FormEvent, useReducer, useState } from "react";
 import style from "../articleContent/components/articleDescription.module.css";
 import ArticleBox from "../articleContent/ArticleBox";
 import ArticleTitle from "../articleContent/components/articleTitle";
@@ -8,12 +7,7 @@ import ArticleMainBox from "../articleContent/articleMainBox";
 import { Link } from "react-router-dom";
 import LikeButton from "../articleContent/components/likebutton";
 import ArticleCreateForm from "../articleContent/components/articleCreateForm/articleCreateForm";
-
-
-import {
-  articleReducer,
-
-} from "../articleContent/components/reducer/reducer";
+import { articleReducer } from "../articleContent/components/reducer/reducer";
 import articleInitialState from "../articleContent/components/reducer/state";
 
 const ArticleContainer: React.FC = () => {
@@ -22,6 +16,9 @@ const ArticleContainer: React.FC = () => {
     isSortedByLikes: false,
   });
 
+  const [title, setTitle] = useState("");
+  const [description, setDescription] = useState("");
+
   const handleLike = (id: string) => {
     dispatch({ type: "LIKE_ARTICLE", payload: id });
   };
@@ -29,14 +26,17 @@ const ArticleContainer: React.FC = () => {
   const handleCreateArticle = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
 
-    const formData = new FormData(event.currentTarget);
-    const articleObj: any = {};
-
-    for (const [key, value] of formData) {
-      articleObj[key] = value;
-    }
-
+    const articleObj = {
+      id: Date.now().toString(),
+      title,
+      description,
+      likeCount: 0,
+      isDeleted: false,
+    };
     dispatch({ type: "CREATE_ARTICLE", payload: { articleObj } });
+
+    setTitle("");
+    setDescription("");
   };
 
   const handleDeleteArticle = (id: string) => {
@@ -64,7 +64,13 @@ const ArticleContainer: React.FC = () => {
         <button style={{ background: "#c77415" }} onClick={toggleSort}>
           {state.isSortedByLikes ? "Show All Articles" : "Sort by Most Likes"}
         </button>
-        <ArticleCreateForm onArticleCreate={handleCreateArticle} />
+        <ArticleCreateForm
+          onArticleCreate={handleCreateArticle}
+          title={title}
+          description={description}
+          onTitleChange={(e) => setTitle(e.target.value)}
+          onDescriptionChange={(e) => setDescription(e.target.value)}
+        />
       </div>
 
       {sortedArticles.map((article) => (
