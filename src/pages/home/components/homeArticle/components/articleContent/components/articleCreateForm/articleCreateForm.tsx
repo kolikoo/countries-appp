@@ -1,15 +1,15 @@
 import React, { FormEvent } from "react";
-import style from "./articleCreateForm.module.css"
- 
-type ArticleCreateFormProps={
-onArticleCreate:(event:FormEvent<HTMLFormElement>)=> void
+import style from "./articleCreateForm.module.css";
 
-}
+type ArticleCreateFormProps = {
+  onArticleCreate: (event: FormEvent<HTMLFormElement>) => void;
+};
 
-const ArticleCreateForm: React.FC<ArticleCreateFormProps> = ({onArticleCreate}) => {
+const ArticleCreateForm: React.FC<ArticleCreateFormProps> = ({
+  onArticleCreate,
+}) => {
   return (
     <form className={style.form} onSubmit={onArticleCreate}>
-      
       <div className={style.contact_fields}>
         <label htmlFor="title">title:</label>
         <input
@@ -39,6 +39,4 @@ const ArticleCreateForm: React.FC<ArticleCreateFormProps> = ({onArticleCreate}) 
   );
 };
 
-
 export default ArticleCreateForm;
-

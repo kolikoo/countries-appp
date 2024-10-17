@@ -9,11 +9,7 @@ import { Link } from "react-router-dom";
 import LikeButton from "../articleContent/components/likebutton";
 import ArticleCreateForm from "../articleContent/components/articleCreateForm/articleCreateForm";
 
-
-import {
-  articleReducer,
-
-} from "../articleContent/components/reducer/reducer";
+import { articleReducer } from "../articleContent/components/reducer/reducer";
 import articleInitialState from "../articleContent/components/reducer/state";
 
 const ArticleContainer: React.FC = () => {
