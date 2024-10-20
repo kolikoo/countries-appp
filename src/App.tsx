@@ -15,11 +15,10 @@ const App: React.FC = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route element={<DefaultLayout />}>
-          <Route path="/" element={<Navigate to="/home" />} />{" "}
-          {/* Redirect root to /home */}
+        <Route path="/:languange" element={<DefaultLayout />}>
+          
           <Route
-            path="/home"
+            path="home"
             element={
               <Suspense fallback={<div>Loading...</div>}>
                 <ArticleListWiev />
@@ -27,8 +26,8 @@ const App: React.FC = () => {
             }
           />
           
-          <Route path="/home/:id" element={
-          <Suspense>
+          <Route path="home/:id" element={
+            <Suspense>
               <SingleListView/>
           </Suspense> }/>
 
@@ -52,6 +51,8 @@ const App: React.FC = () => {
             }
           />
         </Route>
+<Route path="/" element={<Navigate to="/ka/home" />} />{" "}
+
       </Routes>
     </BrowserRouter>
   );

@@ -9,7 +9,7 @@ import LikeButton from "../articleContent/components/likebutton";
 import ArticleCreateForm from "../articleContent/components/articleCreateForm/articleCreateForm";
 import { articleReducer } from "../articleContent/components/reducer/reducer";
 import articleInitialState from "../articleContent/components/reducer/state";
-
+import { useParams } from "react-router-dom";
 const ArticleContainer: React.FC = () => {
   const [state, dispatch] = useReducer(articleReducer, {
     articles: articleInitialState,
@@ -57,6 +57,9 @@ const ArticleContainer: React.FC = () => {
   const sortedArticles = [...displayedArticles].sort((a, b) => {
     return state.isSortedByLikes ? b.likeCount - a.likeCount : 0;
   });
+  console.log(displayedArticles)
+
+  const {language} = useParams<{language:"ka"|"en"}>()
 
   return (
     <>
@@ -98,7 +101,7 @@ const ArticleContainer: React.FC = () => {
                 width: "20%",
                 fontSize: "20px",
               }}
-              to={`/home/${article.id}`}
+              to={`/${language}/home/${article.id}`}
             >
               <ArticleDescription>{article.descriptionSpan}</ArticleDescription>
             </Link>

@@ -38,6 +38,14 @@ const Header: React.FC = () => {
             <NavLink to="contact us" className={handleActiveNav}>
               Contact Us
             </NavLink>
+
+            <NavLink to="/ka/home" >
+              GEO
+            </NavLink>
+
+            <NavLink to="/en/home" >
+              ENG
+            </NavLink>
           </ul>
         </nav>
       </div>
