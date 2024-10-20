@@ -1,25 +1,28 @@
-import styles from "./section-hero.module.css"
+import styles from "./section-hero.module.css";
+import sectionContent from "./section";
+import { useParams } from "react-router-dom";
 
+const SectionHero: React.FC = () => {
+  const { language } = useParams<{ language?: "ka" | "en" }>(); // Marking as optional
 
+  // Fallback to a default language if `language` is undefined
+  const lang = language || "ka"; // Default to English if not specified
+console.log(language);
+  return (
+    <section className={styles.sectionHero}>
+      <div className={styles.section1_hero}>
+        <div className={styles.hero_Text}>
+          <h3 className={styles.heroH3}>{sectionContent[lang].title}</h3>
 
-const SectionHero: React.FC = () =>{
-return (
-  <section className={styles.sectionHero}>
-    <div className={styles.section1_hero}>
-      <div className={styles.hero_Text}>
-        <h3 className={styles.heroH3}>Information About Our Platform</h3>
+          <p className={styles.heroP}>{sectionContent[lang].description}</p>
 
-        <p className={styles.heroP}>
-          ჩვენი პლატფორმა შეიქმნა 2015 წელს და დაარსებიდან ჩვენი მთავარი მიზანია
-          თქვენი კომფორტი
-        </p>
-
-        <button style={{backgroundColor:"gold",border:"0px"}}  >Follow Us</button>
+          <button style={{ backgroundColor: "gold", border: "0px" }}>
+            {sectionContent[lang].buttonText}
+          </button>
+        </div>
       </div>
-    </div>
-  </section>
-);
-
-}
+    </section>
+  );
+};
 
 export default SectionHero;
