@@ -3,10 +3,10 @@ import sectionContent from "./section";
 import { useParams } from "react-router-dom";
 
 const SectionHero: React.FC = () => {
-  const { language } = useParams<{ language?: "ka" | "en" }>(); // Marking as optional
+  const { language } = useParams<{ language?: "ka" | "en" }>(); 
 
-  // Fallback to a default language if `language` is undefined
-  const lang = language || "ka"; // Default to English if not specified
+ 
+  const lang = language || "ka"; 
 console.log(language);
   return (
     <section className={styles.sectionHero}>

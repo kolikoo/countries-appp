@@ -6,7 +6,7 @@ import { country } from "@/myScript";
 import CardFooter from "../components/card/CardFooter/CardFooter";
 import { lazy } from "react";
 import ArticleList from "../components/homeArticle/homeArticle";
-
+import { useParams } from "react-router-dom";
 const LazySectionHero = lazy(
   () => import("@/pages/home/components/section/section-hero/section-hero")
 );
@@ -27,6 +27,10 @@ const LazyCardFooter = lazy(
 );
 
 const ArticleListWiev = () => {
+
+   const { language } = useParams<{ language?: "ka" | "en" }>();
+
+   const lang = language || "ka"; 
   return (
     <>
       <SectionHero />
@@ -34,9 +38,9 @@ const ArticleListWiev = () => {
       <Card>
         <CardHeader />
         <CardContent
-          name={country.name}
-          population={country.population}
-          city={country.city}
+          name={country[lang].name}
+          population={country[lang].population}
+          city={country[lang].city}
         />
         <CardFooter />
       </Card>

@@ -15,7 +15,7 @@ const App: React.FC = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/:languange" element={<DefaultLayout />}>
+        <Route path="/:language" element={<DefaultLayout />}>
           
           <Route
             path="home"
