@@ -9,7 +9,7 @@ interface ArticleTitleProps extends PropsWithChildren {
   children,
   className,
 }) => {
-  return <h1 className={`${style.title} ${className}`}>{children}</h1>;
+  return <h2 className={`${style.title} ${className}`}>{children}</h2>;
 };
 
 export default ArticleTitle;

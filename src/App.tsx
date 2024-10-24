@@ -16,7 +16,6 @@ const App: React.FC = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/:language" element={<DefaultLayout />}>
-          
           <Route
             path="home"
             element={
@@ -25,14 +24,15 @@ const App: React.FC = () => {
               </Suspense>
             }
           />
-          
-          <Route path="home/:id" element={
-            <Suspense>
-              <SingleListView/>
-          </Suspense> }/>
 
-
-
+          <Route
+            path="home/:id"
+            element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <SingleListView />
+              </Suspense>
+            }
+          />
 
           <Route
             path="about"
@@ -51,8 +51,7 @@ const App: React.FC = () => {
             }
           />
         </Route>
-<Route path="/" element={<Navigate to="/ka/home" />} />{" "}
-
+        <Route path="/" element={<Navigate to="/ka/home" />} />{" "}
       </Routes>
     </BrowserRouter>
   );
