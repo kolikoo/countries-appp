@@ -2,7 +2,7 @@ import React, { FormEvent, useState } from "react";
 import style from "./articleCreateForm.module.css";
 
 type ArticleCreateFormProps = {
-  onArticleCreate: (event: FormEvent<HTMLFormElement>) => void;
+  onArticleCreate: (event: FormEvent<HTMLFormElement>, img: string) => void;
   title: string;
   description: string;
   onTitleChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
@@ -18,6 +18,7 @@ const ArticleCreateForm: React.FC<ArticleCreateFormProps> = ({
 }) => {
   const [titleError, setTitleError] = useState("");
   const [descriptionError, setDescriptionError] = useState("");
+  const [image, setImage] = useState<string | ArrayBuffer | null>(null);
 
   const validateForm = () => {
     let isValid = true;
@@ -39,10 +40,29 @@ const ArticleCreateForm: React.FC<ArticleCreateFormProps> = ({
     return isValid;
   };
 
+  const handleImageChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const file = event.target.files?.[0];
+    if (file) {
+      const fileType = file.type;
+
+      
+      if (fileType === "image/jpeg" || fileType === "image/png") {
+        const reader = new FileReader();
+        reader.onloadend = () => {
+          setImage(reader.result); 
+        };
+        reader.readAsDataURL(file);
+      } else {
+        alert("გთხოვთ ატვირთოთ მხოლოდ JPG ან PNG ფორმატის სურათები.");
+        setImage(null); 
+      }
+    }
+  };
+
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     if (validateForm()) {
-      onArticleCreate(event);
+      onArticleCreate(event, image as string); 
     }
   };
 
@@ -76,6 +96,14 @@ const ArticleCreateForm: React.FC<ArticleCreateFormProps> = ({
         {descriptionError && (
           <span className={style.error}>{descriptionError}</span>
         )}
+
+        <label htmlFor="myfile">Select a file:</label>
+        <input
+          type="file"
+          id="myfile"
+          name="myfile"
+          onChange={handleImageChange}
+        />
       </div>
 
       <button className={style.contact_button} type="submit">

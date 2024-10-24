@@ -4,12 +4,12 @@ import ArticleBox from "../articleContent/ArticleBox";
 import ArticleTitle from "../articleContent/components/articleTitle";
 import ArticleDescription from "../articleContent/components/articleDescription";
 import ArticleMainBox from "../articleContent/articleMainBox";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import LikeButton from "../articleContent/components/likebutton";
 import ArticleCreateForm from "../articleContent/components/articleCreateForm/articleCreateForm";
 import { articleReducer } from "../articleContent/components/reducer/reducer";
 import articleInitialState from "../articleContent/components/reducer/state";
-import { useParams } from "react-router-dom";
+
 const ArticleContainer: React.FC = () => {
   const [state, dispatch] = useReducer(articleReducer, {
     articles: articleInitialState,
@@ -23,16 +23,35 @@ const ArticleContainer: React.FC = () => {
     dispatch({ type: "LIKE_ARTICLE", payload: id });
   };
 
-  const handleCreateArticle = (event: FormEvent<HTMLFormElement>) => {
+  const handleCreateArticle = (
+    event: FormEvent<HTMLFormElement>,
+    img: string
+  ) => {
     event.preventDefault();
 
     const articleObj = {
       id: Date.now().toString(),
-      title,
-      description,
+      title: {
+        ka: title, 
+        en: title, 
+      },
+      description1: {
+        ka: description, 
+        en: description, 
+      },
+      description2: {
+        ka: "",
+        en: "", 
+      },
+      descriptionSpan: {
+        ka: "მეტი ინფორმაციისთვის დააჭირეთ...",
+        en: "For more information, click here...",
+      },
+      img,
       likeCount: 0,
       isDeleted: false,
     };
+
     dispatch({ type: "CREATE_ARTICLE", payload: { articleObj } });
 
     setTitle("");
@@ -57,15 +76,16 @@ const ArticleContainer: React.FC = () => {
   const sortedArticles = [...displayedArticles].sort((a, b) => {
     return state.isSortedByLikes ? b.likeCount - a.likeCount : 0;
   });
-  console.log(displayedArticles)
 
-  const {language} = useParams<{language:"ka"|"en"}>()
+  const { language } = useParams<{ language: "ka" | "en" }>();
 
   return (
     <>
       <div className={style.formAndButton}>
         <button style={{ background: "#c77415" }} onClick={toggleSort}>
-          {state.isSortedByLikes ? "Show All Articles" : "Sort by Most Likes"}
+          {state.isSortedByLikes
+            ? "ყველა სტატიის ჩვენება"
+            : "სტატიის მოწონების მიხედვით "}
         </button>
         <ArticleCreateForm
           onArticleCreate={handleCreateArticle}
@@ -83,14 +103,19 @@ const ArticleContainer: React.FC = () => {
               src={article.img}
               height="200"
               width="150"
-              alt={article.title}
+              alt={article.title?.en || "სტატიის სურათი"}
             />
           </div>
 
           <ArticleBox {...article}>
-            <ArticleTitle>{article.title}</ArticleTitle>
-            <ArticleDescription>{article.description1}</ArticleDescription>
-            <ArticleDescription>{article.description2}</ArticleDescription>
+            <ArticleTitle>
+              {language === "ka" ? article.title.ka : article.title.en}
+            </ArticleTitle>
+            <ArticleDescription>
+              {language === "ka"
+                ? article.description1.ka
+                : article.description1.en}
+            </ArticleDescription>
 
             <Link
               style={{
@@ -103,7 +128,11 @@ const ArticleContainer: React.FC = () => {
               }}
               to={`/${language}/home/${article.id}`}
             >
-              <ArticleDescription>{article.descriptionSpan}</ArticleDescription>
+              <ArticleDescription>
+                {language === "ka"
+                  ? article.descriptionSpan.ka
+                  : article.descriptionSpan.en}
+              </ArticleDescription>
             </Link>
 
             <LikeButton
@@ -114,7 +143,7 @@ const ArticleContainer: React.FC = () => {
               style={{ color: "red", fontSize: "26px" }}
               onClick={() => handleDeleteArticle(article.id)}
             >
-              delete
+              წაშლა
             </div>
           </ArticleBox>
         </ArticleMainBox>
@@ -130,16 +159,24 @@ const ArticleContainer: React.FC = () => {
           >
             <ArticleBox {...article}>
               <ArticleTitle className={"deletedArticle"}>
-                {article.title}
+                {language === "ka" ? article.title.ka : article.title.en}
               </ArticleTitle>
-              <ArticleDescription>{article.description1}</ArticleDescription>
-              <ArticleDescription>{article.description2}</ArticleDescription>
+              <ArticleDescription>
+                {language === "ka"
+                  ? article.description1.ka
+                  : article.description1.en}
+              </ArticleDescription>
+              <ArticleDescription>
+                {language === "ka"
+                  ? article.description2.ka
+                  : article.description2.en}
+              </ArticleDescription>
 
               <div style={{ color: "red", fontSize: "26px" }}>
-                This article has been deleted
+                ეს სტატია წაშლილია
               </div>
               <button onClick={() => handleRestoreArticle(article.id)}>
-                Restore
+                აღდგენა
               </button>
             </ArticleBox>
           </ArticleMainBox>
