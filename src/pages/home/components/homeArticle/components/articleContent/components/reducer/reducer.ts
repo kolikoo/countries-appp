@@ -1,5 +1,3 @@
-
-
 export type Article = {
   isDeleted: boolean;
   img: string;

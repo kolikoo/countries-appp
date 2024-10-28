@@ -1,4 +1,3 @@
-
 import style from "./CardFooter.module.css";
 // import style from './CardFooter.module.css'
 
