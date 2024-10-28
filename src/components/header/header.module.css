@@ -1,71 +1,70 @@
-.header{
+.header {
   width: 95%;
   display: flex;
   justify-content: space-around;
   margin: auto;
   margin-top: 20px;
   align-items: center;
-
-
 }
 
-
-.headerlogo{
+.headerlogo {
   width: 250px;
   margin-right: 20%;
 }
 
-Nav{width: 20%;
+Nav {
+  width: 20%;
 }
 
-.header_Nav_Li{
+.header_Nav_Li {
   color: gold;
   font-weight: 700;
   font-size: 20px;
   text-decoration: none;
 }
 
-.header_Nav_Li:hover{
+.header_Nav_Li:hover {
   font-size: 23px;
   color: rgb(63, 63, 63);
- transition: 0.7s;
+  transition: 0.7s;
 }
 
-ul{
+ul {
   text-decoration: none;
   width: 120%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
-  
-  list-style-type: none; 
-  padding: 0;           
-  margin: 0;           
 
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+* {
+  text-decoration: none;
+}
 
- }
- *{  text-decoration: none;}
-
- .active_nav{ color: rgb(161, 95, 29);
-  font-weight: 700;
-  font-size: 20px;
-  text-decoration: none;}
-
- .no_active_nav{
-   color: gold;
+.active_nav {
+  color: rgb(161, 95, 29);
   font-weight: 700;
   font-size: 20px;
   text-decoration: none;
- }
+}
 
-  .active_nav:hover{
-    font-size: 23px;
+.no_active_nav {
+  color: gold;
+  font-weight: 700;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.active_nav:hover {
+  font-size: 23px;
   color: rgb(63, 63, 63);
- transition: 0.7s;
-  }
-  .no_active_nav:hover{
-    font-size: 23px;
+  transition: 0.7s;
+}
+.no_active_nav:hover {
+  font-size: 23px;
   color: rgb(63, 63, 63);
- transition: 0.7s;
-  }
+  transition: 0.7s;
+}

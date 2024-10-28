@@ -1,8 +1,8 @@
-import style from "../articleContent/components/articleDescription.module.css"
+import style from "../articleContent/components/articleDescription.module.css";
 import React, { PropsWithChildren } from "react";
 
 interface ArticleTitleProps extends PropsWithChildren {
-  className?: string; 
+  className?: string;
 }
 
 export const ArticleTitle: React.FC<ArticleTitleProps> = ({

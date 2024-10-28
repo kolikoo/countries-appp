@@ -6,7 +6,6 @@ export default defineConfig(() => {
   const rootPath = path.resolve(process.cwd());
   const srcPath = `${rootPath}/src`;
   const componentsPath = `${srcPath}/components`;
-  
 
   return {
     plugins: [react()],

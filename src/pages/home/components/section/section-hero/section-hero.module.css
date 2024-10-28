@@ -1,14 +1,11 @@
-.sectionHero{
- display: flex;
- justify-content: center;
-width: 100%;
-margin: 50px 0 ;
-
+.sectionHero {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 50px 0;
 }
 
-
-.section1_hero{
-  
+.section1_hero {
   width: 80%;
   display: flex;
   justify-content: center;
@@ -20,28 +17,29 @@ margin: 50px 0 ;
   color: rgb(255, 255, 255);
 }
 
-.hero_Text{
+.hero_Text {
   width: 45%;
-display: flex;
-justify-content: space-between;
-flex-direction: column;
-align-items: center;
-text-align: center;
-height: 200px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 200px;
 
-margin: 130px auto;
+  margin: 130px auto;
 }
-.heroH3{font-size: 35px;
-text-transform: capitalize;
- background: linear-gradient(to right, gold, white, orange);
- -webkit-background-clip: text;
- color: transparent;
- font-weight: bold;
+.heroH3 {
+  font-size: 35px;
+  text-transform: capitalize;
+  background: linear-gradient(to right, gold, white, orange);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: bold;
 }
-.heroP{
+.heroP {
   font-weight: 300;
 }
-button{
+button {
   background-color: rgba(46, 46, 46, 0.4);
   border: 1px solid white;
   border-radius: 5px;
@@ -50,7 +48,7 @@ button{
   font-size: 30px;
 }
 
-button:hover{
+button:hover {
   background-color: white;
   color: #2c2c2c;
   transition: 0.5s;

@@ -1,4 +1,3 @@
-
 import React from "react";
 
 interface LikeButtonProps {
@@ -8,10 +7,15 @@ interface LikeButtonProps {
 
 const LikeButton: React.FC<LikeButtonProps> = ({ onClick, count }) => {
   return (
-    <button style={{height:"40px"}} className="likebutton" type="button" onClick={(event)=>{
-      event.preventDefault()
-      onClick()
-    }}>
+    <button
+      style={{ height: "40px" }}
+      className="likebutton"
+      type="button"
+      onClick={(event) => {
+        event.preventDefault();
+        onClick();
+      }}
+    >
       Likes: {count}
     </button>
   );
