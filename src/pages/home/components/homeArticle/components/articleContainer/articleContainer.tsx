@@ -25,23 +25,23 @@ const ArticleContainer: React.FC = () => {
 
   const handleCreateArticle = (
     event: FormEvent<HTMLFormElement>,
-    img: string
+    img: string,
   ) => {
     event.preventDefault();
 
     const articleObj = {
       id: Date.now().toString(),
       title: {
-        ka: title, 
-        en: title, 
+        ka: title,
+        en: title,
       },
       description1: {
-        ka: description, 
-        en: description, 
+        ka: description,
+        en: description,
       },
       description2: {
         ka: "",
-        en: "", 
+        en: "",
       },
       descriptionSpan: {
         ka: "მეტი ინფორმაციისთვის დააჭირეთ...",
@@ -71,7 +71,7 @@ const ArticleContainer: React.FC = () => {
   };
 
   const displayedArticles = state.articles.filter(
-    (article) => !article.isDeleted
+    (article) => !article.isDeleted,
   );
   const sortedArticles = [...displayedArticles].sort((a, b) => {
     return state.isSortedByLikes ? b.likeCount - a.likeCount : 0;

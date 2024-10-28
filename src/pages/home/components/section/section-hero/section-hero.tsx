@@ -3,11 +3,10 @@ import sectionContent from "./section";
 import { useParams } from "react-router-dom";
 
 const SectionHero: React.FC = () => {
-  const { language } = useParams<{ language?: "ka" | "en" }>(); 
+  const { language } = useParams<{ language?: "ka" | "en" }>();
 
- 
-  const lang = language || "ka"; 
-console.log(language);
+  const lang = language || "ka";
+  console.log(language);
   return (
     <section className={styles.sectionHero}>
       <div className={styles.section1_hero}>

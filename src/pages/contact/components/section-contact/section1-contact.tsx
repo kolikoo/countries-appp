@@ -1,22 +1,20 @@
-import  { FormEvent, useRef } from "react";
+import { FormEvent, useRef } from "react";
 import styles from "./about-section.module.css";
 
 const ContactForm = () => {
   const formRef = useRef<HTMLFormElement>(null);
 
-const handleSubmit = (event:FormEvent<HTMLFormElement>)=>{
- event.preventDefault();
+  const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
     const userInfo = {
-    name : (document.getElementById('name') as HTMLInputElement),
-    surname : (document.getElementById('surname') as HTMLInputElement),
-    email : (document.getElementById('email') as HTMLInputElement),
-    message :(document.getElementById('message') as HTMLInputElement) 
-
+      name: document.getElementById("name") as HTMLInputElement,
+      surname: document.getElementById("surname") as HTMLInputElement,
+      email: document.getElementById("email") as HTMLInputElement,
+      message: document.getElementById("message") as HTMLInputElement,
     };
 
     console.log(userInfo);
 
-    
     if (formRef.current) {
       formRef.current.reset();
     }

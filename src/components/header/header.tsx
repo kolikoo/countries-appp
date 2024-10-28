@@ -1,17 +1,12 @@
-
 import styles from "./header.module.css";
 
 import headerLogo from "../../images/logo_image.png";
 import { Link, NavLink } from "react-router-dom";
 
-
 const Header: React.FC = () => {
-
   const handleActiveNav = ({ isActive }: { isActive: boolean }) => {
     return isActive ? styles["active_nav"] : styles["no_active_nav"];
   };
-
-
 
   return (
     // Use return here
@@ -39,13 +34,9 @@ const Header: React.FC = () => {
               Contact Us
             </NavLink>
 
-            <NavLink to="/ka/home" >
-              GEO
-            </NavLink>
+            <NavLink to="/ka/home">GEO</NavLink>
 
-            <NavLink to="/en/home" >
-              ENG
-            </NavLink>
+            <NavLink to="/en/home">ENG</NavLink>
           </ul>
         </nav>
       </div>

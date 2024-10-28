@@ -45,16 +45,15 @@ const ArticleCreateForm: React.FC<ArticleCreateFormProps> = ({
     if (file) {
       const fileType = file.type;
 
-      
       if (fileType === "image/jpeg" || fileType === "image/png") {
         const reader = new FileReader();
         reader.onloadend = () => {
-          setImage(reader.result); 
+          setImage(reader.result);
         };
         reader.readAsDataURL(file);
       } else {
         alert("გთხოვთ ატვირთოთ მხოლოდ JPG ან PNG ფორმატის სურათები.");
-        setImage(null); 
+        setImage(null);
       }
     }
   };
@@ -62,7 +61,7 @@ const ArticleCreateForm: React.FC<ArticleCreateFormProps> = ({
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     if (validateForm()) {
-      onArticleCreate(event, image as string); 
+      onArticleCreate(event, image as string);
     }
   };
 

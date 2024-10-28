@@ -5,7 +5,7 @@ const Section1 = () => {
     <section className={Style.aboutsection}>
       <div className={Style.box}>
         <h2 className={Style.title}>
-         ABOUT US 
+          ABOUT US
           <p className={Style.text}>
             ჩვენ ვართ თანამედროვე ორგანიზაცია, რომელიც მიაწვდს მაღალი ხარისხის
             მომსახურებას და პროდუქტებს ჩვენს მომხმარებლებს. ჩვენი მიზანია,

@@ -8,7 +8,7 @@ const ArticleListWiev = lazy(() => import("./pages/home/views"));
 const AboutView = lazy(() => import("./pages/about/view/about-view"));
 const ContactPageView = lazy(() => import("./pages/contact/views"));
 const SingleListView = lazy(
-  () => import("./pages/home/views/singleListview/singleList")
+  () => import("./pages/home/views/singleListview/singleList"),
 );
 
 const App: React.FC = () => {

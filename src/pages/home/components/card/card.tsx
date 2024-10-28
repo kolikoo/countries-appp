@@ -9,17 +9,11 @@ interface CardProps {
   children?: React.ReactNode; // Make children optional
 }
 
-
-
 const Card: React.FC<CardProps> = ({ children }) => {
   return (
     <article className={style.article}>
       <div className={style.article_Card}>
-        <div className={style.text_Article}>
-    
-          {children}
-          
-        </div>
+        <div className={style.text_Article}>{children}</div>
       </div>
     </article>
   );

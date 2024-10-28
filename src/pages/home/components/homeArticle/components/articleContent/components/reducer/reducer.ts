@@ -1,4 +1,4 @@
-import listImg from "../../../articleContainer/create img.png";
+
 
 export type Article = {
   isDeleted: boolean;
@@ -23,7 +23,6 @@ export type Article = {
   likeCount: number;
 };
 
-
 export type ArticleState = {
   articles: Article[];
   isSortedByLikes: boolean;
@@ -38,7 +37,7 @@ export type ArticleAction =
 
 export const articleReducer = (
   state: ArticleState,
-  action: ArticleAction
+  action: ArticleAction,
 ): ArticleState => {
   switch (action.type) {
     case "LIKE_ARTICLE":
@@ -47,7 +46,7 @@ export const articleReducer = (
         articles: state.articles.map((article) =>
           article.id === action.payload
             ? { ...article, likeCount: article.likeCount + 1 }
-            : article
+            : article,
         ),
       };
 
@@ -64,7 +63,7 @@ export const articleReducer = (
         articles: state.articles.map((article) =>
           article.id === action.payload
             ? { ...article, isDeleted: true }
-            : article
+            : article,
         ),
       };
 
@@ -74,7 +73,7 @@ export const articleReducer = (
         articles: state.articles.map((article) =>
           article.id === action.payload
             ? { ...article, isDeleted: false }
-            : article
+            : article,
         ),
       };
 

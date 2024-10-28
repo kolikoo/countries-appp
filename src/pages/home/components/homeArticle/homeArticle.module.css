@@ -1,58 +1,58 @@
-.articleList{
-margin-top: 50px;
-width: 100%;
+.articleList {
+  margin-top: 50px;
+  width: 100%;
 
   height: 850px;
   display: flex;
   align-items: start;
   justify-content: start;
   flex-direction: column;
-background-color: #f2f1f1;
-border-radius: 10px;
-  
-  
+  background-color: #f2f1f1;
+  border-radius: 10px;
 }
 
-.articleBox{
-padding:20px 30px;
- width: 20%;
- display: flex;
- margin: 20px 40px;
- gap: 30px;
- background-color: white;
- border-radius: 10px;
- 
+.articleBox {
+  padding: 20px 30px;
+  width: 20%;
+  display: flex;
+  margin: 20px 40px;
+  gap: 30px;
+  background-color: white;
+  border-radius: 10px;
 }
-.boxText{
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-height: 70px;
-gap: 7px;
-
+.boxText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 70px;
+  gap: 7px;
 }
-.descriptionSpan{
-margin-top: 100px;
- color: black;
- font-weight: 700;
+.descriptionSpan {
+  margin-top: 100px;
+  color: black;
+  font-weight: 700;
 }
 
-.img{border-radius: 5px;}
+.img {
+  border-radius: 5px;
+}
 
-.moreInfoClick{
+.moreInfoClick {
   border: 3px solid red;
   color: red;
 }
-button{width: 25%;
-font-size: 15px;
-background-color: #2a15c7;
-color: white;
-
+button {
+  width: 25%;
+  font-size: 15px;
+  background-color: #2a15c7;
+  color: white;
 }
 
-button:hover{
+button:hover {
   background-color: black;
   color: white;
 }
 
-.sortbutton{background-color: red;}
+.sortbutton {
+  background-color: red;
+}
