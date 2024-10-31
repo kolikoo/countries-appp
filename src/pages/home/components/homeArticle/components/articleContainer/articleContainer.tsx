@@ -9,6 +9,7 @@ import LikeButton from "../articleContent/components/likebutton";
 import ArticleCreateForm from "../articleContent/components/articleCreateForm/articleCreateForm";
 import { articleReducer } from "../articleContent/components/reducer/reducer";
 import articleInitialState from "../articleContent/components/reducer/state";
+import OtpInput from "../articleContent/components/OtpInput/otpInput";
 
 const ArticleContainer: React.FC = () => {
   const [state, dispatch] = useReducer(articleReducer, {
@@ -18,6 +19,11 @@ const ArticleContainer: React.FC = () => {
 
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
+  const [otp, setOtp] = useState("");
+
+  const handleOtpChange = (newOtp: string) => {
+    setOtp(newOtp);
+  };
 
   const handleLike = (id: string) => {
     dispatch({ type: "LIKE_ARTICLE", payload: id });
@@ -44,7 +50,7 @@ const ArticleContainer: React.FC = () => {
         en: "",
       },
       descriptionSpan: {
-        ka: "მეტი ინფორმაციისთვის დააჭირეთ...",
+        ka: "მეტი ინფორმაციასთვის დააჭირეთ...",
         en: "For more information, click here...",
       },
       img,
@@ -81,7 +87,9 @@ const ArticleContainer: React.FC = () => {
 
   return (
     <>
+      <OtpInput length={4} value={otp} onChange={handleOtpChange} />
       <div className={style.formAndButton}>
+        {/* OTP Input */}
         <button style={{ background: "#c77415" }} onClick={toggleSort}>
           {state.isSortedByLikes
             ? "ყველა სტატიის ჩვენება"

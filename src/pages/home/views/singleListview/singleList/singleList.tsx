@@ -7,10 +7,9 @@ import articleContent from "@/pages/home/static/dummy-data";
 import style from "@/pages/home/components/homeArticle/components/articleContent/components/articleDescription.module.css";
 
 const SingleList = () => {
-  const { id } = useParams<{ id: string }>(); // Get the ID from the URL
-  const article = articleContent.find((article) => article.id === id); // Find the article by ID
+  const { id } = useParams<{ id: string }>();
+  const article = articleContent.find((article) => article.id === id);
 
-  // Handle case where article is not found
   if (!article) {
     return <div>Article not found</div>;
   }
@@ -24,7 +23,7 @@ const SingleList = () => {
             src={article.img}
             height="200px"
             width="150px"
-            alt={article.title} // Use title for better accessibility
+            alt={article.title}
           />
         </div>
 
