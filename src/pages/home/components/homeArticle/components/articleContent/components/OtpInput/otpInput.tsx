@@ -56,12 +56,12 @@ const OtpInput: React.FC<OtpInputProps> = ({ length, value, onChange }) => {
         otpArray[i] = pastedData[i];
       }
       onChange(otpArray.join(""));
-      
+
       // Focus the last input after pasting
       inputRefs.current[Math.min(pastedData.length, length) - 1]?.focus();
       event.preventDefault();
     }
-    console.log(index)
+    console.log(index);
   };
 
   useEffect(() => {
