@@ -1,6 +1,5 @@
 import axios from "axios";
 import fs from "fs";
-Ctrl + C;
 
 const clearDatabase = () => {
   const dbPath = "./database.json";

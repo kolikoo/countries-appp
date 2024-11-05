@@ -1,2224 +1,5504 @@
 {
   "countries": [
     {
+      "id": "GS",
+      "title": {
+        "ka": "South Georgia",
+        "en": "South Georgia"
+      },
+      "description1": {
+        "ka": "ინფორმაცია South Georgia შესახებ",
+        "en": "Information about South Georgia"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/gs.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
       "id": "GD",
-      "name": "Grenada",
-      "nameGe": "Grenada",
-      "population": 112519,
-      "capital": "St. George's",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/gd.svg",
-      "vote": 0
+      "title": {
+        "ka": "Grenada",
+        "en": "Grenada"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Grenada შესახებ",
+        "en": "Information about Grenada"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/gd.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "CH",
-      "name": "Switzerland",
-      "nameGe": "Swiss Confederation",
-      "population": 8654622,
-      "capital": "Bern",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/ch.svg",
-      "vote": 0
+      "title": {
+        "ka": "Switzerland",
+        "en": "Switzerland"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Switzerland შესახებ",
+        "en": "Information about Switzerland"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/ch.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "SL",
-      "name": "Sierra Leone",
-      "nameGe": "Republic of Sierra Leone",
-      "population": 7976985,
-      "capital": "Freetown",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/sl.svg",
-      "vote": 0
+      "title": {
+        "ka": "Sierra Leone",
+        "en": "Sierra Leone"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Sierra Leone შესახებ",
+        "en": "Information about Sierra Leone"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/sl.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "HU",
-      "name": "Hungary",
-      "nameGe": "Hungary",
-      "population": 9749763,
-      "capital": "Budapest",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/hu.svg",
-      "vote": 0
+      "title": {
+        "ka": "Hungary",
+        "en": "Hungary"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Hungary შესახებ",
+        "en": "Information about Hungary"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/hu.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "TW",
-      "name": "Taiwan",
-      "nameGe": "Republic of China (Taiwan)",
-      "population": 23503349,
-      "capital": "Taipei",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/tw.svg",
-      "vote": 0
+      "title": {
+        "ka": "Taiwan",
+        "en": "Taiwan"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Taiwan შესახებ",
+        "en": "Information about Taiwan"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/tw.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "WF",
-      "name": "Wallis and Futuna",
-      "nameGe": "Territory of the Wallis and Futuna Islands",
-      "population": 11750,
-      "capital": "Mata-Utu",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/wf.svg",
-      "vote": 0
+      "title": {
+        "ka": "Wallis and Futuna",
+        "en": "Wallis and Futuna"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Wallis and Futuna შესახებ",
+        "en": "Information about Wallis and Futuna"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/wf.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "BB",
-      "name": "Barbados",
-      "nameGe": "Barbados",
-      "population": 287371,
-      "capital": "Bridgetown",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/bb.svg",
-      "vote": 0
+      "title": {
+        "ka": "Barbados",
+        "en": "Barbados"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Barbados შესახებ",
+        "en": "Information about Barbados"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/bb.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "PN",
-      "name": "Pitcairn Islands",
-      "nameGe": "Pitcairn Group of Islands",
-      "population": 56,
-      "capital": "Adamstown",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/pn.svg",
-      "vote": 0
+      "title": {
+        "ka": "Pitcairn Islands",
+        "en": "Pitcairn Islands"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Pitcairn Islands შესახებ",
+        "en": "Information about Pitcairn Islands"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/pn.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "CI",
-      "name": "Ivory Coast",
-      "nameGe": "Republic of Côte d'Ivoire",
-      "population": 26378275,
-      "capital": "Yamoussoukro",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/ci.svg",
-      "vote": 0
+      "title": {
+        "ka": "Ivory Coast",
+        "en": "Ivory Coast"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Ivory Coast შესახებ",
+        "en": "Information about Ivory Coast"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/ci.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "TN",
-      "name": "Tunisia",
-      "nameGe": "Tunisian Republic",
-      "population": 11818618,
-      "capital": "Tunis",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/tn.svg",
-      "vote": 0
+      "title": {
+        "ka": "Tunisia",
+        "en": "Tunisia"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Tunisia შესახებ",
+        "en": "Information about Tunisia"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/tn.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "IT",
-      "name": "Italy",
-      "nameGe": "Italian Republic",
-      "population": 59554023,
-      "capital": "Rome",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/it.svg",
-      "vote": 0
+      "title": {
+        "ka": "Italy",
+        "en": "Italy"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Italy შესახებ",
+        "en": "Information about Italy"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/it.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "BJ",
-      "name": "Benin",
-      "nameGe": "Republic of Benin",
-      "population": 12123198,
-      "capital": "Porto-Novo",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/bj.svg",
-      "vote": 0
+      "title": {
+        "ka": "Benin",
+        "en": "Benin"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Benin შესახებ",
+        "en": "Information about Benin"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/bj.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "ID",
-      "name": "Indonesia",
-      "nameGe": "Republic of Indonesia",
-      "population": 273523621,
-      "capital": "Jakarta",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/id.svg",
-      "vote": 0
+      "title": {
+        "ka": "Indonesia",
+        "en": "Indonesia"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Indonesia შესახებ",
+        "en": "Information about Indonesia"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/id.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "CV",
-      "name": "Cape Verde",
-      "nameGe": "Republic of Cabo Verde",
-      "population": 555988,
-      "capital": "Praia",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/cv.svg",
-      "vote": 0
+      "title": {
+        "ka": "Cape Verde",
+        "en": "Cape Verde"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Cape Verde შესახებ",
+        "en": "Information about Cape Verde"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/cv.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "KN",
-      "name": "Saint Kitts and Nevis",
-      "nameGe": "Federation of Saint Christopher and Nevis",
-      "population": 53192,
-      "capital": "Basseterre",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/kn.svg",
-      "vote": 0
+      "title": {
+        "ka": "Saint Kitts and Nevis",
+        "en": "Saint Kitts and Nevis"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Saint Kitts and Nevis შესახებ",
+        "en": "Information about Saint Kitts and Nevis"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/kn.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "LA",
-      "name": "Laos",
-      "nameGe": "Lao People's Democratic Republic",
-      "population": 7275556,
-      "capital": "Vientiane",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/la.svg",
-      "vote": 0
+      "title": {
+        "ka": "Laos",
+        "en": "Laos"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Laos შესახებ",
+        "en": "Information about Laos"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/la.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "BQ",
-      "name": "Caribbean Netherlands",
-      "nameGe": "Bonaire, Sint Eustatius and Saba",
-      "population": 25987,
-      "capital": "Kralendijk",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/bq.svg",
-      "vote": 0
+      "title": {
+        "ka": "Caribbean Netherlands",
+        "en": "Caribbean Netherlands"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Caribbean Netherlands შესახებ",
+        "en": "Information about Caribbean Netherlands"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/bq.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "UG",
-      "name": "Uganda",
-      "nameGe": "Republic of Uganda",
-      "population": 45741000,
-      "capital": "Kampala",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/ug.svg",
-      "vote": 0
+      "title": {
+        "ka": "Uganda",
+        "en": "Uganda"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Uganda შესახებ",
+        "en": "Information about Uganda"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/ug.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "AD",
-      "name": "Andorra",
-      "nameGe": "Principality of Andorra",
-      "population": 77265,
-      "capital": "Andorra la Vella",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/ad.svg",
-      "vote": 0
+      "title": {
+        "ka": "Andorra",
+        "en": "Andorra"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Andorra შესახებ",
+        "en": "Information about Andorra"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/ad.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "BI",
-      "name": "Burundi",
-      "nameGe": "Republic of Burundi",
-      "population": 11890781,
-      "capital": "Gitega",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/bi.svg",
-      "vote": 0
+      "title": {
+        "ka": "Burundi",
+        "en": "Burundi"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Burundi შესახებ",
+        "en": "Information about Burundi"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/bi.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "ZA",
-      "name": "South Africa",
-      "nameGe": "Republic of South Africa",
-      "population": 59308690,
-      "capital": "Pretoria",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/za.svg",
-      "vote": 0
+      "title": {
+        "ka": "South Africa",
+        "en": "South Africa"
+      },
+      "description1": {
+        "ka": "ინფორმაცია South Africa შესახებ",
+        "en": "Information about South Africa"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/za.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "FR",
-      "name": "France",
-      "nameGe": "French Republic",
-      "population": 67391582,
-      "capital": "Paris",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/fr.svg",
-      "vote": 0
+      "title": {
+        "ka": "France",
+        "en": "France"
+      },
+      "description1": {
+        "ka": "ინფორმაცია France შესახებ",
+        "en": "Information about France"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/fr.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "LY",
-      "name": "Libya",
-      "nameGe": "State of Libya",
-      "population": 6871287,
-      "capital": "Tripoli",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/ly.svg",
-      "vote": 0
+      "title": {
+        "ka": "Libya",
+        "en": "Libya"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Libya შესახებ",
+        "en": "Information about Libya"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/ly.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "MX",
-      "name": "Mexico",
-      "nameGe": "United Mexican States",
-      "population": 128932753,
-      "capital": "Mexico City",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/mx.svg",
-      "vote": 0
+      "title": {
+        "ka": "Mexico",
+        "en": "Mexico"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Mexico შესახებ",
+        "en": "Information about Mexico"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/mx.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "GA",
-      "name": "Gabon",
-      "nameGe": "Gabonese Republic",
-      "population": 2225728,
-      "capital": "Libreville",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/ga.svg",
-      "vote": 0
+      "title": {
+        "ka": "Gabon",
+        "en": "Gabon"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Gabon შესახებ",
+        "en": "Information about Gabon"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/ga.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "MP",
-      "name": "Northern Mariana Islands",
-      "nameGe": "Commonwealth of the Northern Mariana Islands",
-      "population": 57557,
-      "capital": "Saipan",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/mp.svg",
-      "vote": 0
+      "title": {
+        "ka": "Northern Mariana Islands",
+        "en": "Northern Mariana Islands"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Northern Mariana Islands შესახებ",
+        "en": "Information about Northern Mariana Islands"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/mp.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "MK",
-      "name": "North Macedonia",
-      "nameGe": "Republic of North Macedonia",
-      "population": 2077132,
-      "capital": "Skopje",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/mk.svg",
-      "vote": 0
+      "title": {
+        "ka": "North Macedonia",
+        "en": "North Macedonia"
+      },
+      "description1": {
+        "ka": "ინფორმაცია North Macedonia შესახებ",
+        "en": "Information about North Macedonia"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/mk.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "CN",
-      "name": "China",
-      "nameGe": "People's Republic of China",
-      "population": 1402112000,
-      "capital": "Beijing",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/cn.svg",
-      "vote": 0
+      "title": {
+        "ka": "China",
+        "en": "China"
+      },
+      "description1": {
+        "ka": "ინფორმაცია China შესახებ",
+        "en": "Information about China"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/cn.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "YE",
-      "name": "Yemen",
-      "nameGe": "Republic of Yemen",
-      "population": 29825968,
-      "capital": "Sana'a",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/ye.svg",
-      "vote": 0
+      "title": {
+        "ka": "Yemen",
+        "en": "Yemen"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Yemen შესახებ",
+        "en": "Information about Yemen"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/ye.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "BL",
-      "name": "Saint Barthélemy",
-      "nameGe": "Collectivity of Saint Barthélemy",
-      "population": 4255,
-      "capital": "Gustavia",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/bl.svg",
-      "vote": 0
+      "title": {
+        "ka": "Saint Barthélemy",
+        "en": "Saint Barthélemy"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Saint Barthélemy შესახებ",
+        "en": "Information about Saint Barthélemy"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/bl.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "GG",
-      "name": "Guernsey",
-      "nameGe": "Bailiwick of Guernsey",
-      "population": 62999,
-      "capital": "St. Peter Port",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/gg.svg",
-      "vote": 0
+      "title": {
+        "ka": "Guernsey",
+        "en": "Guernsey"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Guernsey შესახებ",
+        "en": "Information about Guernsey"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/gg.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "SB",
-      "name": "Solomon Islands",
-      "nameGe": "Solomon Islands",
-      "population": 686878,
-      "capital": "Honiara",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/sb.svg",
-      "vote": 0
+      "title": {
+        "ka": "Solomon Islands",
+        "en": "Solomon Islands"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Solomon Islands შესახებ",
+        "en": "Information about Solomon Islands"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/sb.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "SJ",
-      "name": "Svalbard and Jan Mayen",
-      "nameGe": "Svalbard og Jan Mayen",
-      "population": 2562,
-      "capital": "Longyearbyen",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/sj.svg",
-      "vote": 0
+      "title": {
+        "ka": "Svalbard and Jan Mayen",
+        "en": "Svalbard and Jan Mayen"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Svalbard and Jan Mayen შესახებ",
+        "en": "Information about Svalbard and Jan Mayen"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/sj.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "FO",
-      "name": "Faroe Islands",
-      "nameGe": "Faroe Islands",
-      "population": 48865,
-      "capital": "Tórshavn",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/fo.svg",
-      "vote": 0
+      "title": {
+        "ka": "Faroe Islands",
+        "en": "Faroe Islands"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Faroe Islands შესახებ",
+        "en": "Information about Faroe Islands"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/fo.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "UZ",
-      "name": "Uzbekistan",
-      "nameGe": "Republic of Uzbekistan",
-      "population": 34232050,
-      "capital": "Tashkent",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/uz.svg",
-      "vote": 0
+      "title": {
+        "ka": "Uzbekistan",
+        "en": "Uzbekistan"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Uzbekistan შესახებ",
+        "en": "Information about Uzbekistan"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/uz.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "EG",
-      "name": "Egypt",
-      "nameGe": "Arab Republic of Egypt",
-      "population": 102334403,
-      "capital": "Cairo",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/eg.svg",
-      "vote": 0
+      "title": {
+        "ka": "Egypt",
+        "en": "Egypt"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Egypt შესახებ",
+        "en": "Information about Egypt"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/eg.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "SN",
-      "name": "Senegal",
-      "nameGe": "Republic of Senegal",
-      "population": 16743930,
-      "capital": "Dakar",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/sn.svg",
-      "vote": 0
+      "title": {
+        "ka": "Senegal",
+        "en": "Senegal"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Senegal შესახებ",
+        "en": "Information about Senegal"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/sn.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "LK",
-      "name": "Sri Lanka",
-      "nameGe": "Democratic Socialist Republic of Sri Lanka",
-      "population": 21919000,
-      "capital": "Sri Jayawardenepura Kotte",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/lk.svg",
-      "vote": 0
+      "title": {
+        "ka": "Sri Lanka",
+        "en": "Sri Lanka"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Sri Lanka შესახებ",
+        "en": "Information about Sri Lanka"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/lk.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "PS",
-      "name": "Palestine",
-      "nameGe": "State of Palestine",
-      "population": 4803269,
-      "capital": "Ramallah",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/ps.svg",
-      "vote": 0
+      "title": {
+        "ka": "Palestine",
+        "en": "Palestine"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Palestine შესახებ",
+        "en": "Information about Palestine"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/ps.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "BD",
-      "name": "Bangladesh",
-      "nameGe": "People's Republic of Bangladesh",
-      "population": 164689383,
-      "capital": "Dhaka",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/bd.svg",
-      "vote": 0
+      "title": {
+        "ka": "Bangladesh",
+        "en": "Bangladesh"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Bangladesh შესახებ",
+        "en": "Information about Bangladesh"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/bd.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "PE",
-      "name": "Peru",
-      "nameGe": "Republic of Peru",
-      "population": 32971846,
-      "capital": "Lima",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/pe.svg",
-      "vote": 0
+      "title": {
+        "ka": "Peru",
+        "en": "Peru"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Peru შესახებ",
+        "en": "Information about Peru"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/pe.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "SG",
-      "name": "Singapore",
-      "nameGe": "Republic of Singapore",
-      "population": 5685807,
-      "capital": "Singapore",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/sg.svg",
-      "vote": 0
+      "title": {
+        "ka": "Singapore",
+        "en": "Singapore"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Singapore შესახებ",
+        "en": "Information about Singapore"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/sg.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "TR",
-      "name": "Turkey",
-      "nameGe": "Republic of Turkey",
-      "population": 84339067,
-      "capital": "Ankara",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/tr.svg",
-      "vote": 0
+      "title": {
+        "ka": "Turkey",
+        "en": "Turkey"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Turkey შესახებ",
+        "en": "Information about Turkey"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/tr.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "AF",
-      "name": "Afghanistan",
-      "nameGe": "Islamic Republic of Afghanistan",
-      "population": 40218234,
-      "capital": "Kabul",
-      "capitalGe": "N/A",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_the_Taliban.svg",
-      "vote": 0
+      "title": {
+        "ka": "Afghanistan",
+        "en": "Afghanistan"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Afghanistan შესახებ",
+        "en": "Information about Afghanistan"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_the_Taliban.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "AW",
-      "name": "Aruba",
-      "nameGe": "Aruba",
-      "population": 106766,
-      "capital": "Oranjestad",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/aw.svg",
-      "vote": 0
+      "title": {
+        "ka": "Aruba",
+        "en": "Aruba"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Aruba შესახებ",
+        "en": "Information about Aruba"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/aw.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "CK",
-      "name": "Cook Islands",
-      "nameGe": "Cook Islands",
-      "population": 18100,
-      "capital": "Avarua",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/ck.svg",
-      "vote": 0
+      "title": {
+        "ka": "Cook Islands",
+        "en": "Cook Islands"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Cook Islands შესახებ",
+        "en": "Information about Cook Islands"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/ck.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "GB",
-      "name": "United Kingdom",
-      "nameGe": "United Kingdom of Great Britain and Northern Ireland",
-      "population": 67215293,
-      "capital": "London",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/gb.svg",
-      "vote": 0
+      "title": {
+        "ka": "United Kingdom",
+        "en": "United Kingdom"
+      },
+      "description1": {
+        "ka": "ინფორმაცია United Kingdom შესახებ",
+        "en": "Information about United Kingdom"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/gb.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "ZM",
-      "name": "Zambia",
-      "nameGe": "Republic of Zambia",
-      "population": 18383956,
-      "capital": "Lusaka",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/zm.svg",
-      "vote": 0
+      "title": {
+        "ka": "Zambia",
+        "en": "Zambia"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Zambia შესახებ",
+        "en": "Information about Zambia"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/zm.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "FI",
-      "name": "Finland",
-      "nameGe": "Republic of Finland",
-      "population": 5530719,
-      "capital": "Helsinki",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/fi.svg",
-      "vote": 0
+      "title": {
+        "ka": "Finland",
+        "en": "Finland"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Finland შესახებ",
+        "en": "Information about Finland"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/fi.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "NE",
-      "name": "Niger",
-      "nameGe": "Republic of Niger",
-      "population": 24206636,
-      "capital": "Niamey",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/ne.svg",
-      "vote": 0
+      "title": {
+        "ka": "Niger",
+        "en": "Niger"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Niger შესახებ",
+        "en": "Information about Niger"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/ne.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "CX",
-      "name": "Christmas Island",
-      "nameGe": "Territory of Christmas Island",
-      "population": 2072,
-      "capital": "Flying Fish Cove",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/cx.svg",
-      "vote": 0
+      "title": {
+        "ka": "Christmas Island",
+        "en": "Christmas Island"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Christmas Island შესახებ",
+        "en": "Information about Christmas Island"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/cx.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "TK",
-      "name": "Tokelau",
-      "nameGe": "Tokelau",
-      "population": 1411,
-      "capital": "Fakaofo",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/tk.svg",
-      "vote": 0
+      "title": {
+        "ka": "Tokelau",
+        "en": "Tokelau"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Tokelau შესახებ",
+        "en": "Information about Tokelau"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/tk.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "GW",
-      "name": "Guinea-Bissau",
-      "nameGe": "Republic of Guinea-Bissau",
-      "population": 1967998,
-      "capital": "Bissau",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/gw.svg",
-      "vote": 0
+      "title": {
+        "ka": "Guinea-Bissau",
+        "en": "Guinea-Bissau"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Guinea-Bissau შესახებ",
+        "en": "Information about Guinea-Bissau"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/gw.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "AZ",
-      "name": "Azerbaijan",
-      "nameGe": "Republic of Azerbaijan",
-      "population": 10110116,
-      "capital": "Baku",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/az.svg",
-      "vote": 0
+      "title": {
+        "ka": "Azerbaijan",
+        "en": "Azerbaijan"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Azerbaijan შესახებ",
+        "en": "Information about Azerbaijan"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/az.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "RE",
-      "name": "Réunion",
-      "nameGe": "Réunion Island",
-      "population": 840974,
-      "capital": "Saint-Denis",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/re.svg",
-      "vote": 0
+      "title": {
+        "ka": "Réunion",
+        "en": "Réunion"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Réunion შესახებ",
+        "en": "Information about Réunion"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/re.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "DJ",
-      "name": "Djibouti",
-      "nameGe": "Republic of Djibouti",
-      "population": 988002,
-      "capital": "Djibouti",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/dj.svg",
-      "vote": 0
+      "title": {
+        "ka": "Djibouti",
+        "en": "Djibouti"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Djibouti შესახებ",
+        "en": "Information about Djibouti"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/dj.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "KP",
-      "name": "North Korea",
-      "nameGe": "Democratic People's Republic of Korea",
-      "population": 25778815,
-      "capital": "Pyongyang",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/kp.svg",
-      "vote": 0
+      "title": {
+        "ka": "North Korea",
+        "en": "North Korea"
+      },
+      "description1": {
+        "ka": "ინფორმაცია North Korea შესახებ",
+        "en": "Information about North Korea"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/kp.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "MU",
-      "name": "Mauritius",
-      "nameGe": "Republic of Mauritius",
-      "population": 1265740,
-      "capital": "Port Louis",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/mu.svg",
-      "vote": 0
+      "title": {
+        "ka": "Mauritius",
+        "en": "Mauritius"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Mauritius შესახებ",
+        "en": "Information about Mauritius"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/mu.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "MS",
-      "name": "Montserrat",
-      "nameGe": "Montserrat",
-      "population": 4922,
-      "capital": "Plymouth",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/ms.svg",
-      "vote": 0
+      "title": {
+        "ka": "Montserrat",
+        "en": "Montserrat"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Montserrat შესახებ",
+        "en": "Information about Montserrat"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/ms.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "VI",
-      "name": "United States Virgin Islands",
-      "nameGe": "Virgin Islands of the United States",
-      "population": 106290,
-      "capital": "Charlotte Amalie",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/vi.svg",
-      "vote": 0
+      "title": {
+        "ka": "United States Virgin Islands",
+        "en": "United States Virgin Islands"
+      },
+      "description1": {
+        "ka": "ინფორმაცია United States Virgin Islands შესახებ",
+        "en": "Information about United States Virgin Islands"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/vi.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "CO",
-      "name": "Colombia",
-      "nameGe": "Republic of Colombia",
-      "population": 50882884,
-      "capital": "Bogotá",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/co.svg",
-      "vote": 0
+      "title": {
+        "ka": "Colombia",
+        "en": "Colombia"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Colombia შესახებ",
+        "en": "Information about Colombia"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/co.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "GR",
-      "name": "Greece",
-      "nameGe": "Hellenic Republic",
-      "population": 10715549,
-      "capital": "Athens",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/gr.svg",
-      "vote": 0
+      "title": {
+        "ka": "Greece",
+        "en": "Greece"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Greece შესახებ",
+        "en": "Information about Greece"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/gr.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "HR",
-      "name": "Croatia",
-      "nameGe": "Republic of Croatia",
-      "population": 4047200,
-      "capital": "Zagreb",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/hr.svg",
-      "vote": 0
+      "title": {
+        "ka": "Croatia",
+        "en": "Croatia"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Croatia შესახებ",
+        "en": "Information about Croatia"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/hr.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "MA",
-      "name": "Morocco",
-      "nameGe": "Kingdom of Morocco",
-      "population": 36910558,
-      "capital": "Rabat",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/ma.svg",
-      "vote": 0
+      "title": {
+        "ka": "Morocco",
+        "en": "Morocco"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Morocco შესახებ",
+        "en": "Information about Morocco"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/ma.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "DZ",
-      "name": "Algeria",
-      "nameGe": "People's Democratic Republic of Algeria",
-      "population": 44700000,
-      "capital": "Algiers",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/dz.svg",
-      "vote": 0
+      "title": {
+        "ka": "Algeria",
+        "en": "Algeria"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Algeria შესახებ",
+        "en": "Information about Algeria"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/dz.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "AQ",
-      "name": "Antarctica",
-      "nameGe": "Antarctica",
-      "population": 1000,
-      "capital": "N/A",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/aq.svg",
-      "vote": 0
+      "title": {
+        "ka": "Antarctica",
+        "en": "Antarctica"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Antarctica შესახებ",
+        "en": "Information about Antarctica"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/aq.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "NL",
-      "name": "Netherlands",
-      "nameGe": "Kingdom of the Netherlands",
-      "population": 16655799,
-      "capital": "Amsterdam",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/nl.svg",
-      "vote": 0
-    },
-    {
-      "id": "FJ",
-      "name": "Fiji",
-      "nameGe": "Republic of Fiji",
-      "population": 896444,
-      "capital": "Suva",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/fj.svg",
-      "vote": 0
+      "title": {
+        "ka": "Netherlands",
+        "en": "Netherlands"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Netherlands შესახებ",
+        "en": "Information about Netherlands"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/nl.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "SD",
-      "name": "Sudan",
-      "nameGe": "Republic of the Sudan",
-      "population": 43849269,
-      "capital": "Khartoum",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/sd.svg",
-      "vote": 0
+      "title": {
+        "ka": "Sudan",
+        "en": "Sudan"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Sudan შესახებ",
+        "en": "Information about Sudan"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/sd.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
-      "id": "NP",
-      "name": "Nepal",
-      "nameGe": "Federal Democratic Republic of Nepal",
-      "population": 29136808,
-      "capital": "Kathmandu",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/np.svg",
-      "vote": 0
+      "id": "FJ",
+      "title": {
+        "ka": "Fiji",
+        "en": "Fiji"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Fiji შესახებ",
+        "en": "Information about Fiji"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/fj.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "LI",
-      "name": "Liechtenstein",
-      "nameGe": "Principality of Liechtenstein",
-      "population": 38137,
-      "capital": "Vaduz",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/li.svg",
-      "vote": 0
+      "title": {
+        "ka": "Liechtenstein",
+        "en": "Liechtenstein"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Liechtenstein შესახებ",
+        "en": "Information about Liechtenstein"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/li.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
-      "id": "GE",
-      "name": "Georgia",
-      "nameGe": "Georgia",
-      "population": 3714000,
-      "capital": "Tbilisi",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/ge.svg",
-      "vote": 0
+      "id": "NP",
+      "title": {
+        "ka": "Nepal",
+        "en": "Nepal"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Nepal შესახებ",
+        "en": "Information about Nepal"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/np.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "PR",
-      "name": "Puerto Rico",
-      "nameGe": "Commonwealth of Puerto Rico",
-      "population": 3194034,
-      "capital": "San Juan",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/pr.svg",
-      "vote": 0
+      "title": {
+        "ka": "Puerto Rico",
+        "en": "Puerto Rico"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Puerto Rico შესახებ",
+        "en": "Information about Puerto Rico"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/pr.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
-      "id": "MC",
-      "name": "Monaco",
-      "nameGe": "Principality of Monaco",
-      "population": 39244,
-      "capital": "Monaco",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/mc.svg",
-      "vote": 0
+      "id": "GE",
+      "title": {
+        "ka": "Georgia",
+        "en": "Georgia"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Georgia შესახებ",
+        "en": "Information about Georgia"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/ge.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "PK",
-      "name": "Pakistan",
-      "nameGe": "Islamic Republic of Pakistan",
-      "population": 220892331,
-      "capital": "Islamabad",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/pk.svg",
-      "vote": 0
+      "title": {
+        "ka": "Pakistan",
+        "en": "Pakistan"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Pakistan შესახებ",
+        "en": "Information about Pakistan"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/pk.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
-      "id": "LB",
-      "name": "Lebanon",
-      "nameGe": "Lebanese Republic",
-      "population": 6825442,
-      "capital": "Beirut",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/lb.svg",
-      "vote": 0
+      "id": "MC",
+      "title": {
+        "ka": "Monaco",
+        "en": "Monaco"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Monaco შესახებ",
+        "en": "Information about Monaco"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/mc.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "BW",
-      "name": "Botswana",
-      "nameGe": "Republic of Botswana",
-      "population": 2351625,
-      "capital": "Gaborone",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/bw.svg",
-      "vote": 0
+      "title": {
+        "ka": "Botswana",
+        "en": "Botswana"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Botswana შესახებ",
+        "en": "Information about Botswana"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/bw.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
-      "id": "YT",
-      "name": "Mayotte",
-      "nameGe": "Department of Mayotte",
-      "population": 226915,
-      "capital": "Mamoudzou",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/yt.svg",
-      "vote": 0
+      "id": "LB",
+      "title": {
+        "ka": "Lebanon",
+        "en": "Lebanon"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Lebanon შესახებ",
+        "en": "Information about Lebanon"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/lb.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "PG",
-      "name": "Papua New Guinea",
-      "nameGe": "Independent State of Papua New Guinea",
-      "population": 8947027,
-      "capital": "Port Moresby",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/pg.svg",
-      "vote": 0
-    },
-    {
-      "id": "NF",
-      "name": "Norfolk Island",
-      "nameGe": "Territory of Norfolk Island",
-      "population": 2302,
-      "capital": "Kingston",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/nf.svg",
-      "vote": 0
-    },
-    {
-      "id": "AU",
-      "name": "Australia",
-      "nameGe": "Commonwealth of Australia",
-      "population": 25687041,
-      "capital": "Canberra",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/au.svg",
-      "vote": 0
-    },
-    {
-      "id": "TH",
-      "name": "Thailand",
-      "nameGe": "Kingdom of Thailand",
-      "population": 69799978,
-      "capital": "Bangkok",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/th.svg",
-      "vote": 0
-    },
-    {
-      "id": "HT",
-      "name": "Haiti",
-      "nameGe": "Republic of Haiti",
-      "population": 11402533,
-      "capital": "Port-au-Prince",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/ht.svg",
-      "vote": 0
-    },
-    {
-      "id": "TV",
-      "name": "Tuvalu",
-      "nameGe": "Tuvalu",
-      "population": 11792,
-      "capital": "Funafuti",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/tv.svg",
-      "vote": 0
-    },
-    {
-      "id": "GQ",
-      "name": "Equatorial Guinea",
-      "nameGe": "Republic of Equatorial Guinea",
-      "population": 1402985,
-      "capital": "Malabo",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/gq.svg",
-      "vote": 0
-    },
-    {
-      "id": "LC",
-      "name": "Saint Lucia",
-      "nameGe": "Saint Lucia",
-      "population": 183629,
-      "capital": "Castries",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/lc.svg",
-      "vote": 0
-    },
-    {
-      "id": "GP",
-      "name": "Guadeloupe",
-      "nameGe": "Guadeloupe",
-      "population": 400132,
-      "capital": "Basse-Terre",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/gp.svg",
-      "vote": 0
-    },
-    {
-      "id": "SO",
-      "name": "Somalia",
-      "nameGe": "Federal Republic of Somalia",
-      "population": 15893219,
-      "capital": "Mogadishu",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/so.svg",
-      "vote": 0
-    },
-    {
-      "id": "SH",
-      "name": "Saint Helena, Ascension and Tristan da Cunha",
-      "nameGe": "Saint Helena, Ascension and Tristan da Cunha",
-      "population": 53192,
-      "capital": "Jamestown",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/sh.svg",
-      "vote": 0
-    },
-    {
-      "id": "HM",
-      "name": "Heard Island and McDonald Islands",
-      "nameGe": "Heard Island and McDonald Islands",
-      "population": 0,
-      "capital": "N/A",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/hm.svg",
-      "vote": 0
-    },
-    {
-      "id": "RW",
-      "name": "Rwanda",
-      "nameGe": "Republic of Rwanda",
-      "population": 12952209,
-      "capital": "Kigali",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/rw.svg",
-      "vote": 0
-    },
-    {
-      "id": "EE",
-      "name": "Estonia",
-      "nameGe": "Republic of Estonia",
-      "population": 1331057,
-      "capital": "Tallinn",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/ee.svg",
-      "vote": 0
-    },
-    {
-      "id": "TT",
-      "name": "Trinidad and Tobago",
-      "nameGe": "Republic of Trinidad and Tobago",
-      "population": 1399491,
-      "capital": "Port of Spain",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/tt.svg",
-      "vote": 0
-    },
-    {
-      "id": "TL",
-      "name": "Timor-Leste",
-      "nameGe": "Democratic Republic of Timor-Leste",
-      "population": 1318442,
-      "capital": "Dili",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/tl.svg",
-      "vote": 0
-    },
-    {
-      "id": "HK",
-      "name": "Hong Kong",
-      "nameGe": "Hong Kong Special Administrative Region of the People's Republic of China",
-      "population": 7500700,
-      "capital": "City of Victoria",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/hk.svg",
-      "vote": 0
-    },
-    {
-      "id": "GF",
-      "name": "French Guiana",
-      "nameGe": "Guiana",
-      "population": 254541,
-      "capital": "Cayenne",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/gf.svg",
-      "vote": 0
-    },
-    {
-      "id": "NO",
-      "name": "Norway",
-      "nameGe": "Kingdom of Norway",
-      "population": 5379475,
-      "capital": "Oslo",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/no.svg",
-      "vote": 0
-    },
-    {
-      "id": "CF",
-      "name": "Central African Republic",
-      "nameGe": "Central African Republic",
-      "population": 4829764,
-      "capital": "Bangui",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/cf.svg",
-      "vote": 0
-    },
-    {
-      "id": "TZ",
-      "name": "Tanzania",
-      "nameGe": "United Republic of Tanzania",
-      "population": 59734213,
-      "capital": "Dodoma",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/tz.svg",
-      "vote": 0
-    },
-    {
-      "id": "KR",
-      "name": "South Korea",
-      "nameGe": "Republic of Korea",
-      "population": 51780579,
-      "capital": "Seoul",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/kr.svg",
-      "vote": 0
-    },
-    {
-      "id": "UM",
-      "name": "United States Minor Outlying Islands",
-      "nameGe": "United States Minor Outlying Islands",
-      "population": 300,
-      "capital": "Washington DC",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/um.svg",
-      "vote": 0
-    },
-    {
-      "id": "WS",
-      "name": "Samoa",
-      "nameGe": "Independent State of Samoa",
-      "population": 198410,
-      "capital": "Apia",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/ws.svg",
-      "vote": 0
-    },
-    {
-      "id": "JP",
-      "name": "Japan",
-      "nameGe": "Japan",
-      "population": 125836021,
-      "capital": "Tokyo",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/jp.svg",
-      "vote": 0
-    },
-    {
-      "id": "BO",
-      "name": "Bolivia",
-      "nameGe": "Plurinational State of Bolivia",
-      "population": 11673029,
-      "capital": "Sucre",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/bo.svg",
-      "vote": 0
-    },
-    {
-      "id": "VC",
-      "name": "Saint Vincent and the Grenadines",
-      "nameGe": "Saint Vincent and the Grenadines",
-      "population": 110947,
-      "capital": "Kingstown",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/vc.svg",
-      "vote": 0
-    },
-    {
-      "id": "US",
-      "name": "United States",
-      "nameGe": "United States of America",
-      "population": 329484123,
-      "capital": "Washington, D.C.",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/us.svg",
-      "vote": 0
-    },
-    {
-      "id": "GT",
-      "name": "Guatemala",
-      "nameGe": "Republic of Guatemala",
-      "population": 16858333,
-      "capital": "Guatemala City",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/gt.svg",
-      "vote": 0
-    },
-    {
-      "id": "EC",
-      "name": "Ecuador",
-      "nameGe": "Republic of Ecuador",
-      "population": 17643060,
-      "capital": "Quito",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/ec.svg",
-      "vote": 0
-    },
-    {
-      "id": "MQ",
-      "name": "Martinique",
-      "nameGe": "Martinique",
-      "population": 378243,
-      "capital": "Fort-de-France",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/mq.svg",
-      "vote": 0
-    },
-    {
-      "id": "MT",
-      "name": "Malta",
-      "nameGe": "Republic of Malta",
-      "population": 525285,
-      "capital": "Valletta",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/mt.svg",
-      "vote": 0
-    },
-    {
-      "id": "NG",
-      "name": "Nigeria",
-      "nameGe": "Federal Republic of Nigeria",
-      "population": 206139587,
-      "capital": "Abuja",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/ng.svg",
-      "vote": 0
-    },
-    {
-      "id": "KW",
-      "name": "Kuwait",
-      "nameGe": "State of Kuwait",
-      "population": 4270563,
-      "capital": "Kuwait City",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/kw.svg",
-      "vote": 0
-    },
-    {
-      "id": "XK",
-      "name": "Kosovo",
-      "nameGe": "Republic of Kosovo",
-      "population": 1775378,
-      "capital": "Pristina",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/xk.svg",
-      "vote": 0
-    },
-    {
-      "id": "MV",
-      "name": "Maldives",
-      "nameGe": "Republic of the Maldives",
-      "population": 540542,
-      "capital": "Malé",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/mv.svg",
-      "vote": 0
-    },
-    {
-      "id": "AL",
-      "name": "Albania",
-      "nameGe": "Republic of Albania",
-      "population": 2837743,
-      "capital": "Tirana",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/al.svg",
-      "vote": 0
-    },
-    {
-      "id": "IR",
-      "name": "Iran",
-      "nameGe": "Islamic Republic of Iran",
-      "population": 83992953,
-      "capital": "Tehran",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/ir.svg",
-      "vote": 0
-    },
-    {
-      "id": "RS",
-      "name": "Serbia",
-      "nameGe": "Republic of Serbia",
-      "population": 6908224,
-      "capital": "Belgrade",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/rs.svg",
-      "vote": 0
-    },
-    {
-      "id": "BZ",
-      "name": "Belize",
-      "nameGe": "Belize",
-      "population": 397621,
-      "capital": "Belmopan",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/bz.svg",
-      "vote": 0
-    },
-    {
-      "id": "BR",
-      "name": "Brazil",
-      "nameGe": "Federative Republic of Brazil",
-      "population": 212559409,
-      "capital": "Brasília",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/br.svg",
-      "vote": 0
-    },
-    {
-      "id": "BT",
-      "name": "Bhutan",
-      "nameGe": "Kingdom of Bhutan",
-      "population": 771612,
-      "capital": "Thimphu",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/bt.svg",
-      "vote": 0
-    },
-    {
-      "id": "MM",
-      "name": "Myanmar",
-      "nameGe": "Republic of the Union of Myanmar",
-      "population": 54409794,
-      "capital": "Naypyidaw",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/mm.svg",
-      "vote": 0
-    },
-    {
-      "id": "LR",
-      "name": "Liberia",
-      "nameGe": "Republic of Liberia",
-      "population": 5057677,
-      "capital": "Monrovia",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/lr.svg",
-      "vote": 0
-    },
-    {
-      "id": "VE",
-      "name": "Venezuela",
-      "nameGe": "Bolivarian Republic of Venezuela",
-      "population": 28435943,
-      "capital": "Caracas",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/ve.svg",
-      "vote": 0
-    },
-    {
-      "id": "JM",
-      "name": "Jamaica",
-      "nameGe": "Jamaica",
-      "population": 2961161,
-      "capital": "Kingston",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/jm.svg",
-      "vote": 0
-    },
-    {
-      "id": "BN",
-      "name": "Brunei",
-      "nameGe": "Nation of Brunei, Abode of Peace",
-      "population": 437483,
-      "capital": "Bandar Seri Begawan",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/bn.svg",
-      "vote": 0
-    },
-    {
-      "id": "KM",
-      "name": "Comoros",
-      "nameGe": "Union of the Comoros",
-      "population": 869595,
-      "capital": "Moroni",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/km.svg",
-      "vote": 0
-    },
-    {
-      "id": "TO",
-      "name": "Tonga",
-      "nameGe": "Kingdom of Tonga",
-      "population": 105697,
-      "capital": "Nuku'alofa",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/to.svg",
-      "vote": 0
-    },
-    {
-      "id": "KI",
-      "name": "Kiribati",
-      "nameGe": "Independent and Sovereign Republic of Kiribati",
-      "population": 119446,
-      "capital": "South Tarawa",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/ki.svg",
-      "vote": 0
-    },
-    {
-      "id": "KY",
-      "name": "Cayman Islands",
-      "nameGe": "Cayman Islands",
-      "population": 65720,
-      "capital": "George Town",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/ky.svg",
-      "vote": 0
-    },
-    {
-      "id": "CR",
-      "name": "Costa Rica",
-      "nameGe": "Republic of Costa Rica",
-      "population": 5094114,
-      "capital": "San José",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/cr.svg",
-      "vote": 0
-    },
-    {
-      "id": "DM",
-      "name": "Dominica",
-      "nameGe": "Commonwealth of Dominica",
-      "population": 71991,
-      "capital": "Roseau",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/dm.svg",
-      "vote": 0
-    },
-    {
-      "id": "EH",
-      "name": "Western Sahara",
-      "nameGe": "Sahrawi Arab Democratic Republic",
-      "population": 510713,
-      "capital": "El Aaiún",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/eh.svg",
-      "vote": 0
-    },
-    {
-      "id": "CC",
-      "name": "Cocos (Keeling) Islands",
-      "nameGe": "Territory of the Cocos (Keeling) Islands",
-      "population": 544,
-      "capital": "West Island",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/cc.svg",
-      "vote": 0
-    },
-    {
-      "id": "NR",
-      "name": "Nauru",
-      "nameGe": "Republic of Nauru",
-      "population": 10834,
-      "capital": "Yaren",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/nr.svg",
-      "vote": 0
-    },
-    {
-      "id": "TC",
-      "name": "Turks and Caicos Islands",
-      "nameGe": "Turks and Caicos Islands",
-      "population": 38718,
-      "capital": "Cockburn Town",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/tc.svg",
-      "vote": 0
-    },
-    {
-      "id": "AR",
-      "name": "Argentina",
-      "nameGe": "Argentine Republic",
-      "population": 45376763,
-      "capital": "Buenos Aires",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/ar.svg",
-      "vote": 0
-    },
-    {
-      "id": "AI",
-      "name": "Anguilla",
-      "nameGe": "Anguilla",
-      "population": 13452,
-      "capital": "The Valley",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/ai.svg",
-      "vote": 0
-    },
-    {
-      "id": "NI",
-      "name": "Nicaragua",
-      "nameGe": "Republic of Nicaragua",
-      "population": 6624554,
-      "capital": "Managua",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/ni.svg",
-      "vote": 0
-    },
-    {
-      "id": "NZ",
-      "name": "New Zealand",
-      "nameGe": "New Zealand",
-      "population": 5084300,
-      "capital": "Wellington",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/nz.svg",
-      "vote": 0
-    },
-    {
-      "id": "BE",
-      "name": "Belgium",
-      "nameGe": "Kingdom of Belgium",
-      "population": 11555997,
-      "capital": "Brussels",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/be.svg",
-      "vote": 0
-    },
-    {
-      "id": "IL",
-      "name": "Israel",
-      "nameGe": "State of Israel",
-      "population": 9216900,
-      "capital": "Jerusalem",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/il.svg",
-      "vote": 0
-    },
-    {
-      "id": "AS",
-      "name": "American Samoa",
-      "nameGe": "American Samoa",
-      "population": 55197,
-      "capital": "Pago Pago",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/as.svg",
-      "vote": 0
-    },
-    {
-      "id": "CG",
-      "name": "Republic of the Congo",
-      "nameGe": "Republic of the Congo",
-      "population": 5657000,
-      "capital": "Brazzaville",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/cg.svg",
-      "vote": 0
-    },
-    {
-      "id": "MN",
-      "name": "Mongolia",
-      "nameGe": "Mongolia",
-      "population": 3278292,
-      "capital": "Ulan Bator",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/mn.svg",
-      "vote": 0
-    },
-    {
-      "id": "PT",
-      "name": "Portugal",
-      "nameGe": "Portuguese Republic",
-      "population": 10305564,
-      "capital": "Lisbon",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/pt.svg",
-      "vote": 0
-    },
-    {
-      "id": "ZW",
-      "name": "Zimbabwe",
-      "nameGe": "Republic of Zimbabwe",
-      "population": 14862927,
-      "capital": "Harare",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/zw.svg",
-      "vote": 0
-    },
-    {
-      "id": "MF",
-      "name": "Saint Martin",
-      "nameGe": "Saint Martin",
-      "population": 38659,
-      "capital": "Marigot",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/mf.svg",
-      "vote": 0
-    },
-    {
-      "id": "GH",
-      "name": "Ghana",
-      "nameGe": "Republic of Ghana",
-      "population": 31072945,
-      "capital": "Accra",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/gh.svg",
-      "vote": 0
-    },
-    {
-      "id": "TD",
-      "name": "Chad",
-      "nameGe": "Republic of Chad",
-      "population": 16425859,
-      "capital": "N'Djamena",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/td.svg",
-      "vote": 0
-    },
-    {
-      "id": "LU",
-      "name": "Luxembourg",
-      "nameGe": "Grand Duchy of Luxembourg",
-      "population": 632275,
-      "capital": "Luxembourg",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/lu.svg",
-      "vote": 0
-    },
-    {
-      "id": "IS",
-      "name": "Iceland",
-      "nameGe": "Iceland",
-      "population": 366425,
-      "capital": "Reykjavik",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/is.svg",
-      "vote": 0
-    },
-    {
-      "id": "SX",
-      "name": "Sint Maarten",
-      "nameGe": "Sint Maarten",
-      "population": 40812,
-      "capital": "Philipsburg",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/sx.svg",
-      "vote": 0
-    },
-    {
-      "id": "LS",
-      "name": "Lesotho",
-      "nameGe": "Kingdom of Lesotho",
-      "population": 2142252,
-      "capital": "Maseru",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/ls.svg",
-      "vote": 0
-    },
-    {
-      "id": "MH",
-      "name": "Marshall Islands",
-      "nameGe": "Republic of the Marshall Islands",
-      "population": 59194,
-      "capital": "Majuro",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/mh.svg",
-      "vote": 0
-    },
-    {
-      "id": "SM",
-      "name": "San Marino",
-      "nameGe": "Republic of San Marino",
-      "population": 33938,
-      "capital": "City of San Marino",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/sm.svg",
-      "vote": 0
-    },
-    {
-      "id": "MO",
-      "name": "Macau",
-      "nameGe": "Macao Special Administrative Region of the People's Republic of China",
-      "population": 649342,
-      "capital": "N/A",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/mo.svg",
-      "vote": 0
-    },
-    {
-      "id": "OM",
-      "name": "Oman",
-      "nameGe": "Sultanate of Oman",
-      "population": 5106622,
-      "capital": "Muscat",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/om.svg",
-      "vote": 0
-    },
-    {
-      "id": "PM",
-      "name": "Saint Pierre and Miquelon",
-      "nameGe": "Saint Pierre and Miquelon",
-      "population": 6069,
-      "capital": "Saint-Pierre",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/pm.svg",
-      "vote": 0
-    },
-    {
-      "id": "SI",
-      "name": "Slovenia",
-      "nameGe": "Republic of Slovenia",
-      "population": 2100126,
-      "capital": "Ljubljana",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/si.svg",
-      "vote": 0
-    },
-    {
-      "id": "ET",
-      "name": "Ethiopia",
-      "nameGe": "Federal Democratic Republic of Ethiopia",
-      "population": 114963583,
-      "capital": "Addis Ababa",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/et.svg",
-      "vote": 0
-    },
-    {
-      "id": "ES",
-      "name": "Spain",
-      "nameGe": "Kingdom of Spain",
-      "population": 47351567,
-      "capital": "Madrid",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/es.svg",
-      "vote": 0
-    },
-    {
-      "id": "SA",
-      "name": "Saudi Arabia",
-      "nameGe": "Kingdom of Saudi Arabia",
-      "population": 34813867,
-      "capital": "Riyadh",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/sa.svg",
-      "vote": 0
-    },
-    {
-      "id": "BA",
-      "name": "Bosnia and Herzegovina",
-      "nameGe": "Bosnia and Herzegovina",
-      "population": 3280815,
-      "capital": "Sarajevo",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/ba.svg",
-      "vote": 0
-    },
-    {
-      "id": "MW",
-      "name": "Malawi",
-      "nameGe": "Republic of Malawi",
-      "population": 19129955,
-      "capital": "Lilongwe",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/mw.svg",
-      "vote": 0
-    },
-    {
-      "id": "CA",
-      "name": "Canada",
-      "nameGe": "Canada",
-      "population": 38005238,
-      "capital": "Ottawa",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/ca.svg",
-      "vote": 0
-    },
-    {
-      "id": "CY",
-      "name": "Cyprus",
-      "nameGe": "Republic of Cyprus",
-      "population": 1207361,
-      "capital": "Nicosia",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/cy.svg",
-      "vote": 0
-    },
-    {
-      "id": "ST",
-      "name": "São Tomé and Príncipe",
-      "nameGe": "Democratic Republic of São Tomé and Príncipe",
-      "population": 219161,
-      "capital": "São Tomé",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/st.svg",
-      "vote": 0
-    },
-    {
-      "id": "MY",
-      "name": "Malaysia",
-      "nameGe": "Malaysia",
-      "population": 32365998,
-      "capital": "Kuala Lumpur",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/my.svg",
-      "vote": 0
-    },
-    {
-      "id": "RU",
-      "name": "Russia",
-      "nameGe": "Russian Federation",
-      "population": 144104080,
-      "capital": "Moscow",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/ru.svg",
-      "vote": 0
-    },
-    {
-      "id": "KG",
-      "name": "Kyrgyzstan",
-      "nameGe": "Kyrgyz Republic",
-      "population": 6591600,
-      "capital": "Bishkek",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/kg.svg",
-      "vote": 0
-    },
-    {
-      "id": "CU",
-      "name": "Cuba",
-      "nameGe": "Republic of Cuba",
-      "population": 11326616,
-      "capital": "Havana",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/cu.svg",
-      "vote": 0
-    },
-    {
-      "id": "SE",
-      "name": "Sweden",
-      "nameGe": "Kingdom of Sweden",
-      "population": 10353442,
-      "capital": "Stockholm",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/se.svg",
-      "vote": 0
-    },
-    {
-      "id": "TF",
-      "name": "French Southern and Antarctic Lands",
-      "nameGe": "Territory of the French Southern and Antarctic Lands",
-      "population": 400,
-      "capital": "Port-aux-Français",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/tf.svg",
-      "vote": 0
-    },
-    {
-      "id": "KH",
-      "name": "Cambodia",
-      "nameGe": "Kingdom of Cambodia",
-      "population": 16718971,
-      "capital": "Phnom Penh",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/kh.svg",
-      "vote": 0
-    },
-    {
-      "id": "IQ",
-      "name": "Iraq",
-      "nameGe": "Republic of Iraq",
-      "population": 40222503,
-      "capital": "Baghdad",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/iq.svg",
-      "vote": 0
-    },
-    {
-      "id": "GL",
-      "name": "Greenland",
-      "nameGe": "Greenland",
-      "population": 56367,
-      "capital": "Nuuk",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/gl.svg",
-      "vote": 0
-    },
-    {
-      "id": "DE",
-      "name": "Germany",
-      "nameGe": "Federal Republic of Germany",
-      "population": 83240525,
-      "capital": "Berlin",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/de.svg",
-      "vote": 0
-    },
-    {
-      "id": "AE",
-      "name": "United Arab Emirates",
-      "nameGe": "United Arab Emirates",
-      "population": 9890400,
-      "capital": "Abu Dhabi",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/ae.svg",
-      "vote": 0
-    },
-    {
-      "id": "BG",
-      "name": "Bulgaria",
-      "nameGe": "Republic of Bulgaria",
-      "population": 6927288,
-      "capital": "Sofia",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/bg.svg",
-      "vote": 0
-    },
-    {
-      "id": "IM",
-      "name": "Isle of Man",
-      "nameGe": "Isle of Man",
-      "population": 85032,
-      "capital": "Douglas",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/im.svg",
-      "vote": 0
-    },
-    {
-      "id": "NA",
-      "name": "Namibia",
-      "nameGe": "Republic of Namibia",
-      "population": 2540916,
-      "capital": "Windhoek",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/na.svg",
-      "vote": 0
-    },
-    {
-      "id": "SV",
-      "name": "El Salvador",
-      "nameGe": "Republic of El Salvador",
-      "population": 6486201,
-      "capital": "San Salvador",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/sv.svg",
-      "vote": 0
-    },
-    {
-      "id": "UA",
-      "name": "Ukraine",
-      "nameGe": "Ukraine",
-      "population": 44134693,
-      "capital": "Kyiv",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/ua.svg",
-      "vote": 0
-    },
-    {
-      "id": "PY",
-      "name": "Paraguay",
-      "nameGe": "Republic of Paraguay",
-      "population": 7132530,
-      "capital": "Asunción",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/py.svg",
-      "vote": 0
-    },
-    {
-      "id": "SZ",
-      "name": "Eswatini",
-      "nameGe": "Kingdom of Eswatini",
-      "population": 1160164,
-      "capital": "Mbabane",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/sz.svg",
-      "vote": 0
-    },
-    {
-      "id": "SY",
-      "name": "Syria",
-      "nameGe": "Syrian Arab Republic",
-      "population": 17500657,
-      "capital": "Damascus",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/sy.svg",
-      "vote": 0
-    },
-    {
-      "id": "ME",
-      "name": "Montenegro",
-      "nameGe": "Montenegro",
-      "population": 621718,
-      "capital": "Podgorica",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/me.svg",
-      "vote": 0
-    },
-    {
-      "id": "MG",
-      "name": "Madagascar",
-      "nameGe": "Republic of Madagascar",
-      "population": 27691019,
-      "capital": "Antananarivo",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/mg.svg",
-      "vote": 0
-    },
-    {
-      "id": "IN",
-      "name": "India",
-      "nameGe": "Republic of India",
-      "population": 1380004385,
-      "capital": "New Delhi",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/in.svg",
-      "vote": 0
-    },
-    {
-      "id": "BV",
-      "name": "Bouvet Island",
-      "nameGe": "Bouvet Island",
-      "population": 0,
-      "capital": "N/A",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/bv.svg",
-      "vote": 0
-    },
-    {
-      "id": "QA",
-      "name": "Qatar",
-      "nameGe": "State of Qatar",
-      "population": 2881060,
-      "capital": "Doha",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/qa.svg",
-      "vote": 0
+      "title": {
+        "ka": "Papua New Guinea",
+        "en": "Papua New Guinea"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Papua New Guinea შესახებ",
+        "en": "Information about Papua New Guinea"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/pg.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "YT",
+      "title": {
+        "ka": "Mayotte",
+        "en": "Mayotte"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Mayotte შესახებ",
+        "en": "Information about Mayotte"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/yt.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "DO",
-      "name": "Dominican Republic",
-      "nameGe": "Dominican Republic",
-      "population": 10847904,
-      "capital": "Santo Domingo",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/do.svg",
-      "vote": 0
+      "title": {
+        "ka": "Dominican Republic",
+        "en": "Dominican Republic"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Dominican Republic შესახებ",
+        "en": "Information about Dominican Republic"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/do.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
-      "id": "FM",
-      "name": "Micronesia",
-      "nameGe": "Federated States of Micronesia",
-      "population": 115021,
-      "capital": "Palikir",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/fm.svg",
-      "vote": 0
+      "id": "NF",
+      "title": {
+        "ka": "Norfolk Island",
+        "en": "Norfolk Island"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Norfolk Island შესახებ",
+        "en": "Information about Norfolk Island"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/nf.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
-      "id": "PA",
-      "name": "Panama",
-      "nameGe": "Republic of Panama",
-      "population": 4314768,
-      "capital": "Panama City",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/pa.svg",
-      "vote": 0
+      "id": "BV",
+      "title": {
+        "ka": "Bouvet Island",
+        "en": "Bouvet Island"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Bouvet Island შესახებ",
+        "en": "Information about Bouvet Island"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/bv.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
-      "id": "TM",
-      "name": "Turkmenistan",
-      "nameGe": "Turkmenistan",
-      "population": 6031187,
-      "capital": "Ashgabat",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/tm.svg",
-      "vote": 0
+      "id": "QA",
+      "title": {
+        "ka": "Qatar",
+        "en": "Qatar"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Qatar შესახებ",
+        "en": "Information about Qatar"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/qa.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
-      "id": "AT",
-      "name": "Austria",
-      "nameGe": "Republic of Austria",
-      "population": 8917205,
-      "capital": "Vienna",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/at.svg",
-      "vote": 0
+      "id": "MG",
+      "title": {
+        "ka": "Madagascar",
+        "en": "Madagascar"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Madagascar შესახებ",
+        "en": "Information about Madagascar"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/mg.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
-      "id": "AG",
-      "name": "Antigua and Barbuda",
-      "nameGe": "Antigua and Barbuda",
-      "population": 97928,
-      "capital": "Saint John's",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/ag.svg",
-      "vote": 0
+      "id": "IN",
+      "title": {
+        "ka": "India",
+        "en": "India"
+      },
+      "description1": {
+        "ka": "ინფორმაცია India შესახებ",
+        "en": "Information about India"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/in.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
-      "id": "VA",
-      "name": "Vatican City",
-      "nameGe": "Vatican City State",
-      "population": 451,
-      "capital": "Vatican City",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/va.svg",
-      "vote": 0
+      "id": "SY",
+      "title": {
+        "ka": "Syria",
+        "en": "Syria"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Syria შესახებ",
+        "en": "Information about Syria"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/sy.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
-      "id": "UY",
-      "name": "Uruguay",
-      "nameGe": "Oriental Republic of Uruguay",
-      "population": 3473727,
-      "capital": "Montevideo",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/uy.svg",
-      "vote": 0
+      "id": "ME",
+      "title": {
+        "ka": "Montenegro",
+        "en": "Montenegro"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Montenegro შესახებ",
+        "en": "Information about Montenegro"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/me.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
-      "id": "VN",
-      "name": "Vietnam",
-      "nameGe": "Socialist Republic of Vietnam",
-      "population": 97338583,
-      "capital": "Hanoi",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/vn.svg",
-      "vote": 0
+      "id": "SZ",
+      "title": {
+        "ka": "Eswatini",
+        "en": "Eswatini"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Eswatini შესახებ",
+        "en": "Information about Eswatini"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/sz.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
-      "id": "GY",
-      "name": "Guyana",
-      "nameGe": "Co-operative Republic of Guyana",
-      "population": 786559,
-      "capital": "Georgetown",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/gy.svg",
-      "vote": 0
+      "id": "PY",
+      "title": {
+        "ka": "Paraguay",
+        "en": "Paraguay"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Paraguay შესახებ",
+        "en": "Information about Paraguay"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/py.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
-      "id": "RO",
-      "name": "Romania",
-      "nameGe": "Romania",
-      "population": 19286123,
-      "capital": "Bucharest",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/ro.svg",
-      "vote": 0
+      "id": "SV",
+      "title": {
+        "ka": "El Salvador",
+        "en": "El Salvador"
+      },
+      "description1": {
+        "ka": "ინფორმაცია El Salvador შესახებ",
+        "en": "Information about El Salvador"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/sv.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
-      "id": "NU",
-      "name": "Niue",
-      "nameGe": "Niue",
-      "population": 1470,
-      "capital": "Alofi",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/nu.svg",
-      "vote": 0
+      "id": "UA",
+      "title": {
+        "ka": "Ukraine",
+        "en": "Ukraine"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Ukraine შესახებ",
+        "en": "Information about Ukraine"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/ua.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
-      "id": "VG",
-      "name": "British Virgin Islands",
-      "nameGe": "Virgin Islands",
-      "population": 30237,
-      "capital": "Road Town",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/vg.svg",
-      "vote": 0
+      "id": "IM",
+      "title": {
+        "ka": "Isle of Man",
+        "en": "Isle of Man"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Isle of Man შესახებ",
+        "en": "Information about Isle of Man"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/im.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
-      "id": "KE",
-      "name": "Kenya",
-      "nameGe": "Republic of Kenya",
-      "population": 53771300,
-      "capital": "Nairobi",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/ke.svg",
-      "vote": 0
+      "id": "NA",
+      "title": {
+        "ka": "Namibia",
+        "en": "Namibia"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Namibia შესახებ",
+        "en": "Information about Namibia"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/na.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
-      "id": "TG",
-      "name": "Togo",
-      "nameGe": "Togolese Republic",
-      "population": 8278737,
-      "capital": "Lomé",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/tg.svg",
-      "vote": 0
+      "id": "AE",
+      "title": {
+        "ka": "United Arab Emirates",
+        "en": "United Arab Emirates"
+      },
+      "description1": {
+        "ka": "ინფორმაცია United Arab Emirates შესახებ",
+        "en": "Information about United Arab Emirates"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/ae.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
-      "id": "VU",
-      "name": "Vanuatu",
-      "nameGe": "Republic of Vanuatu",
-      "population": 307150,
-      "capital": "Port Vila",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/vu.svg",
-      "vote": 0
+      "id": "BG",
+      "title": {
+        "ka": "Bulgaria",
+        "en": "Bulgaria"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Bulgaria შესახებ",
+        "en": "Information about Bulgaria"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/bg.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
-      "id": "NC",
-      "name": "New Caledonia",
-      "nameGe": "New Caledonia",
-      "population": 271960,
-      "capital": "Nouméa",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/nc.svg",
-      "vote": 0
+      "id": "GL",
+      "title": {
+        "ka": "Greenland",
+        "en": "Greenland"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Greenland შესახებ",
+        "en": "Information about Greenland"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/gl.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
-      "id": "CZ",
-      "name": "Czechia",
-      "nameGe": "Czech Republic",
-      "population": 10698896,
-      "capital": "Prague",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/cz.svg",
-      "vote": 0
+      "id": "DE",
+      "title": {
+        "ka": "Germany",
+        "en": "Germany"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Germany შესახებ",
+        "en": "Information about Germany"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/de.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
-      "id": "CD",
-      "name": "DR Congo",
-      "nameGe": "Democratic Republic of the Congo",
-      "population": 108407721,
-      "capital": "Kinshasa",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/cd.svg",
-      "vote": 0
+      "id": "KH",
+      "title": {
+        "ka": "Cambodia",
+        "en": "Cambodia"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Cambodia შესახებ",
+        "en": "Information about Cambodia"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/kh.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
-      "id": "SR",
-      "name": "Suriname",
-      "nameGe": "Republic of Suriname",
-      "population": 586634,
-      "capital": "Paramaribo",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/sr.svg",
-      "vote": 0
+      "id": "IQ",
+      "title": {
+        "ka": "Iraq",
+        "en": "Iraq"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Iraq შესახებ",
+        "en": "Information about Iraq"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/iq.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
-      "id": "BH",
-      "name": "Bahrain",
-      "nameGe": "Kingdom of Bahrain",
-      "population": 1701583,
-      "capital": "Manama",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/bh.svg",
-      "vote": 0
+      "id": "TF",
+      "title": {
+        "ka": "French Southern and Antarctic Lands",
+        "en": "French Southern and Antarctic Lands"
+      },
+      "description1": {
+        "ka": "ინფორმაცია French Southern and Antarctic Lands შესახებ",
+        "en": "Information about French Southern and Antarctic Lands"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/tf.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
-      "id": "GN",
-      "name": "Guinea",
-      "nameGe": "Republic of Guinea",
-      "population": 13132792,
-      "capital": "Conakry",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/gn.svg",
-      "vote": 0
+      "id": "SE",
+      "title": {
+        "ka": "Sweden",
+        "en": "Sweden"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Sweden შესახებ",
+        "en": "Information about Sweden"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/se.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
-      "id": "CM",
-      "name": "Cameroon",
-      "nameGe": "Republic of Cameroon",
-      "population": 26545864,
-      "capital": "Yaoundé",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/cm.svg",
-      "vote": 0
+      "id": "CU",
+      "title": {
+        "ka": "Cuba",
+        "en": "Cuba"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Cuba შესახებ",
+        "en": "Information about Cuba"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/cu.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
-      "id": "DK",
-      "name": "Denmark",
-      "nameGe": "Kingdom of Denmark",
-      "population": 5831404,
-      "capital": "Copenhagen",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/dk.svg",
-      "vote": 0
+      "id": "KG",
+      "title": {
+        "ka": "Kyrgyzstan",
+        "en": "Kyrgyzstan"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Kyrgyzstan შესახებ",
+        "en": "Information about Kyrgyzstan"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/kg.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
-      "id": "GI",
-      "name": "Gibraltar",
-      "nameGe": "Gibraltar",
-      "population": 33691,
-      "capital": "Gibraltar",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/gi.svg",
-      "vote": 0
+      "id": "RU",
+      "title": {
+        "ka": "Russia",
+        "en": "Russia"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Russia შესახებ",
+        "en": "Information about Russia"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/ru.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
-      "id": "PH",
-      "name": "Philippines",
-      "nameGe": "Republic of the Philippines",
-      "population": 109581085,
-      "capital": "Manila",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/ph.svg",
-      "vote": 0
+      "id": "MY",
+      "title": {
+        "ka": "Malaysia",
+        "en": "Malaysia"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Malaysia შესახებ",
+        "en": "Information about Malaysia"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/my.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
-      "id": "PW",
-      "name": "Palau",
-      "nameGe": "Republic of Palau",
-      "population": 18092,
-      "capital": "Ngerulmud",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/pw.svg",
-      "vote": 0
+      "id": "ST",
+      "title": {
+        "ka": "São Tomé and Príncipe",
+        "en": "São Tomé and Príncipe"
+      },
+      "description1": {
+        "ka": "ინფორმაცია São Tomé and Príncipe შესახებ",
+        "en": "Information about São Tomé and Príncipe"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/st.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
-      "id": "LV",
-      "name": "Latvia",
-      "nameGe": "Republic of Latvia",
-      "population": 1901548,
-      "capital": "Riga",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/lv.svg",
-      "vote": 0
+      "id": "CY",
+      "title": {
+        "ka": "Cyprus",
+        "en": "Cyprus"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Cyprus შესახებ",
+        "en": "Information about Cyprus"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/cy.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
-      "id": "BY",
-      "name": "Belarus",
-      "nameGe": "Republic of Belarus",
-      "population": 9398861,
-      "capital": "Minsk",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/by.svg",
-      "vote": 0
+      "id": "CA",
+      "title": {
+        "ka": "Canada",
+        "en": "Canada"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Canada შესახებ",
+        "en": "Information about Canada"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/ca.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
-      "id": "PF",
-      "name": "French Polynesia",
-      "nameGe": "French Polynesia",
-      "population": 280904,
-      "capital": "Papeetē",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/pf.svg",
-      "vote": 0
+      "id": "MW",
+      "title": {
+        "ka": "Malawi",
+        "en": "Malawi"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Malawi შესახებ",
+        "en": "Information about Malawi"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/mw.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "SA",
+      "title": {
+        "ka": "Saudi Arabia",
+        "en": "Saudi Arabia"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Saudi Arabia შესახებ",
+        "en": "Information about Saudi Arabia"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/sa.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "BA",
+      "title": {
+        "ka": "Bosnia and Herzegovina",
+        "en": "Bosnia and Herzegovina"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Bosnia and Herzegovina შესახებ",
+        "en": "Information about Bosnia and Herzegovina"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/ba.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "ET",
+      "title": {
+        "ka": "Ethiopia",
+        "en": "Ethiopia"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Ethiopia შესახებ",
+        "en": "Information about Ethiopia"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/et.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "ES",
+      "title": {
+        "ka": "Spain",
+        "en": "Spain"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Spain შესახებ",
+        "en": "Information about Spain"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/es.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "SI",
+      "title": {
+        "ka": "Slovenia",
+        "en": "Slovenia"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Slovenia შესახებ",
+        "en": "Information about Slovenia"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/si.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "OM",
+      "title": {
+        "ka": "Oman",
+        "en": "Oman"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Oman შესახებ",
+        "en": "Information about Oman"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/om.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "PM",
+      "title": {
+        "ka": "Saint Pierre and Miquelon",
+        "en": "Saint Pierre and Miquelon"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Saint Pierre and Miquelon შესახებ",
+        "en": "Information about Saint Pierre and Miquelon"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/pm.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "MO",
+      "title": {
+        "ka": "Macau",
+        "en": "Macau"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Macau შესახებ",
+        "en": "Information about Macau"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/mo.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "SM",
+      "title": {
+        "ka": "San Marino",
+        "en": "San Marino"
+      },
+      "description1": {
+        "ka": "ინფორმაცია San Marino შესახებ",
+        "en": "Information about San Marino"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/sm.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "LS",
+      "title": {
+        "ka": "Lesotho",
+        "en": "Lesotho"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Lesotho შესახებ",
+        "en": "Information about Lesotho"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/ls.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "MH",
+      "title": {
+        "ka": "Marshall Islands",
+        "en": "Marshall Islands"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Marshall Islands შესახებ",
+        "en": "Information about Marshall Islands"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/mh.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "SX",
+      "title": {
+        "ka": "Sint Maarten",
+        "en": "Sint Maarten"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Sint Maarten შესახებ",
+        "en": "Information about Sint Maarten"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/sx.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "IS",
+      "title": {
+        "ka": "Iceland",
+        "en": "Iceland"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Iceland შესახებ",
+        "en": "Information about Iceland"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/is.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "LU",
+      "title": {
+        "ka": "Luxembourg",
+        "en": "Luxembourg"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Luxembourg შესახებ",
+        "en": "Information about Luxembourg"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/lu.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "AR",
+      "title": {
+        "ka": "Argentina",
+        "en": "Argentina"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Argentina შესახებ",
+        "en": "Information about Argentina"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/ar.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "TC",
+      "title": {
+        "ka": "Turks and Caicos Islands",
+        "en": "Turks and Caicos Islands"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Turks and Caicos Islands შესახებ",
+        "en": "Information about Turks and Caicos Islands"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/tc.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "NR",
+      "title": {
+        "ka": "Nauru",
+        "en": "Nauru"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Nauru შესახებ",
+        "en": "Information about Nauru"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/nr.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "CC",
+      "title": {
+        "ka": "Cocos (Keeling) Islands",
+        "en": "Cocos (Keeling) Islands"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Cocos (Keeling) Islands შესახებ",
+        "en": "Information about Cocos (Keeling) Islands"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/cc.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "EH",
+      "title": {
+        "ka": "Western Sahara",
+        "en": "Western Sahara"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Western Sahara შესახებ",
+        "en": "Information about Western Sahara"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/eh.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "DM",
+      "title": {
+        "ka": "Dominica",
+        "en": "Dominica"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Dominica შესახებ",
+        "en": "Information about Dominica"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/dm.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "CR",
+      "title": {
+        "ka": "Costa Rica",
+        "en": "Costa Rica"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Costa Rica შესახებ",
+        "en": "Information about Costa Rica"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/cr.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "AU",
+      "title": {
+        "ka": "Australia",
+        "en": "Australia"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Australia შესახებ",
+        "en": "Information about Australia"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/au.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "TH",
+      "title": {
+        "ka": "Thailand",
+        "en": "Thailand"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Thailand შესახებ",
+        "en": "Information about Thailand"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/th.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "HT",
+      "title": {
+        "ka": "Haiti",
+        "en": "Haiti"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Haiti შესახებ",
+        "en": "Information about Haiti"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/ht.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "TV",
+      "title": {
+        "ka": "Tuvalu",
+        "en": "Tuvalu"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Tuvalu შესახებ",
+        "en": "Information about Tuvalu"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/tv.svg",
+      "likeCount": 0,
+      "isDeleted": false
     },
     {
       "id": "HN",
-      "name": "Honduras",
-      "nameGe": "Republic of Honduras",
-      "population": 9904608,
-      "capital": "Tegucigalpa",
-      "capitalGe": "N/A",
-      "image": "https://flagcdn.com/hn.svg",
-      "vote": 0
+      "title": {
+        "ka": "Honduras",
+        "en": "Honduras"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Honduras შესახებ",
+        "en": "Information about Honduras"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/hn.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "GQ",
+      "title": {
+        "ka": "Equatorial Guinea",
+        "en": "Equatorial Guinea"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Equatorial Guinea შესახებ",
+        "en": "Information about Equatorial Guinea"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/gq.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "LC",
+      "title": {
+        "ka": "Saint Lucia",
+        "en": "Saint Lucia"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Saint Lucia შესახებ",
+        "en": "Information about Saint Lucia"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/lc.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "PF",
+      "title": {
+        "ka": "French Polynesia",
+        "en": "French Polynesia"
+      },
+      "description1": {
+        "ka": "ინფორმაცია French Polynesia შესახებ",
+        "en": "Information about French Polynesia"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/pf.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "BY",
+      "title": {
+        "ka": "Belarus",
+        "en": "Belarus"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Belarus შესახებ",
+        "en": "Information about Belarus"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/by.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "LV",
+      "title": {
+        "ka": "Latvia",
+        "en": "Latvia"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Latvia შესახებ",
+        "en": "Information about Latvia"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/lv.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "PW",
+      "title": {
+        "ka": "Palau",
+        "en": "Palau"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Palau შესახებ",
+        "en": "Information about Palau"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/pw.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "GP",
+      "title": {
+        "ka": "Guadeloupe",
+        "en": "Guadeloupe"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Guadeloupe შესახებ",
+        "en": "Information about Guadeloupe"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/gp.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "PH",
+      "title": {
+        "ka": "Philippines",
+        "en": "Philippines"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Philippines შესახებ",
+        "en": "Information about Philippines"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/ph.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "GI",
+      "title": {
+        "ka": "Gibraltar",
+        "en": "Gibraltar"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Gibraltar შესახებ",
+        "en": "Information about Gibraltar"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/gi.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "DK",
+      "title": {
+        "ka": "Denmark",
+        "en": "Denmark"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Denmark შესახებ",
+        "en": "Information about Denmark"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/dk.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "CM",
+      "title": {
+        "ka": "Cameroon",
+        "en": "Cameroon"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Cameroon შესახებ",
+        "en": "Information about Cameroon"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/cm.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "GN",
+      "title": {
+        "ka": "Guinea",
+        "en": "Guinea"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Guinea შესახებ",
+        "en": "Information about Guinea"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/gn.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "BH",
+      "title": {
+        "ka": "Bahrain",
+        "en": "Bahrain"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Bahrain შესახებ",
+        "en": "Information about Bahrain"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/bh.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "SR",
+      "title": {
+        "ka": "Suriname",
+        "en": "Suriname"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Suriname შესახებ",
+        "en": "Information about Suriname"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/sr.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "CD",
+      "title": {
+        "ka": "DR Congo",
+        "en": "DR Congo"
+      },
+      "description1": {
+        "ka": "ინფორმაცია DR Congo შესახებ",
+        "en": "Information about DR Congo"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/cd.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "SO",
+      "title": {
+        "ka": "Somalia",
+        "en": "Somalia"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Somalia შესახებ",
+        "en": "Information about Somalia"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/so.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "CZ",
+      "title": {
+        "ka": "Czechia",
+        "en": "Czechia"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Czechia შესახებ",
+        "en": "Information about Czechia"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/cz.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "NC",
+      "title": {
+        "ka": "New Caledonia",
+        "en": "New Caledonia"
+      },
+      "description1": {
+        "ka": "ინფორმაცია New Caledonia შესახებ",
+        "en": "Information about New Caledonia"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/nc.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "VU",
+      "title": {
+        "ka": "Vanuatu",
+        "en": "Vanuatu"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Vanuatu შესახებ",
+        "en": "Information about Vanuatu"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/vu.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "SH",
+      "title": {
+        "ka": "Saint Helena, Ascension and Tristan da Cunha",
+        "en": "Saint Helena, Ascension and Tristan da Cunha"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Saint Helena, Ascension and Tristan da Cunha შესახებ",
+        "en": "Information about Saint Helena, Ascension and Tristan da Cunha"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/sh.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "TG",
+      "title": {
+        "ka": "Togo",
+        "en": "Togo"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Togo შესახებ",
+        "en": "Information about Togo"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/tg.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "VG",
+      "title": {
+        "ka": "British Virgin Islands",
+        "en": "British Virgin Islands"
+      },
+      "description1": {
+        "ka": "ინფორმაცია British Virgin Islands შესახებ",
+        "en": "Information about British Virgin Islands"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/vg.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "KE",
+      "title": {
+        "ka": "Kenya",
+        "en": "Kenya"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Kenya შესახებ",
+        "en": "Information about Kenya"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/ke.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "NU",
+      "title": {
+        "ka": "Niue",
+        "en": "Niue"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Niue შესახებ",
+        "en": "Information about Niue"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/nu.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "HM",
+      "title": {
+        "ka": "Heard Island and McDonald Islands",
+        "en": "Heard Island and McDonald Islands"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Heard Island and McDonald Islands შესახებ",
+        "en": "Information about Heard Island and McDonald Islands"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/hm.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "RW",
+      "title": {
+        "ka": "Rwanda",
+        "en": "Rwanda"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Rwanda შესახებ",
+        "en": "Information about Rwanda"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/rw.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "EE",
+      "title": {
+        "ka": "Estonia",
+        "en": "Estonia"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Estonia შესახებ",
+        "en": "Information about Estonia"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/ee.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "RO",
+      "title": {
+        "ka": "Romania",
+        "en": "Romania"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Romania შესახებ",
+        "en": "Information about Romania"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/ro.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "TT",
+      "title": {
+        "ka": "Trinidad and Tobago",
+        "en": "Trinidad and Tobago"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Trinidad and Tobago შესახებ",
+        "en": "Information about Trinidad and Tobago"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/tt.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "GY",
+      "title": {
+        "ka": "Guyana",
+        "en": "Guyana"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Guyana შესახებ",
+        "en": "Information about Guyana"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/gy.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "TL",
+      "title": {
+        "ka": "Timor-Leste",
+        "en": "Timor-Leste"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Timor-Leste შესახებ",
+        "en": "Information about Timor-Leste"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/tl.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "VN",
+      "title": {
+        "ka": "Vietnam",
+        "en": "Vietnam"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Vietnam შესახებ",
+        "en": "Information about Vietnam"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/vn.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "UY",
+      "title": {
+        "ka": "Uruguay",
+        "en": "Uruguay"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Uruguay შესახებ",
+        "en": "Information about Uruguay"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/uy.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "VA",
+      "title": {
+        "ka": "Vatican City",
+        "en": "Vatican City"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Vatican City შესახებ",
+        "en": "Information about Vatican City"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/va.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "HK",
+      "title": {
+        "ka": "Hong Kong",
+        "en": "Hong Kong"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Hong Kong შესახებ",
+        "en": "Information about Hong Kong"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/hk.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "AT",
+      "title": {
+        "ka": "Austria",
+        "en": "Austria"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Austria შესახებ",
+        "en": "Information about Austria"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/at.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "AG",
+      "title": {
+        "ka": "Antigua and Barbuda",
+        "en": "Antigua and Barbuda"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Antigua and Barbuda შესახებ",
+        "en": "Information about Antigua and Barbuda"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/ag.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "TM",
+      "title": {
+        "ka": "Turkmenistan",
+        "en": "Turkmenistan"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Turkmenistan შესახებ",
+        "en": "Information about Turkmenistan"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/tm.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "MZ",
+      "title": {
+        "ka": "Mozambique",
+        "en": "Mozambique"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Mozambique შესახებ",
+        "en": "Information about Mozambique"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/mz.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "PA",
+      "title": {
+        "ka": "Panama",
+        "en": "Panama"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Panama შესახებ",
+        "en": "Information about Panama"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/pa.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "FM",
+      "title": {
+        "ka": "Micronesia",
+        "en": "Micronesia"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Micronesia შესახებ",
+        "en": "Information about Micronesia"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/fm.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "IE",
+      "title": {
+        "ka": "Ireland",
+        "en": "Ireland"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Ireland შესახებ",
+        "en": "Information about Ireland"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/ie.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "CW",
+      "title": {
+        "ka": "Curaçao",
+        "en": "Curaçao"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Curaçao შესახებ",
+        "en": "Information about Curaçao"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/cw.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "GF",
+      "title": {
+        "ka": "French Guiana",
+        "en": "French Guiana"
+      },
+      "description1": {
+        "ka": "ინფორმაცია French Guiana შესახებ",
+        "en": "Information about French Guiana"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/gf.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "NO",
+      "title": {
+        "ka": "Norway",
+        "en": "Norway"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Norway შესახებ",
+        "en": "Information about Norway"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/no.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "AX",
+      "title": {
+        "ka": "Åland Islands",
+        "en": "Åland Islands"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Åland Islands შესახებ",
+        "en": "Information about Åland Islands"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/ax.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "CF",
+      "title": {
+        "ka": "Central African Republic",
+        "en": "Central African Republic"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Central African Republic შესახებ",
+        "en": "Information about Central African Republic"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/cf.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "BF",
+      "title": {
+        "ka": "Burkina Faso",
+        "en": "Burkina Faso"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Burkina Faso შესახებ",
+        "en": "Information about Burkina Faso"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/bf.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "ER",
+      "title": {
+        "ka": "Eritrea",
+        "en": "Eritrea"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Eritrea შესახებ",
+        "en": "Information about Eritrea"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/er.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "TZ",
+      "title": {
+        "ka": "Tanzania",
+        "en": "Tanzania"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Tanzania შესახებ",
+        "en": "Information about Tanzania"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/tz.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "KR",
+      "title": {
+        "ka": "South Korea",
+        "en": "South Korea"
+      },
+      "description1": {
+        "ka": "ინფორმაცია South Korea შესახებ",
+        "en": "Information about South Korea"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/kr.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "JO",
+      "title": {
+        "ka": "Jordan",
+        "en": "Jordan"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Jordan შესახებ",
+        "en": "Information about Jordan"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/jo.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "MR",
+      "title": {
+        "ka": "Mauritania",
+        "en": "Mauritania"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Mauritania შესახებ",
+        "en": "Information about Mauritania"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/mr.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "LT",
+      "title": {
+        "ka": "Lithuania",
+        "en": "Lithuania"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Lithuania შესახებ",
+        "en": "Information about Lithuania"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/lt.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "UM",
+      "title": {
+        "ka": "United States Minor Outlying Islands",
+        "en": "United States Minor Outlying Islands"
+      },
+      "description1": {
+        "ka": "ინფორმაცია United States Minor Outlying Islands შესახებ",
+        "en": "Information about United States Minor Outlying Islands"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/um.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "SK",
+      "title": {
+        "ka": "Slovakia",
+        "en": "Slovakia"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Slovakia შესახებ",
+        "en": "Information about Slovakia"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/sk.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "AO",
+      "title": {
+        "ka": "Angola",
+        "en": "Angola"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Angola შესახებ",
+        "en": "Information about Angola"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/ao.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "KZ",
+      "title": {
+        "ka": "Kazakhstan",
+        "en": "Kazakhstan"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Kazakhstan შესახებ",
+        "en": "Information about Kazakhstan"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/kz.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "MD",
+      "title": {
+        "ka": "Moldova",
+        "en": "Moldova"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Moldova შესახებ",
+        "en": "Information about Moldova"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/md.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "ML",
+      "title": {
+        "ka": "Mali",
+        "en": "Mali"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Mali შესახებ",
+        "en": "Information about Mali"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/ml.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "FK",
+      "title": {
+        "ka": "Falkland Islands",
+        "en": "Falkland Islands"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Falkland Islands შესახებ",
+        "en": "Information about Falkland Islands"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/fk.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "AM",
+      "title": {
+        "ka": "Armenia",
+        "en": "Armenia"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Armenia შესახებ",
+        "en": "Information about Armenia"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/am.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "WS",
+      "title": {
+        "ka": "Samoa",
+        "en": "Samoa"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Samoa შესახებ",
+        "en": "Information about Samoa"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/ws.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "JE",
+      "title": {
+        "ka": "Jersey",
+        "en": "Jersey"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Jersey შესახებ",
+        "en": "Information about Jersey"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/je.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "JP",
+      "title": {
+        "ka": "Japan",
+        "en": "Japan"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Japan შესახებ",
+        "en": "Information about Japan"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/jp.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "BO",
+      "title": {
+        "ka": "Bolivia",
+        "en": "Bolivia"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Bolivia შესახებ",
+        "en": "Information about Bolivia"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/bo.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "CL",
+      "title": {
+        "ka": "Chile",
+        "en": "Chile"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Chile შესახებ",
+        "en": "Information about Chile"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/cl.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "US",
+      "title": {
+        "ka": "United States",
+        "en": "United States"
+      },
+      "description1": {
+        "ka": "ინფორმაცია United States შესახებ",
+        "en": "Information about United States"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/us.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "VC",
+      "title": {
+        "ka": "Saint Vincent and the Grenadines",
+        "en": "Saint Vincent and the Grenadines"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Saint Vincent and the Grenadines შესახებ",
+        "en": "Information about Saint Vincent and the Grenadines"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/vc.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "BM",
+      "title": {
+        "ka": "Bermuda",
+        "en": "Bermuda"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Bermuda შესახებ",
+        "en": "Information about Bermuda"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/bm.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "SC",
+      "title": {
+        "ka": "Seychelles",
+        "en": "Seychelles"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Seychelles შესახებ",
+        "en": "Information about Seychelles"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/sc.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "IO",
+      "title": {
+        "ka": "British Indian Ocean Territory",
+        "en": "British Indian Ocean Territory"
+      },
+      "description1": {
+        "ka": "ინფორმაცია British Indian Ocean Territory შესახებ",
+        "en": "Information about British Indian Ocean Territory"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/io.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "GT",
+      "title": {
+        "ka": "Guatemala",
+        "en": "Guatemala"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Guatemala შესახებ",
+        "en": "Information about Guatemala"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/gt.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "EC",
+      "title": {
+        "ka": "Ecuador",
+        "en": "Ecuador"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Ecuador შესახებ",
+        "en": "Information about Ecuador"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/ec.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "MQ",
+      "title": {
+        "ka": "Martinique",
+        "en": "Martinique"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Martinique შესახებ",
+        "en": "Information about Martinique"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/mq.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "TJ",
+      "title": {
+        "ka": "Tajikistan",
+        "en": "Tajikistan"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Tajikistan შესახებ",
+        "en": "Information about Tajikistan"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/tj.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "MT",
+      "title": {
+        "ka": "Malta",
+        "en": "Malta"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Malta შესახებ",
+        "en": "Information about Malta"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/mt.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "GM",
+      "title": {
+        "ka": "Gambia",
+        "en": "Gambia"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Gambia შესახებ",
+        "en": "Information about Gambia"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/gm.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "NG",
+      "title": {
+        "ka": "Nigeria",
+        "en": "Nigeria"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Nigeria შესახებ",
+        "en": "Information about Nigeria"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/ng.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "BS",
+      "title": {
+        "ka": "Bahamas",
+        "en": "Bahamas"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Bahamas შესახებ",
+        "en": "Information about Bahamas"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/bs.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "XK",
+      "title": {
+        "ka": "Kosovo",
+        "en": "Kosovo"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Kosovo შესახებ",
+        "en": "Information about Kosovo"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/xk.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "KW",
+      "title": {
+        "ka": "Kuwait",
+        "en": "Kuwait"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Kuwait შესახებ",
+        "en": "Information about Kuwait"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/kw.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "MV",
+      "title": {
+        "ka": "Maldives",
+        "en": "Maldives"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Maldives შესახებ",
+        "en": "Information about Maldives"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/mv.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "SS",
+      "title": {
+        "ka": "South Sudan",
+        "en": "South Sudan"
+      },
+      "description1": {
+        "ka": "ინფორმაცია South Sudan შესახებ",
+        "en": "Information about South Sudan"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/ss.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "IR",
+      "title": {
+        "ka": "Iran",
+        "en": "Iran"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Iran შესახებ",
+        "en": "Information about Iran"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/ir.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "AL",
+      "title": {
+        "ka": "Albania",
+        "en": "Albania"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Albania შესახებ",
+        "en": "Information about Albania"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/al.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "BR",
+      "title": {
+        "ka": "Brazil",
+        "en": "Brazil"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Brazil შესახებ",
+        "en": "Information about Brazil"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/br.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "RS",
+      "title": {
+        "ka": "Serbia",
+        "en": "Serbia"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Serbia შესახებ",
+        "en": "Information about Serbia"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/rs.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "BZ",
+      "title": {
+        "ka": "Belize",
+        "en": "Belize"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Belize შესახებ",
+        "en": "Information about Belize"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/bz.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "MM",
+      "title": {
+        "ka": "Myanmar",
+        "en": "Myanmar"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Myanmar შესახებ",
+        "en": "Information about Myanmar"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/mm.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "BT",
+      "title": {
+        "ka": "Bhutan",
+        "en": "Bhutan"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Bhutan შესახებ",
+        "en": "Information about Bhutan"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/bt.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "VE",
+      "title": {
+        "ka": "Venezuela",
+        "en": "Venezuela"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Venezuela შესახებ",
+        "en": "Information about Venezuela"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/ve.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "LR",
+      "title": {
+        "ka": "Liberia",
+        "en": "Liberia"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Liberia შესახებ",
+        "en": "Information about Liberia"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/lr.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "JM",
+      "title": {
+        "ka": "Jamaica",
+        "en": "Jamaica"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Jamaica შესახებ",
+        "en": "Information about Jamaica"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/jm.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "PL",
+      "title": {
+        "ka": "Poland",
+        "en": "Poland"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Poland შესახებ",
+        "en": "Information about Poland"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/pl.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "KY",
+      "title": {
+        "ka": "Cayman Islands",
+        "en": "Cayman Islands"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Cayman Islands შესახებ",
+        "en": "Information about Cayman Islands"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/ky.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "BN",
+      "title": {
+        "ka": "Brunei",
+        "en": "Brunei"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Brunei შესახებ",
+        "en": "Information about Brunei"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/bn.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "KM",
+      "title": {
+        "ka": "Comoros",
+        "en": "Comoros"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Comoros შესახებ",
+        "en": "Information about Comoros"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/km.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "GU",
+      "title": {
+        "ka": "Guam",
+        "en": "Guam"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Guam შესახებ",
+        "en": "Information about Guam"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/gu.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "TO",
+      "title": {
+        "ka": "Tonga",
+        "en": "Tonga"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Tonga შესახებ",
+        "en": "Information about Tonga"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/to.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "KI",
+      "title": {
+        "ka": "Kiribati",
+        "en": "Kiribati"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Kiribati შესახებ",
+        "en": "Information about Kiribati"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/ki.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "GH",
+      "title": {
+        "ka": "Ghana",
+        "en": "Ghana"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Ghana შესახებ",
+        "en": "Information about Ghana"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/gh.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "TD",
+      "title": {
+        "ka": "Chad",
+        "en": "Chad"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Chad შესახებ",
+        "en": "Information about Chad"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/td.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "ZW",
+      "title": {
+        "ka": "Zimbabwe",
+        "en": "Zimbabwe"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Zimbabwe შესახებ",
+        "en": "Information about Zimbabwe"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/zw.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "MF",
+      "title": {
+        "ka": "Saint Martin",
+        "en": "Saint Martin"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Saint Martin შესახებ",
+        "en": "Information about Saint Martin"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/mf.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "MN",
+      "title": {
+        "ka": "Mongolia",
+        "en": "Mongolia"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Mongolia შესახებ",
+        "en": "Information about Mongolia"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/mn.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "PT",
+      "title": {
+        "ka": "Portugal",
+        "en": "Portugal"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Portugal შესახებ",
+        "en": "Information about Portugal"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/pt.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "AS",
+      "title": {
+        "ka": "American Samoa",
+        "en": "American Samoa"
+      },
+      "description1": {
+        "ka": "ინფორმაცია American Samoa შესახებ",
+        "en": "Information about American Samoa"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/as.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "CG",
+      "title": {
+        "ka": "Republic of the Congo",
+        "en": "Republic of the Congo"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Republic of the Congo შესახებ",
+        "en": "Information about Republic of the Congo"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/cg.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "BE",
+      "title": {
+        "ka": "Belgium",
+        "en": "Belgium"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Belgium შესახებ",
+        "en": "Information about Belgium"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/be.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "IL",
+      "title": {
+        "ka": "Israel",
+        "en": "Israel"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Israel შესახებ",
+        "en": "Information about Israel"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/il.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "NZ",
+      "title": {
+        "ka": "New Zealand",
+        "en": "New Zealand"
+      },
+      "description1": {
+        "ka": "ინფორმაცია New Zealand შესახებ",
+        "en": "Information about New Zealand"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/nz.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "NI",
+      "title": {
+        "ka": "Nicaragua",
+        "en": "Nicaragua"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Nicaragua შესახებ",
+        "en": "Information about Nicaragua"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/ni.svg",
+      "likeCount": 0,
+      "isDeleted": false
+    },
+    {
+      "id": "AI",
+      "title": {
+        "ka": "Anguilla",
+        "en": "Anguilla"
+      },
+      "description1": {
+        "ka": "ინფორმაცია Anguilla შესახებ",
+        "en": "Information about Anguilla"
+      },
+      "description2": {
+        "ka": "",
+        "en": ""
+      },
+      "descriptionSpan": {
+        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
+        "en": "For more information, click here..."
+      },
+      "img": "https://flagcdn.com/ai.svg",
+      "likeCount": 0,
+      "isDeleted": false
     }
   ]
 }
