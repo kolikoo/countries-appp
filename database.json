@@ -1,0 +1,2224 @@
+{
+  "countries": [
+    {
+      "id": "GD",
+      "name": "Grenada",
+      "nameGe": "Grenada",
+      "population": 112519,
+      "capital": "St. George's",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/gd.svg",
+      "vote": 0
+    },
+    {
+      "id": "CH",
+      "name": "Switzerland",
+      "nameGe": "Swiss Confederation",
+      "population": 8654622,
+      "capital": "Bern",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/ch.svg",
+      "vote": 0
+    },
+    {
+      "id": "SL",
+      "name": "Sierra Leone",
+      "nameGe": "Republic of Sierra Leone",
+      "population": 7976985,
+      "capital": "Freetown",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/sl.svg",
+      "vote": 0
+    },
+    {
+      "id": "HU",
+      "name": "Hungary",
+      "nameGe": "Hungary",
+      "population": 9749763,
+      "capital": "Budapest",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/hu.svg",
+      "vote": 0
+    },
+    {
+      "id": "TW",
+      "name": "Taiwan",
+      "nameGe": "Republic of China (Taiwan)",
+      "population": 23503349,
+      "capital": "Taipei",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/tw.svg",
+      "vote": 0
+    },
+    {
+      "id": "WF",
+      "name": "Wallis and Futuna",
+      "nameGe": "Territory of the Wallis and Futuna Islands",
+      "population": 11750,
+      "capital": "Mata-Utu",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/wf.svg",
+      "vote": 0
+    },
+    {
+      "id": "BB",
+      "name": "Barbados",
+      "nameGe": "Barbados",
+      "population": 287371,
+      "capital": "Bridgetown",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/bb.svg",
+      "vote": 0
+    },
+    {
+      "id": "PN",
+      "name": "Pitcairn Islands",
+      "nameGe": "Pitcairn Group of Islands",
+      "population": 56,
+      "capital": "Adamstown",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/pn.svg",
+      "vote": 0
+    },
+    {
+      "id": "CI",
+      "name": "Ivory Coast",
+      "nameGe": "Republic of Côte d'Ivoire",
+      "population": 26378275,
+      "capital": "Yamoussoukro",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/ci.svg",
+      "vote": 0
+    },
+    {
+      "id": "TN",
+      "name": "Tunisia",
+      "nameGe": "Tunisian Republic",
+      "population": 11818618,
+      "capital": "Tunis",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/tn.svg",
+      "vote": 0
+    },
+    {
+      "id": "IT",
+      "name": "Italy",
+      "nameGe": "Italian Republic",
+      "population": 59554023,
+      "capital": "Rome",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/it.svg",
+      "vote": 0
+    },
+    {
+      "id": "BJ",
+      "name": "Benin",
+      "nameGe": "Republic of Benin",
+      "population": 12123198,
+      "capital": "Porto-Novo",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/bj.svg",
+      "vote": 0
+    },
+    {
+      "id": "ID",
+      "name": "Indonesia",
+      "nameGe": "Republic of Indonesia",
+      "population": 273523621,
+      "capital": "Jakarta",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/id.svg",
+      "vote": 0
+    },
+    {
+      "id": "CV",
+      "name": "Cape Verde",
+      "nameGe": "Republic of Cabo Verde",
+      "population": 555988,
+      "capital": "Praia",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/cv.svg",
+      "vote": 0
+    },
+    {
+      "id": "KN",
+      "name": "Saint Kitts and Nevis",
+      "nameGe": "Federation of Saint Christopher and Nevis",
+      "population": 53192,
+      "capital": "Basseterre",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/kn.svg",
+      "vote": 0
+    },
+    {
+      "id": "LA",
+      "name": "Laos",
+      "nameGe": "Lao People's Democratic Republic",
+      "population": 7275556,
+      "capital": "Vientiane",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/la.svg",
+      "vote": 0
+    },
+    {
+      "id": "BQ",
+      "name": "Caribbean Netherlands",
+      "nameGe": "Bonaire, Sint Eustatius and Saba",
+      "population": 25987,
+      "capital": "Kralendijk",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/bq.svg",
+      "vote": 0
+    },
+    {
+      "id": "UG",
+      "name": "Uganda",
+      "nameGe": "Republic of Uganda",
+      "population": 45741000,
+      "capital": "Kampala",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/ug.svg",
+      "vote": 0
+    },
+    {
+      "id": "AD",
+      "name": "Andorra",
+      "nameGe": "Principality of Andorra",
+      "population": 77265,
+      "capital": "Andorra la Vella",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/ad.svg",
+      "vote": 0
+    },
+    {
+      "id": "BI",
+      "name": "Burundi",
+      "nameGe": "Republic of Burundi",
+      "population": 11890781,
+      "capital": "Gitega",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/bi.svg",
+      "vote": 0
+    },
+    {
+      "id": "ZA",
+      "name": "South Africa",
+      "nameGe": "Republic of South Africa",
+      "population": 59308690,
+      "capital": "Pretoria",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/za.svg",
+      "vote": 0
+    },
+    {
+      "id": "FR",
+      "name": "France",
+      "nameGe": "French Republic",
+      "population": 67391582,
+      "capital": "Paris",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/fr.svg",
+      "vote": 0
+    },
+    {
+      "id": "LY",
+      "name": "Libya",
+      "nameGe": "State of Libya",
+      "population": 6871287,
+      "capital": "Tripoli",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/ly.svg",
+      "vote": 0
+    },
+    {
+      "id": "MX",
+      "name": "Mexico",
+      "nameGe": "United Mexican States",
+      "population": 128932753,
+      "capital": "Mexico City",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/mx.svg",
+      "vote": 0
+    },
+    {
+      "id": "GA",
+      "name": "Gabon",
+      "nameGe": "Gabonese Republic",
+      "population": 2225728,
+      "capital": "Libreville",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/ga.svg",
+      "vote": 0
+    },
+    {
+      "id": "MP",
+      "name": "Northern Mariana Islands",
+      "nameGe": "Commonwealth of the Northern Mariana Islands",
+      "population": 57557,
+      "capital": "Saipan",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/mp.svg",
+      "vote": 0
+    },
+    {
+      "id": "MK",
+      "name": "North Macedonia",
+      "nameGe": "Republic of North Macedonia",
+      "population": 2077132,
+      "capital": "Skopje",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/mk.svg",
+      "vote": 0
+    },
+    {
+      "id": "CN",
+      "name": "China",
+      "nameGe": "People's Republic of China",
+      "population": 1402112000,
+      "capital": "Beijing",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/cn.svg",
+      "vote": 0
+    },
+    {
+      "id": "YE",
+      "name": "Yemen",
+      "nameGe": "Republic of Yemen",
+      "population": 29825968,
+      "capital": "Sana'a",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/ye.svg",
+      "vote": 0
+    },
+    {
+      "id": "BL",
+      "name": "Saint Barthélemy",
+      "nameGe": "Collectivity of Saint Barthélemy",
+      "population": 4255,
+      "capital": "Gustavia",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/bl.svg",
+      "vote": 0
+    },
+    {
+      "id": "GG",
+      "name": "Guernsey",
+      "nameGe": "Bailiwick of Guernsey",
+      "population": 62999,
+      "capital": "St. Peter Port",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/gg.svg",
+      "vote": 0
+    },
+    {
+      "id": "SB",
+      "name": "Solomon Islands",
+      "nameGe": "Solomon Islands",
+      "population": 686878,
+      "capital": "Honiara",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/sb.svg",
+      "vote": 0
+    },
+    {
+      "id": "SJ",
+      "name": "Svalbard and Jan Mayen",
+      "nameGe": "Svalbard og Jan Mayen",
+      "population": 2562,
+      "capital": "Longyearbyen",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/sj.svg",
+      "vote": 0
+    },
+    {
+      "id": "FO",
+      "name": "Faroe Islands",
+      "nameGe": "Faroe Islands",
+      "population": 48865,
+      "capital": "Tórshavn",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/fo.svg",
+      "vote": 0
+    },
+    {
+      "id": "UZ",
+      "name": "Uzbekistan",
+      "nameGe": "Republic of Uzbekistan",
+      "population": 34232050,
+      "capital": "Tashkent",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/uz.svg",
+      "vote": 0
+    },
+    {
+      "id": "EG",
+      "name": "Egypt",
+      "nameGe": "Arab Republic of Egypt",
+      "population": 102334403,
+      "capital": "Cairo",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/eg.svg",
+      "vote": 0
+    },
+    {
+      "id": "SN",
+      "name": "Senegal",
+      "nameGe": "Republic of Senegal",
+      "population": 16743930,
+      "capital": "Dakar",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/sn.svg",
+      "vote": 0
+    },
+    {
+      "id": "LK",
+      "name": "Sri Lanka",
+      "nameGe": "Democratic Socialist Republic of Sri Lanka",
+      "population": 21919000,
+      "capital": "Sri Jayawardenepura Kotte",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/lk.svg",
+      "vote": 0
+    },
+    {
+      "id": "PS",
+      "name": "Palestine",
+      "nameGe": "State of Palestine",
+      "population": 4803269,
+      "capital": "Ramallah",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/ps.svg",
+      "vote": 0
+    },
+    {
+      "id": "BD",
+      "name": "Bangladesh",
+      "nameGe": "People's Republic of Bangladesh",
+      "population": 164689383,
+      "capital": "Dhaka",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/bd.svg",
+      "vote": 0
+    },
+    {
+      "id": "PE",
+      "name": "Peru",
+      "nameGe": "Republic of Peru",
+      "population": 32971846,
+      "capital": "Lima",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/pe.svg",
+      "vote": 0
+    },
+    {
+      "id": "SG",
+      "name": "Singapore",
+      "nameGe": "Republic of Singapore",
+      "population": 5685807,
+      "capital": "Singapore",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/sg.svg",
+      "vote": 0
+    },
+    {
+      "id": "TR",
+      "name": "Turkey",
+      "nameGe": "Republic of Turkey",
+      "population": 84339067,
+      "capital": "Ankara",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/tr.svg",
+      "vote": 0
+    },
+    {
+      "id": "AF",
+      "name": "Afghanistan",
+      "nameGe": "Islamic Republic of Afghanistan",
+      "population": 40218234,
+      "capital": "Kabul",
+      "capitalGe": "N/A",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_the_Taliban.svg",
+      "vote": 0
+    },
+    {
+      "id": "AW",
+      "name": "Aruba",
+      "nameGe": "Aruba",
+      "population": 106766,
+      "capital": "Oranjestad",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/aw.svg",
+      "vote": 0
+    },
+    {
+      "id": "CK",
+      "name": "Cook Islands",
+      "nameGe": "Cook Islands",
+      "population": 18100,
+      "capital": "Avarua",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/ck.svg",
+      "vote": 0
+    },
+    {
+      "id": "GB",
+      "name": "United Kingdom",
+      "nameGe": "United Kingdom of Great Britain and Northern Ireland",
+      "population": 67215293,
+      "capital": "London",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/gb.svg",
+      "vote": 0
+    },
+    {
+      "id": "ZM",
+      "name": "Zambia",
+      "nameGe": "Republic of Zambia",
+      "population": 18383956,
+      "capital": "Lusaka",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/zm.svg",
+      "vote": 0
+    },
+    {
+      "id": "FI",
+      "name": "Finland",
+      "nameGe": "Republic of Finland",
+      "population": 5530719,
+      "capital": "Helsinki",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/fi.svg",
+      "vote": 0
+    },
+    {
+      "id": "NE",
+      "name": "Niger",
+      "nameGe": "Republic of Niger",
+      "population": 24206636,
+      "capital": "Niamey",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/ne.svg",
+      "vote": 0
+    },
+    {
+      "id": "CX",
+      "name": "Christmas Island",
+      "nameGe": "Territory of Christmas Island",
+      "population": 2072,
+      "capital": "Flying Fish Cove",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/cx.svg",
+      "vote": 0
+    },
+    {
+      "id": "TK",
+      "name": "Tokelau",
+      "nameGe": "Tokelau",
+      "population": 1411,
+      "capital": "Fakaofo",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/tk.svg",
+      "vote": 0
+    },
+    {
+      "id": "GW",
+      "name": "Guinea-Bissau",
+      "nameGe": "Republic of Guinea-Bissau",
+      "population": 1967998,
+      "capital": "Bissau",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/gw.svg",
+      "vote": 0
+    },
+    {
+      "id": "AZ",
+      "name": "Azerbaijan",
+      "nameGe": "Republic of Azerbaijan",
+      "population": 10110116,
+      "capital": "Baku",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/az.svg",
+      "vote": 0
+    },
+    {
+      "id": "RE",
+      "name": "Réunion",
+      "nameGe": "Réunion Island",
+      "population": 840974,
+      "capital": "Saint-Denis",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/re.svg",
+      "vote": 0
+    },
+    {
+      "id": "DJ",
+      "name": "Djibouti",
+      "nameGe": "Republic of Djibouti",
+      "population": 988002,
+      "capital": "Djibouti",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/dj.svg",
+      "vote": 0
+    },
+    {
+      "id": "KP",
+      "name": "North Korea",
+      "nameGe": "Democratic People's Republic of Korea",
+      "population": 25778815,
+      "capital": "Pyongyang",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/kp.svg",
+      "vote": 0
+    },
+    {
+      "id": "MU",
+      "name": "Mauritius",
+      "nameGe": "Republic of Mauritius",
+      "population": 1265740,
+      "capital": "Port Louis",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/mu.svg",
+      "vote": 0
+    },
+    {
+      "id": "MS",
+      "name": "Montserrat",
+      "nameGe": "Montserrat",
+      "population": 4922,
+      "capital": "Plymouth",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/ms.svg",
+      "vote": 0
+    },
+    {
+      "id": "VI",
+      "name": "United States Virgin Islands",
+      "nameGe": "Virgin Islands of the United States",
+      "population": 106290,
+      "capital": "Charlotte Amalie",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/vi.svg",
+      "vote": 0
+    },
+    {
+      "id": "CO",
+      "name": "Colombia",
+      "nameGe": "Republic of Colombia",
+      "population": 50882884,
+      "capital": "Bogotá",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/co.svg",
+      "vote": 0
+    },
+    {
+      "id": "GR",
+      "name": "Greece",
+      "nameGe": "Hellenic Republic",
+      "population": 10715549,
+      "capital": "Athens",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/gr.svg",
+      "vote": 0
+    },
+    {
+      "id": "HR",
+      "name": "Croatia",
+      "nameGe": "Republic of Croatia",
+      "population": 4047200,
+      "capital": "Zagreb",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/hr.svg",
+      "vote": 0
+    },
+    {
+      "id": "MA",
+      "name": "Morocco",
+      "nameGe": "Kingdom of Morocco",
+      "population": 36910558,
+      "capital": "Rabat",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/ma.svg",
+      "vote": 0
+    },
+    {
+      "id": "DZ",
+      "name": "Algeria",
+      "nameGe": "People's Democratic Republic of Algeria",
+      "population": 44700000,
+      "capital": "Algiers",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/dz.svg",
+      "vote": 0
+    },
+    {
+      "id": "AQ",
+      "name": "Antarctica",
+      "nameGe": "Antarctica",
+      "population": 1000,
+      "capital": "N/A",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/aq.svg",
+      "vote": 0
+    },
+    {
+      "id": "NL",
+      "name": "Netherlands",
+      "nameGe": "Kingdom of the Netherlands",
+      "population": 16655799,
+      "capital": "Amsterdam",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/nl.svg",
+      "vote": 0
+    },
+    {
+      "id": "FJ",
+      "name": "Fiji",
+      "nameGe": "Republic of Fiji",
+      "population": 896444,
+      "capital": "Suva",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/fj.svg",
+      "vote": 0
+    },
+    {
+      "id": "SD",
+      "name": "Sudan",
+      "nameGe": "Republic of the Sudan",
+      "population": 43849269,
+      "capital": "Khartoum",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/sd.svg",
+      "vote": 0
+    },
+    {
+      "id": "NP",
+      "name": "Nepal",
+      "nameGe": "Federal Democratic Republic of Nepal",
+      "population": 29136808,
+      "capital": "Kathmandu",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/np.svg",
+      "vote": 0
+    },
+    {
+      "id": "LI",
+      "name": "Liechtenstein",
+      "nameGe": "Principality of Liechtenstein",
+      "population": 38137,
+      "capital": "Vaduz",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/li.svg",
+      "vote": 0
+    },
+    {
+      "id": "GE",
+      "name": "Georgia",
+      "nameGe": "Georgia",
+      "population": 3714000,
+      "capital": "Tbilisi",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/ge.svg",
+      "vote": 0
+    },
+    {
+      "id": "PR",
+      "name": "Puerto Rico",
+      "nameGe": "Commonwealth of Puerto Rico",
+      "population": 3194034,
+      "capital": "San Juan",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/pr.svg",
+      "vote": 0
+    },
+    {
+      "id": "MC",
+      "name": "Monaco",
+      "nameGe": "Principality of Monaco",
+      "population": 39244,
+      "capital": "Monaco",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/mc.svg",
+      "vote": 0
+    },
+    {
+      "id": "PK",
+      "name": "Pakistan",
+      "nameGe": "Islamic Republic of Pakistan",
+      "population": 220892331,
+      "capital": "Islamabad",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/pk.svg",
+      "vote": 0
+    },
+    {
+      "id": "LB",
+      "name": "Lebanon",
+      "nameGe": "Lebanese Republic",
+      "population": 6825442,
+      "capital": "Beirut",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/lb.svg",
+      "vote": 0
+    },
+    {
+      "id": "BW",
+      "name": "Botswana",
+      "nameGe": "Republic of Botswana",
+      "population": 2351625,
+      "capital": "Gaborone",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/bw.svg",
+      "vote": 0
+    },
+    {
+      "id": "YT",
+      "name": "Mayotte",
+      "nameGe": "Department of Mayotte",
+      "population": 226915,
+      "capital": "Mamoudzou",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/yt.svg",
+      "vote": 0
+    },
+    {
+      "id": "PG",
+      "name": "Papua New Guinea",
+      "nameGe": "Independent State of Papua New Guinea",
+      "population": 8947027,
+      "capital": "Port Moresby",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/pg.svg",
+      "vote": 0
+    },
+    {
+      "id": "NF",
+      "name": "Norfolk Island",
+      "nameGe": "Territory of Norfolk Island",
+      "population": 2302,
+      "capital": "Kingston",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/nf.svg",
+      "vote": 0
+    },
+    {
+      "id": "AU",
+      "name": "Australia",
+      "nameGe": "Commonwealth of Australia",
+      "population": 25687041,
+      "capital": "Canberra",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/au.svg",
+      "vote": 0
+    },
+    {
+      "id": "TH",
+      "name": "Thailand",
+      "nameGe": "Kingdom of Thailand",
+      "population": 69799978,
+      "capital": "Bangkok",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/th.svg",
+      "vote": 0
+    },
+    {
+      "id": "HT",
+      "name": "Haiti",
+      "nameGe": "Republic of Haiti",
+      "population": 11402533,
+      "capital": "Port-au-Prince",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/ht.svg",
+      "vote": 0
+    },
+    {
+      "id": "TV",
+      "name": "Tuvalu",
+      "nameGe": "Tuvalu",
+      "population": 11792,
+      "capital": "Funafuti",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/tv.svg",
+      "vote": 0
+    },
+    {
+      "id": "GQ",
+      "name": "Equatorial Guinea",
+      "nameGe": "Republic of Equatorial Guinea",
+      "population": 1402985,
+      "capital": "Malabo",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/gq.svg",
+      "vote": 0
+    },
+    {
+      "id": "LC",
+      "name": "Saint Lucia",
+      "nameGe": "Saint Lucia",
+      "population": 183629,
+      "capital": "Castries",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/lc.svg",
+      "vote": 0
+    },
+    {
+      "id": "GP",
+      "name": "Guadeloupe",
+      "nameGe": "Guadeloupe",
+      "population": 400132,
+      "capital": "Basse-Terre",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/gp.svg",
+      "vote": 0
+    },
+    {
+      "id": "SO",
+      "name": "Somalia",
+      "nameGe": "Federal Republic of Somalia",
+      "population": 15893219,
+      "capital": "Mogadishu",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/so.svg",
+      "vote": 0
+    },
+    {
+      "id": "SH",
+      "name": "Saint Helena, Ascension and Tristan da Cunha",
+      "nameGe": "Saint Helena, Ascension and Tristan da Cunha",
+      "population": 53192,
+      "capital": "Jamestown",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/sh.svg",
+      "vote": 0
+    },
+    {
+      "id": "HM",
+      "name": "Heard Island and McDonald Islands",
+      "nameGe": "Heard Island and McDonald Islands",
+      "population": 0,
+      "capital": "N/A",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/hm.svg",
+      "vote": 0
+    },
+    {
+      "id": "RW",
+      "name": "Rwanda",
+      "nameGe": "Republic of Rwanda",
+      "population": 12952209,
+      "capital": "Kigali",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/rw.svg",
+      "vote": 0
+    },
+    {
+      "id": "EE",
+      "name": "Estonia",
+      "nameGe": "Republic of Estonia",
+      "population": 1331057,
+      "capital": "Tallinn",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/ee.svg",
+      "vote": 0
+    },
+    {
+      "id": "TT",
+      "name": "Trinidad and Tobago",
+      "nameGe": "Republic of Trinidad and Tobago",
+      "population": 1399491,
+      "capital": "Port of Spain",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/tt.svg",
+      "vote": 0
+    },
+    {
+      "id": "TL",
+      "name": "Timor-Leste",
+      "nameGe": "Democratic Republic of Timor-Leste",
+      "population": 1318442,
+      "capital": "Dili",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/tl.svg",
+      "vote": 0
+    },
+    {
+      "id": "HK",
+      "name": "Hong Kong",
+      "nameGe": "Hong Kong Special Administrative Region of the People's Republic of China",
+      "population": 7500700,
+      "capital": "City of Victoria",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/hk.svg",
+      "vote": 0
+    },
+    {
+      "id": "GF",
+      "name": "French Guiana",
+      "nameGe": "Guiana",
+      "population": 254541,
+      "capital": "Cayenne",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/gf.svg",
+      "vote": 0
+    },
+    {
+      "id": "NO",
+      "name": "Norway",
+      "nameGe": "Kingdom of Norway",
+      "population": 5379475,
+      "capital": "Oslo",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/no.svg",
+      "vote": 0
+    },
+    {
+      "id": "CF",
+      "name": "Central African Republic",
+      "nameGe": "Central African Republic",
+      "population": 4829764,
+      "capital": "Bangui",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/cf.svg",
+      "vote": 0
+    },
+    {
+      "id": "TZ",
+      "name": "Tanzania",
+      "nameGe": "United Republic of Tanzania",
+      "population": 59734213,
+      "capital": "Dodoma",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/tz.svg",
+      "vote": 0
+    },
+    {
+      "id": "KR",
+      "name": "South Korea",
+      "nameGe": "Republic of Korea",
+      "population": 51780579,
+      "capital": "Seoul",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/kr.svg",
+      "vote": 0
+    },
+    {
+      "id": "UM",
+      "name": "United States Minor Outlying Islands",
+      "nameGe": "United States Minor Outlying Islands",
+      "population": 300,
+      "capital": "Washington DC",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/um.svg",
+      "vote": 0
+    },
+    {
+      "id": "WS",
+      "name": "Samoa",
+      "nameGe": "Independent State of Samoa",
+      "population": 198410,
+      "capital": "Apia",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/ws.svg",
+      "vote": 0
+    },
+    {
+      "id": "JP",
+      "name": "Japan",
+      "nameGe": "Japan",
+      "population": 125836021,
+      "capital": "Tokyo",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/jp.svg",
+      "vote": 0
+    },
+    {
+      "id": "BO",
+      "name": "Bolivia",
+      "nameGe": "Plurinational State of Bolivia",
+      "population": 11673029,
+      "capital": "Sucre",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/bo.svg",
+      "vote": 0
+    },
+    {
+      "id": "VC",
+      "name": "Saint Vincent and the Grenadines",
+      "nameGe": "Saint Vincent and the Grenadines",
+      "population": 110947,
+      "capital": "Kingstown",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/vc.svg",
+      "vote": 0
+    },
+    {
+      "id": "US",
+      "name": "United States",
+      "nameGe": "United States of America",
+      "population": 329484123,
+      "capital": "Washington, D.C.",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/us.svg",
+      "vote": 0
+    },
+    {
+      "id": "GT",
+      "name": "Guatemala",
+      "nameGe": "Republic of Guatemala",
+      "population": 16858333,
+      "capital": "Guatemala City",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/gt.svg",
+      "vote": 0
+    },
+    {
+      "id": "EC",
+      "name": "Ecuador",
+      "nameGe": "Republic of Ecuador",
+      "population": 17643060,
+      "capital": "Quito",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/ec.svg",
+      "vote": 0
+    },
+    {
+      "id": "MQ",
+      "name": "Martinique",
+      "nameGe": "Martinique",
+      "population": 378243,
+      "capital": "Fort-de-France",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/mq.svg",
+      "vote": 0
+    },
+    {
+      "id": "MT",
+      "name": "Malta",
+      "nameGe": "Republic of Malta",
+      "population": 525285,
+      "capital": "Valletta",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/mt.svg",
+      "vote": 0
+    },
+    {
+      "id": "NG",
+      "name": "Nigeria",
+      "nameGe": "Federal Republic of Nigeria",
+      "population": 206139587,
+      "capital": "Abuja",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/ng.svg",
+      "vote": 0
+    },
+    {
+      "id": "KW",
+      "name": "Kuwait",
+      "nameGe": "State of Kuwait",
+      "population": 4270563,
+      "capital": "Kuwait City",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/kw.svg",
+      "vote": 0
+    },
+    {
+      "id": "XK",
+      "name": "Kosovo",
+      "nameGe": "Republic of Kosovo",
+      "population": 1775378,
+      "capital": "Pristina",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/xk.svg",
+      "vote": 0
+    },
+    {
+      "id": "MV",
+      "name": "Maldives",
+      "nameGe": "Republic of the Maldives",
+      "population": 540542,
+      "capital": "Malé",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/mv.svg",
+      "vote": 0
+    },
+    {
+      "id": "AL",
+      "name": "Albania",
+      "nameGe": "Republic of Albania",
+      "population": 2837743,
+      "capital": "Tirana",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/al.svg",
+      "vote": 0
+    },
+    {
+      "id": "IR",
+      "name": "Iran",
+      "nameGe": "Islamic Republic of Iran",
+      "population": 83992953,
+      "capital": "Tehran",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/ir.svg",
+      "vote": 0
+    },
+    {
+      "id": "RS",
+      "name": "Serbia",
+      "nameGe": "Republic of Serbia",
+      "population": 6908224,
+      "capital": "Belgrade",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/rs.svg",
+      "vote": 0
+    },
+    {
+      "id": "BZ",
+      "name": "Belize",
+      "nameGe": "Belize",
+      "population": 397621,
+      "capital": "Belmopan",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/bz.svg",
+      "vote": 0
+    },
+    {
+      "id": "BR",
+      "name": "Brazil",
+      "nameGe": "Federative Republic of Brazil",
+      "population": 212559409,
+      "capital": "Brasília",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/br.svg",
+      "vote": 0
+    },
+    {
+      "id": "BT",
+      "name": "Bhutan",
+      "nameGe": "Kingdom of Bhutan",
+      "population": 771612,
+      "capital": "Thimphu",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/bt.svg",
+      "vote": 0
+    },
+    {
+      "id": "MM",
+      "name": "Myanmar",
+      "nameGe": "Republic of the Union of Myanmar",
+      "population": 54409794,
+      "capital": "Naypyidaw",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/mm.svg",
+      "vote": 0
+    },
+    {
+      "id": "LR",
+      "name": "Liberia",
+      "nameGe": "Republic of Liberia",
+      "population": 5057677,
+      "capital": "Monrovia",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/lr.svg",
+      "vote": 0
+    },
+    {
+      "id": "VE",
+      "name": "Venezuela",
+      "nameGe": "Bolivarian Republic of Venezuela",
+      "population": 28435943,
+      "capital": "Caracas",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/ve.svg",
+      "vote": 0
+    },
+    {
+      "id": "JM",
+      "name": "Jamaica",
+      "nameGe": "Jamaica",
+      "population": 2961161,
+      "capital": "Kingston",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/jm.svg",
+      "vote": 0
+    },
+    {
+      "id": "BN",
+      "name": "Brunei",
+      "nameGe": "Nation of Brunei, Abode of Peace",
+      "population": 437483,
+      "capital": "Bandar Seri Begawan",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/bn.svg",
+      "vote": 0
+    },
+    {
+      "id": "KM",
+      "name": "Comoros",
+      "nameGe": "Union of the Comoros",
+      "population": 869595,
+      "capital": "Moroni",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/km.svg",
+      "vote": 0
+    },
+    {
+      "id": "TO",
+      "name": "Tonga",
+      "nameGe": "Kingdom of Tonga",
+      "population": 105697,
+      "capital": "Nuku'alofa",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/to.svg",
+      "vote": 0
+    },
+    {
+      "id": "KI",
+      "name": "Kiribati",
+      "nameGe": "Independent and Sovereign Republic of Kiribati",
+      "population": 119446,
+      "capital": "South Tarawa",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/ki.svg",
+      "vote": 0
+    },
+    {
+      "id": "KY",
+      "name": "Cayman Islands",
+      "nameGe": "Cayman Islands",
+      "population": 65720,
+      "capital": "George Town",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/ky.svg",
+      "vote": 0
+    },
+    {
+      "id": "CR",
+      "name": "Costa Rica",
+      "nameGe": "Republic of Costa Rica",
+      "population": 5094114,
+      "capital": "San José",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/cr.svg",
+      "vote": 0
+    },
+    {
+      "id": "DM",
+      "name": "Dominica",
+      "nameGe": "Commonwealth of Dominica",
+      "population": 71991,
+      "capital": "Roseau",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/dm.svg",
+      "vote": 0
+    },
+    {
+      "id": "EH",
+      "name": "Western Sahara",
+      "nameGe": "Sahrawi Arab Democratic Republic",
+      "population": 510713,
+      "capital": "El Aaiún",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/eh.svg",
+      "vote": 0
+    },
+    {
+      "id": "CC",
+      "name": "Cocos (Keeling) Islands",
+      "nameGe": "Territory of the Cocos (Keeling) Islands",
+      "population": 544,
+      "capital": "West Island",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/cc.svg",
+      "vote": 0
+    },
+    {
+      "id": "NR",
+      "name": "Nauru",
+      "nameGe": "Republic of Nauru",
+      "population": 10834,
+      "capital": "Yaren",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/nr.svg",
+      "vote": 0
+    },
+    {
+      "id": "TC",
+      "name": "Turks and Caicos Islands",
+      "nameGe": "Turks and Caicos Islands",
+      "population": 38718,
+      "capital": "Cockburn Town",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/tc.svg",
+      "vote": 0
+    },
+    {
+      "id": "AR",
+      "name": "Argentina",
+      "nameGe": "Argentine Republic",
+      "population": 45376763,
+      "capital": "Buenos Aires",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/ar.svg",
+      "vote": 0
+    },
+    {
+      "id": "AI",
+      "name": "Anguilla",
+      "nameGe": "Anguilla",
+      "population": 13452,
+      "capital": "The Valley",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/ai.svg",
+      "vote": 0
+    },
+    {
+      "id": "NI",
+      "name": "Nicaragua",
+      "nameGe": "Republic of Nicaragua",
+      "population": 6624554,
+      "capital": "Managua",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/ni.svg",
+      "vote": 0
+    },
+    {
+      "id": "NZ",
+      "name": "New Zealand",
+      "nameGe": "New Zealand",
+      "population": 5084300,
+      "capital": "Wellington",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/nz.svg",
+      "vote": 0
+    },
+    {
+      "id": "BE",
+      "name": "Belgium",
+      "nameGe": "Kingdom of Belgium",
+      "population": 11555997,
+      "capital": "Brussels",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/be.svg",
+      "vote": 0
+    },
+    {
+      "id": "IL",
+      "name": "Israel",
+      "nameGe": "State of Israel",
+      "population": 9216900,
+      "capital": "Jerusalem",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/il.svg",
+      "vote": 0
+    },
+    {
+      "id": "AS",
+      "name": "American Samoa",
+      "nameGe": "American Samoa",
+      "population": 55197,
+      "capital": "Pago Pago",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/as.svg",
+      "vote": 0
+    },
+    {
+      "id": "CG",
+      "name": "Republic of the Congo",
+      "nameGe": "Republic of the Congo",
+      "population": 5657000,
+      "capital": "Brazzaville",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/cg.svg",
+      "vote": 0
+    },
+    {
+      "id": "MN",
+      "name": "Mongolia",
+      "nameGe": "Mongolia",
+      "population": 3278292,
+      "capital": "Ulan Bator",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/mn.svg",
+      "vote": 0
+    },
+    {
+      "id": "PT",
+      "name": "Portugal",
+      "nameGe": "Portuguese Republic",
+      "population": 10305564,
+      "capital": "Lisbon",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/pt.svg",
+      "vote": 0
+    },
+    {
+      "id": "ZW",
+      "name": "Zimbabwe",
+      "nameGe": "Republic of Zimbabwe",
+      "population": 14862927,
+      "capital": "Harare",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/zw.svg",
+      "vote": 0
+    },
+    {
+      "id": "MF",
+      "name": "Saint Martin",
+      "nameGe": "Saint Martin",
+      "population": 38659,
+      "capital": "Marigot",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/mf.svg",
+      "vote": 0
+    },
+    {
+      "id": "GH",
+      "name": "Ghana",
+      "nameGe": "Republic of Ghana",
+      "population": 31072945,
+      "capital": "Accra",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/gh.svg",
+      "vote": 0
+    },
+    {
+      "id": "TD",
+      "name": "Chad",
+      "nameGe": "Republic of Chad",
+      "population": 16425859,
+      "capital": "N'Djamena",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/td.svg",
+      "vote": 0
+    },
+    {
+      "id": "LU",
+      "name": "Luxembourg",
+      "nameGe": "Grand Duchy of Luxembourg",
+      "population": 632275,
+      "capital": "Luxembourg",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/lu.svg",
+      "vote": 0
+    },
+    {
+      "id": "IS",
+      "name": "Iceland",
+      "nameGe": "Iceland",
+      "population": 366425,
+      "capital": "Reykjavik",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/is.svg",
+      "vote": 0
+    },
+    {
+      "id": "SX",
+      "name": "Sint Maarten",
+      "nameGe": "Sint Maarten",
+      "population": 40812,
+      "capital": "Philipsburg",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/sx.svg",
+      "vote": 0
+    },
+    {
+      "id": "LS",
+      "name": "Lesotho",
+      "nameGe": "Kingdom of Lesotho",
+      "population": 2142252,
+      "capital": "Maseru",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/ls.svg",
+      "vote": 0
+    },
+    {
+      "id": "MH",
+      "name": "Marshall Islands",
+      "nameGe": "Republic of the Marshall Islands",
+      "population": 59194,
+      "capital": "Majuro",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/mh.svg",
+      "vote": 0
+    },
+    {
+      "id": "SM",
+      "name": "San Marino",
+      "nameGe": "Republic of San Marino",
+      "population": 33938,
+      "capital": "City of San Marino",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/sm.svg",
+      "vote": 0
+    },
+    {
+      "id": "MO",
+      "name": "Macau",
+      "nameGe": "Macao Special Administrative Region of the People's Republic of China",
+      "population": 649342,
+      "capital": "N/A",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/mo.svg",
+      "vote": 0
+    },
+    {
+      "id": "OM",
+      "name": "Oman",
+      "nameGe": "Sultanate of Oman",
+      "population": 5106622,
+      "capital": "Muscat",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/om.svg",
+      "vote": 0
+    },
+    {
+      "id": "PM",
+      "name": "Saint Pierre and Miquelon",
+      "nameGe": "Saint Pierre and Miquelon",
+      "population": 6069,
+      "capital": "Saint-Pierre",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/pm.svg",
+      "vote": 0
+    },
+    {
+      "id": "SI",
+      "name": "Slovenia",
+      "nameGe": "Republic of Slovenia",
+      "population": 2100126,
+      "capital": "Ljubljana",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/si.svg",
+      "vote": 0
+    },
+    {
+      "id": "ET",
+      "name": "Ethiopia",
+      "nameGe": "Federal Democratic Republic of Ethiopia",
+      "population": 114963583,
+      "capital": "Addis Ababa",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/et.svg",
+      "vote": 0
+    },
+    {
+      "id": "ES",
+      "name": "Spain",
+      "nameGe": "Kingdom of Spain",
+      "population": 47351567,
+      "capital": "Madrid",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/es.svg",
+      "vote": 0
+    },
+    {
+      "id": "SA",
+      "name": "Saudi Arabia",
+      "nameGe": "Kingdom of Saudi Arabia",
+      "population": 34813867,
+      "capital": "Riyadh",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/sa.svg",
+      "vote": 0
+    },
+    {
+      "id": "BA",
+      "name": "Bosnia and Herzegovina",
+      "nameGe": "Bosnia and Herzegovina",
+      "population": 3280815,
+      "capital": "Sarajevo",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/ba.svg",
+      "vote": 0
+    },
+    {
+      "id": "MW",
+      "name": "Malawi",
+      "nameGe": "Republic of Malawi",
+      "population": 19129955,
+      "capital": "Lilongwe",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/mw.svg",
+      "vote": 0
+    },
+    {
+      "id": "CA",
+      "name": "Canada",
+      "nameGe": "Canada",
+      "population": 38005238,
+      "capital": "Ottawa",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/ca.svg",
+      "vote": 0
+    },
+    {
+      "id": "CY",
+      "name": "Cyprus",
+      "nameGe": "Republic of Cyprus",
+      "population": 1207361,
+      "capital": "Nicosia",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/cy.svg",
+      "vote": 0
+    },
+    {
+      "id": "ST",
+      "name": "São Tomé and Príncipe",
+      "nameGe": "Democratic Republic of São Tomé and Príncipe",
+      "population": 219161,
+      "capital": "São Tomé",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/st.svg",
+      "vote": 0
+    },
+    {
+      "id": "MY",
+      "name": "Malaysia",
+      "nameGe": "Malaysia",
+      "population": 32365998,
+      "capital": "Kuala Lumpur",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/my.svg",
+      "vote": 0
+    },
+    {
+      "id": "RU",
+      "name": "Russia",
+      "nameGe": "Russian Federation",
+      "population": 144104080,
+      "capital": "Moscow",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/ru.svg",
+      "vote": 0
+    },
+    {
+      "id": "KG",
+      "name": "Kyrgyzstan",
+      "nameGe": "Kyrgyz Republic",
+      "population": 6591600,
+      "capital": "Bishkek",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/kg.svg",
+      "vote": 0
+    },
+    {
+      "id": "CU",
+      "name": "Cuba",
+      "nameGe": "Republic of Cuba",
+      "population": 11326616,
+      "capital": "Havana",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/cu.svg",
+      "vote": 0
+    },
+    {
+      "id": "SE",
+      "name": "Sweden",
+      "nameGe": "Kingdom of Sweden",
+      "population": 10353442,
+      "capital": "Stockholm",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/se.svg",
+      "vote": 0
+    },
+    {
+      "id": "TF",
+      "name": "French Southern and Antarctic Lands",
+      "nameGe": "Territory of the French Southern and Antarctic Lands",
+      "population": 400,
+      "capital": "Port-aux-Français",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/tf.svg",
+      "vote": 0
+    },
+    {
+      "id": "KH",
+      "name": "Cambodia",
+      "nameGe": "Kingdom of Cambodia",
+      "population": 16718971,
+      "capital": "Phnom Penh",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/kh.svg",
+      "vote": 0
+    },
+    {
+      "id": "IQ",
+      "name": "Iraq",
+      "nameGe": "Republic of Iraq",
+      "population": 40222503,
+      "capital": "Baghdad",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/iq.svg",
+      "vote": 0
+    },
+    {
+      "id": "GL",
+      "name": "Greenland",
+      "nameGe": "Greenland",
+      "population": 56367,
+      "capital": "Nuuk",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/gl.svg",
+      "vote": 0
+    },
+    {
+      "id": "DE",
+      "name": "Germany",
+      "nameGe": "Federal Republic of Germany",
+      "population": 83240525,
+      "capital": "Berlin",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/de.svg",
+      "vote": 0
+    },
+    {
+      "id": "AE",
+      "name": "United Arab Emirates",
+      "nameGe": "United Arab Emirates",
+      "population": 9890400,
+      "capital": "Abu Dhabi",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/ae.svg",
+      "vote": 0
+    },
+    {
+      "id": "BG",
+      "name": "Bulgaria",
+      "nameGe": "Republic of Bulgaria",
+      "population": 6927288,
+      "capital": "Sofia",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/bg.svg",
+      "vote": 0
+    },
+    {
+      "id": "IM",
+      "name": "Isle of Man",
+      "nameGe": "Isle of Man",
+      "population": 85032,
+      "capital": "Douglas",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/im.svg",
+      "vote": 0
+    },
+    {
+      "id": "NA",
+      "name": "Namibia",
+      "nameGe": "Republic of Namibia",
+      "population": 2540916,
+      "capital": "Windhoek",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/na.svg",
+      "vote": 0
+    },
+    {
+      "id": "SV",
+      "name": "El Salvador",
+      "nameGe": "Republic of El Salvador",
+      "population": 6486201,
+      "capital": "San Salvador",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/sv.svg",
+      "vote": 0
+    },
+    {
+      "id": "UA",
+      "name": "Ukraine",
+      "nameGe": "Ukraine",
+      "population": 44134693,
+      "capital": "Kyiv",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/ua.svg",
+      "vote": 0
+    },
+    {
+      "id": "PY",
+      "name": "Paraguay",
+      "nameGe": "Republic of Paraguay",
+      "population": 7132530,
+      "capital": "Asunción",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/py.svg",
+      "vote": 0
+    },
+    {
+      "id": "SZ",
+      "name": "Eswatini",
+      "nameGe": "Kingdom of Eswatini",
+      "population": 1160164,
+      "capital": "Mbabane",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/sz.svg",
+      "vote": 0
+    },
+    {
+      "id": "SY",
+      "name": "Syria",
+      "nameGe": "Syrian Arab Republic",
+      "population": 17500657,
+      "capital": "Damascus",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/sy.svg",
+      "vote": 0
+    },
+    {
+      "id": "ME",
+      "name": "Montenegro",
+      "nameGe": "Montenegro",
+      "population": 621718,
+      "capital": "Podgorica",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/me.svg",
+      "vote": 0
+    },
+    {
+      "id": "MG",
+      "name": "Madagascar",
+      "nameGe": "Republic of Madagascar",
+      "population": 27691019,
+      "capital": "Antananarivo",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/mg.svg",
+      "vote": 0
+    },
+    {
+      "id": "IN",
+      "name": "India",
+      "nameGe": "Republic of India",
+      "population": 1380004385,
+      "capital": "New Delhi",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/in.svg",
+      "vote": 0
+    },
+    {
+      "id": "BV",
+      "name": "Bouvet Island",
+      "nameGe": "Bouvet Island",
+      "population": 0,
+      "capital": "N/A",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/bv.svg",
+      "vote": 0
+    },
+    {
+      "id": "QA",
+      "name": "Qatar",
+      "nameGe": "State of Qatar",
+      "population": 2881060,
+      "capital": "Doha",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/qa.svg",
+      "vote": 0
+    },
+    {
+      "id": "DO",
+      "name": "Dominican Republic",
+      "nameGe": "Dominican Republic",
+      "population": 10847904,
+      "capital": "Santo Domingo",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/do.svg",
+      "vote": 0
+    },
+    {
+      "id": "FM",
+      "name": "Micronesia",
+      "nameGe": "Federated States of Micronesia",
+      "population": 115021,
+      "capital": "Palikir",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/fm.svg",
+      "vote": 0
+    },
+    {
+      "id": "PA",
+      "name": "Panama",
+      "nameGe": "Republic of Panama",
+      "population": 4314768,
+      "capital": "Panama City",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/pa.svg",
+      "vote": 0
+    },
+    {
+      "id": "TM",
+      "name": "Turkmenistan",
+      "nameGe": "Turkmenistan",
+      "population": 6031187,
+      "capital": "Ashgabat",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/tm.svg",
+      "vote": 0
+    },
+    {
+      "id": "AT",
+      "name": "Austria",
+      "nameGe": "Republic of Austria",
+      "population": 8917205,
+      "capital": "Vienna",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/at.svg",
+      "vote": 0
+    },
+    {
+      "id": "AG",
+      "name": "Antigua and Barbuda",
+      "nameGe": "Antigua and Barbuda",
+      "population": 97928,
+      "capital": "Saint John's",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/ag.svg",
+      "vote": 0
+    },
+    {
+      "id": "VA",
+      "name": "Vatican City",
+      "nameGe": "Vatican City State",
+      "population": 451,
+      "capital": "Vatican City",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/va.svg",
+      "vote": 0
+    },
+    {
+      "id": "UY",
+      "name": "Uruguay",
+      "nameGe": "Oriental Republic of Uruguay",
+      "population": 3473727,
+      "capital": "Montevideo",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/uy.svg",
+      "vote": 0
+    },
+    {
+      "id": "VN",
+      "name": "Vietnam",
+      "nameGe": "Socialist Republic of Vietnam",
+      "population": 97338583,
+      "capital": "Hanoi",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/vn.svg",
+      "vote": 0
+    },
+    {
+      "id": "GY",
+      "name": "Guyana",
+      "nameGe": "Co-operative Republic of Guyana",
+      "population": 786559,
+      "capital": "Georgetown",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/gy.svg",
+      "vote": 0
+    },
+    {
+      "id": "RO",
+      "name": "Romania",
+      "nameGe": "Romania",
+      "population": 19286123,
+      "capital": "Bucharest",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/ro.svg",
+      "vote": 0
+    },
+    {
+      "id": "NU",
+      "name": "Niue",
+      "nameGe": "Niue",
+      "population": 1470,
+      "capital": "Alofi",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/nu.svg",
+      "vote": 0
+    },
+    {
+      "id": "VG",
+      "name": "British Virgin Islands",
+      "nameGe": "Virgin Islands",
+      "population": 30237,
+      "capital": "Road Town",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/vg.svg",
+      "vote": 0
+    },
+    {
+      "id": "KE",
+      "name": "Kenya",
+      "nameGe": "Republic of Kenya",
+      "population": 53771300,
+      "capital": "Nairobi",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/ke.svg",
+      "vote": 0
+    },
+    {
+      "id": "TG",
+      "name": "Togo",
+      "nameGe": "Togolese Republic",
+      "population": 8278737,
+      "capital": "Lomé",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/tg.svg",
+      "vote": 0
+    },
+    {
+      "id": "VU",
+      "name": "Vanuatu",
+      "nameGe": "Republic of Vanuatu",
+      "population": 307150,
+      "capital": "Port Vila",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/vu.svg",
+      "vote": 0
+    },
+    {
+      "id": "NC",
+      "name": "New Caledonia",
+      "nameGe": "New Caledonia",
+      "population": 271960,
+      "capital": "Nouméa",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/nc.svg",
+      "vote": 0
+    },
+    {
+      "id": "CZ",
+      "name": "Czechia",
+      "nameGe": "Czech Republic",
+      "population": 10698896,
+      "capital": "Prague",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/cz.svg",
+      "vote": 0
+    },
+    {
+      "id": "CD",
+      "name": "DR Congo",
+      "nameGe": "Democratic Republic of the Congo",
+      "population": 108407721,
+      "capital": "Kinshasa",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/cd.svg",
+      "vote": 0
+    },
+    {
+      "id": "SR",
+      "name": "Suriname",
+      "nameGe": "Republic of Suriname",
+      "population": 586634,
+      "capital": "Paramaribo",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/sr.svg",
+      "vote": 0
+    },
+    {
+      "id": "BH",
+      "name": "Bahrain",
+      "nameGe": "Kingdom of Bahrain",
+      "population": 1701583,
+      "capital": "Manama",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/bh.svg",
+      "vote": 0
+    },
+    {
+      "id": "GN",
+      "name": "Guinea",
+      "nameGe": "Republic of Guinea",
+      "population": 13132792,
+      "capital": "Conakry",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/gn.svg",
+      "vote": 0
+    },
+    {
+      "id": "CM",
+      "name": "Cameroon",
+      "nameGe": "Republic of Cameroon",
+      "population": 26545864,
+      "capital": "Yaoundé",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/cm.svg",
+      "vote": 0
+    },
+    {
+      "id": "DK",
+      "name": "Denmark",
+      "nameGe": "Kingdom of Denmark",
+      "population": 5831404,
+      "capital": "Copenhagen",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/dk.svg",
+      "vote": 0
+    },
+    {
+      "id": "GI",
+      "name": "Gibraltar",
+      "nameGe": "Gibraltar",
+      "population": 33691,
+      "capital": "Gibraltar",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/gi.svg",
+      "vote": 0
+    },
+    {
+      "id": "PH",
+      "name": "Philippines",
+      "nameGe": "Republic of the Philippines",
+      "population": 109581085,
+      "capital": "Manila",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/ph.svg",
+      "vote": 0
+    },
+    {
+      "id": "PW",
+      "name": "Palau",
+      "nameGe": "Republic of Palau",
+      "population": 18092,
+      "capital": "Ngerulmud",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/pw.svg",
+      "vote": 0
+    },
+    {
+      "id": "LV",
+      "name": "Latvia",
+      "nameGe": "Republic of Latvia",
+      "population": 1901548,
+      "capital": "Riga",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/lv.svg",
+      "vote": 0
+    },
+    {
+      "id": "BY",
+      "name": "Belarus",
+      "nameGe": "Republic of Belarus",
+      "population": 9398861,
+      "capital": "Minsk",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/by.svg",
+      "vote": 0
+    },
+    {
+      "id": "PF",
+      "name": "French Polynesia",
+      "nameGe": "French Polynesia",
+      "population": 280904,
+      "capital": "Papeetē",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/pf.svg",
+      "vote": 0
+    },
+    {
+      "id": "HN",
+      "name": "Honduras",
+      "nameGe": "Republic of Honduras",
+      "population": 9904608,
+      "capital": "Tegucigalpa",
+      "capitalGe": "N/A",
+      "image": "https://flagcdn.com/hn.svg",
+      "vote": 0
+    }
+  ]
+}

@@ -10,9 +10,14 @@
     "ts-check": "tsc -b",
     "prettier": "prettier . --write",
     "preview": "vite preview",
-    "prepare": "husky"
+    "prepare": "husky",
+    "json-server": "json-server --watch database.json --port 3000",
+    "run-db": "npx json-server database.json",
+    "seed-db": "node db.js"
   },
   "dependencies": {
+    "axios": "^1.7.7",
+    "json-server": "^1.0.0-beta.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.2"
