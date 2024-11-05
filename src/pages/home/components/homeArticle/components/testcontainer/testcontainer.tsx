@@ -10,7 +10,7 @@ import ArticleCreateForm from "../articleContent/components/articleCreateForm/ar
 import OtpInput from "../articleContent/components/OtpInput/otpInput";
 import axios from "axios";
 
-// Define the type for Article
+
 type Article = {
   isDeleted: boolean;
   img: string;
@@ -42,16 +42,17 @@ const ArticleContainerTest: React.FC = () => {
 
   useEffect(() => {
     axios.get("http://localhost:3000/countries").then((res) => {
+      console.log(res.data)
       setArticleList(res.data);
     });
   }, []);
 
-  // Handle OTP input change
+
   const handleOtpChange = (newOtp: string) => {
     setOtp(newOtp);
   };
 
-  // Handle Like functionality
+
   const handleLike = (id: string) => {
     setArticleList((prevArticles) =>
       prevArticles.map((article) =>
@@ -92,11 +93,11 @@ const ArticleContainerTest: React.FC = () => {
       isDeleted: false,
     };
 
-    // Correct formData handling, matching the articleObj structure
+
     const formData = new FormData(event.currentTarget);
 
     for (const [key, value] of formData) {
-      // Using Object.prototype.hasOwnProperty.call to safely check for properties
+     
       if (Object.prototype.hasOwnProperty.call(articleObj, key)) {
         (articleObj as Record<string, unknown>)[key] = value;
       }
