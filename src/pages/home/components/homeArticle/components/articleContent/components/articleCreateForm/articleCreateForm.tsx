@@ -27,7 +27,6 @@ const ArticleCreateForm = React.forwardRef(
     const validateForm = () => {
       let isValid = true;
 
-    
       if (title.length > 7) {
         setTitleError("მაქსიმუმ 7 სიმბოლო უნდა იყოს");
         isValid = false;
@@ -35,7 +34,6 @@ const ArticleCreateForm = React.forwardRef(
         setTitleError("");
       }
 
-    
       if (description.length < 3) {
         setDescriptionError("მინიმუმ სამი სიმბოლო უნდა იყოს");
         isValid = false;
@@ -51,13 +49,12 @@ const ArticleCreateForm = React.forwardRef(
       if (file) {
         const fileType = file.type;
 
-        
         if (fileType === "image/jpeg" || fileType === "image/png") {
           const reader = new FileReader();
           reader.onloadend = () => {
-            setImage(reader.result); 
+            setImage(reader.result);
           };
-          reader.readAsDataURL(file); 
+          reader.readAsDataURL(file);
         } else {
           alert("გთხოვთ ატვირთოთ მხოლოდ JPG ან PNG ფორმატის სურათები.");
           setImage(null);
@@ -69,7 +66,6 @@ const ArticleCreateForm = React.forwardRef(
       event.preventDefault();
       if (validateForm()) {
         if (image) {
-         
           onArticleCreate(event, image as string);
         } else {
           alert("Please upload a valid image.");
@@ -79,7 +75,6 @@ const ArticleCreateForm = React.forwardRef(
 
     return (
       <form className={style.form} onSubmit={handleSubmit} ref={ref}>
-        
         <div className={style.contact_fields}>
           <label htmlFor="title">title:</label>
           <input
@@ -111,7 +106,6 @@ const ArticleCreateForm = React.forwardRef(
           )}
         </div>
 
-        
         <div className={style.contact_fields}>
           <label htmlFor="myfile">Select a file:</label>
           <input
@@ -122,7 +116,6 @@ const ArticleCreateForm = React.forwardRef(
           />
         </div>
 
-
         <button className={style.contact_button} type="submit">
           Create
         </button>
@@ -131,6 +124,6 @@ const ArticleCreateForm = React.forwardRef(
   },
 );
 
-ArticleCreateForm.displayName = "ArticleCreateForm"; 
+ArticleCreateForm.displayName = "ArticleCreateForm";
 
 export default ArticleCreateForm;

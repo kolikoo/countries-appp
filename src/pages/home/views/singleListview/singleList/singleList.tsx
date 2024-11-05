@@ -49,8 +49,6 @@ const SingleList: React.FC<SingleListProps> = ({ article }) => {
         <ArticleDescription>{article.description1.en}</ArticleDescription>
 
         <ArticleDescription>{article.description2.en}</ArticleDescription>
-
-        
       </ArticleBox>
     </ArticleMainBox>
   );

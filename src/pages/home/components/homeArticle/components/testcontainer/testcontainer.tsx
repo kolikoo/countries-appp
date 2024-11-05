@@ -40,7 +40,7 @@ const ArticleContainerTest: React.FC = () => {
   const [otp, setOtp] = useState("");
   const [editableCard, setEditableCard] = useState<Article | null>(null);
 
-  const formRef = useRef<HTMLFormElement | null>(null)
+  const formRef = useRef<HTMLFormElement | null>(null);
 
   useEffect(() => {
     axios.get("http://localhost:3000/countries").then((res) => {
@@ -49,11 +49,9 @@ const ArticleContainerTest: React.FC = () => {
     });
   }, []);
 
-
   const handleOtpChange = (newOtp: string) => {
     setOtp(newOtp);
   };
-
 
   const handleLike = (id: string) => {
     setArticleList((prevArticles) =>
@@ -64,7 +62,6 @@ const ArticleContainerTest: React.FC = () => {
       ),
     );
   };
-
 
   const handleCreateOrUpdateArticle = (
     event: FormEvent<HTMLFormElement>,
@@ -96,7 +93,6 @@ const ArticleContainerTest: React.FC = () => {
     };
 
     if (editableCard) {
-
       const updatedCard = {
         ...editableCard,
         title: articleObj.title,
@@ -112,13 +108,12 @@ const ArticleContainerTest: React.FC = () => {
           );
           setEditableCard(null);
           setTitle("");
-          setDescription("")
+          setDescription("");
         })
         .catch((error) => {
           console.error("Error updating article:", error);
         });
     } else {
-
       axios.post("http://localhost:3000/countries", articleObj).then(() => {
         setArticleList((prevArticles) => [...prevArticles, articleObj]);
         setTitle(""); // Reset form fields after creation
@@ -135,18 +130,16 @@ const ArticleContainerTest: React.FC = () => {
     });
   };
 
-  
   const handleEditClick = (id: string) => {
     const articleToEdit = articleList.find((article) => article.id === id);
     if (articleToEdit) {
       setEditableCard(articleToEdit);
-      setTitle(articleToEdit.title.en); 
-      setDescription(articleToEdit.description1.en); 
+      setTitle(articleToEdit.title.en);
+      setDescription(articleToEdit.description1.en);
       formRef.current?.scrollIntoView({ behavior: "smooth" });
     }
   };
 
-  
   const handleArticleSort = (sortType: "asc" | "desc") => {
     const sortedArticles = [...articleList];
     sortedArticles.sort((a, b) =>
