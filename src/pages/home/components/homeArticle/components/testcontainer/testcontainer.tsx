@@ -1,4 +1,4 @@
-import React, { FormEvent, useEffect, useState } from "react";
+import React, { FormEvent, useEffect, useRef, useState } from "react";
 import style from "../articleContent/components/articleDescription.module.css";
 import ArticleBox from "../articleContent/ArticleBox";
 import ArticleTitle from "../articleContent/components/articleTitle";
@@ -38,6 +38,9 @@ const ArticleContainerTest: React.FC = () => {
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
   const [otp, setOtp] = useState("");
+  const [editableCard, setEditableCard] = useState<Article | null>(null);
+
+  const formRef = useRef<HTMLFormElement | null>(null)
 
   useEffect(() => {
     axios.get("http://localhost:3000/countries").then((res) => {
@@ -46,9 +49,11 @@ const ArticleContainerTest: React.FC = () => {
     });
   }, []);
 
+
   const handleOtpChange = (newOtp: string) => {
     setOtp(newOtp);
   };
+
 
   const handleLike = (id: string) => {
     setArticleList((prevArticles) =>
@@ -60,8 +65,8 @@ const ArticleContainerTest: React.FC = () => {
     );
   };
 
-  // Handle Article creation
-  const handleCreateArticle = (
+
+  const handleCreateOrUpdateArticle = (
     event: FormEvent<HTMLFormElement>,
     img: string,
   ) => {
@@ -90,18 +95,38 @@ const ArticleContainerTest: React.FC = () => {
       isDeleted: false,
     };
 
-    const formData = new FormData(event.currentTarget);
+    if (editableCard) {
 
-    for (const [key, value] of formData) {
-      if (Object.prototype.hasOwnProperty.call(articleObj, key)) {
-        (articleObj as Record<string, unknown>)[key] = value;
-      }
+      const updatedCard = {
+        ...editableCard,
+        title: articleObj.title,
+        description1: articleObj.description1,
+      };
+      axios
+        .put(`http://localhost:3000/countries/${editableCard.id}`, updatedCard)
+        .then(() => {
+          setArticleList((prevArticles) =>
+            prevArticles.map((article) =>
+              article.id === editableCard.id ? updatedCard : article,
+            ),
+          );
+          setEditableCard(null);
+          setTitle("");
+          setDescription("")
+        })
+        .catch((error) => {
+          console.error("Error updating article:", error);
+        });
+    } else {
+
+      axios.post("http://localhost:3000/countries", articleObj).then(() => {
+        setArticleList((prevArticles) => [...prevArticles, articleObj]);
+        setTitle(""); // Reset form fields after creation
+        setDescription("");
+      });
     }
-
-    setArticleList((prevArticles) => [...prevArticles, articleObj]);
   };
 
-  // Handle Article deletion
   const handleDeleteArticle = (id: string) => {
     axios.delete(`http://localhost:3000/countries/${id}`).then(() => {
       setArticleList((prevArticleList) =>
@@ -110,17 +135,26 @@ const ArticleContainerTest: React.FC = () => {
     });
   };
 
-  // Handle Article sorting
-  const handleArticleSort = (sortType: "asc" | "desc") => {
-    const copiedActiveCards = [...articleList];
-
-    if (sortType === "asc") {
-      copiedActiveCards.sort((a, b) => a.likeCount - b.likeCount);
-    } else if (sortType === "desc") {
-      copiedActiveCards.sort((a, b) => b.likeCount - a.likeCount);
+  
+  const handleEditClick = (id: string) => {
+    const articleToEdit = articleList.find((article) => article.id === id);
+    if (articleToEdit) {
+      setEditableCard(articleToEdit);
+      setTitle(articleToEdit.title.en); 
+      setDescription(articleToEdit.description1.en); 
+      formRef.current?.scrollIntoView({ behavior: "smooth" });
     }
+  };
 
-    setArticleList(copiedActiveCards);
+  
+  const handleArticleSort = (sortType: "asc" | "desc") => {
+    const sortedArticles = [...articleList];
+    sortedArticles.sort((a, b) =>
+      sortType === "asc"
+        ? a.likeCount - b.likeCount
+        : b.likeCount - a.likeCount,
+    );
+    setArticleList(sortedArticles);
   };
 
   const { language } = useParams<{ language: "ka" | "en" }>();
@@ -135,7 +169,8 @@ const ArticleContainerTest: React.FC = () => {
           <button onClick={() => handleArticleSort("asc")}>Least Voted</button>
         </p>
         <ArticleCreateForm
-          onArticleCreate={handleCreateArticle}
+          ref={formRef}
+          onArticleCreate={handleCreateOrUpdateArticle}
           title={title}
           description={description}
           onTitleChange={(e) => setTitle(e.target.value)}
@@ -150,7 +185,7 @@ const ArticleContainerTest: React.FC = () => {
               src={article.img}
               height="200"
               width="150"
-              alt={article.title?.en || "სტატიის სურათი"}
+              alt={article.title?.en || "Article Image"}
             />
           </div>
 
@@ -196,10 +231,17 @@ const ArticleContainerTest: React.FC = () => {
               count={article.likeCount}
             />
             <div
-              style={{ color: "red", fontSize: "26px" }}
+              style={{ color: "red", fontSize: "26px", cursor: "pointer" }}
               onClick={() => handleDeleteArticle(article.id)}
             >
-              წაშლა
+              Delete
+            </div>
+
+            <div
+              style={{ color: "blue", fontSize: "26px", cursor: "pointer" }}
+              onClick={() => handleEditClick(article.id)}
+            >
+              Edit
             </div>
           </ArticleBox>
         </ArticleMainBox>

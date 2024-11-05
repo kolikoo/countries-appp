@@ -1,28 +1,6 @@
 {
   "countries": [
     {
-      "id": "GS",
-      "title": {
-        "ka": "South Georgia",
-        "en": "South Georgia"
-      },
-      "description1": {
-        "ka": "ინფორმაცია South Georgia შესახებ",
-        "en": "Information about South Georgia"
-      },
-      "description2": {
-        "ka": "",
-        "en": ""
-      },
-      "descriptionSpan": {
-        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
-        "en": "For more information, click here..."
-      },
-      "img": "https://flagcdn.com/gs.svg",
-      "likeCount": 0,
-      "isDeleted": false
-    },
-    {
       "id": "GD",
       "title": {
         "ka": "Grenada",
@@ -47,11 +25,11 @@
     {
       "id": "CH",
       "title": {
-        "ka": "Switzerland",
-        "en": "Switzerland"
+        "ka": "Switz",
+        "en": "Switz"
       },
       "description1": {
-        "ka": "ინფორმაცია Switzerland შესახებ",
+        "ka": "Information about Switzerland",
         "en": "Information about Switzerland"
       },
       "description2": {
@@ -63,28 +41,6 @@
         "en": "For more information, click here..."
       },
       "img": "https://flagcdn.com/ch.svg",
-      "likeCount": 0,
-      "isDeleted": false
-    },
-    {
-      "id": "SL",
-      "title": {
-        "ka": "Sierra Leone",
-        "en": "Sierra Leone"
-      },
-      "description1": {
-        "ka": "ინფორმაცია Sierra Leone შესახებ",
-        "en": "Information about Sierra Leone"
-      },
-      "description2": {
-        "ka": "",
-        "en": ""
-      },
-      "descriptionSpan": {
-        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
-        "en": "For more information, click here..."
-      },
-      "img": "https://flagcdn.com/sl.svg",
       "likeCount": 0,
       "isDeleted": false
     },

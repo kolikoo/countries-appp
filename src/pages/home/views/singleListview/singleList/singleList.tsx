@@ -1,43 +1,58 @@
-import { useParams } from "react-router-dom";
+import React from "react";
 import ArticleBox from "@/pages/home/components/homeArticle/components/articleContent/ArticleBox";
 import ArticleMainBox from "@/pages/home/components/homeArticle/components/articleContent/articleMainBox";
 import ArticleDescription from "@/pages/home/components/homeArticle/components/articleContent/components/articleDescription";
 import ArticleTitle from "@/pages/home/components/homeArticle/components/articleContent/components/articleTitle";
-import articleContent from "@/pages/home/static/dummy-data";
 import style from "@/pages/home/components/homeArticle/components/articleContent/components/articleDescription.module.css";
 
-const SingleList = () => {
-  const { id } = useParams<{ id: string }>();
-  const article = articleContent.find((article) => article.id === id);
+type Article = {
+  id: string;
+  img: string;
+  title: {
+    ka: string;
+    en: string;
+  };
+  description1: {
+    ka: string;
+    en: string;
+  };
+  description2: {
+    ka: string;
+    en: string;
+  };
+  descriptionSpan: {
+    ka: string;
+    en: string;
+  };
+};
 
-  if (!article) {
-    return <div>Article not found</div>;
-  }
+interface SingleListProps {
+  article: Article;
+}
 
+const SingleList: React.FC<SingleListProps> = ({ article }) => {
   return (
-    <>
-      <ArticleMainBox id={article.id}>
-        <div className={style.articleImg}>
-          <img
-            className={style.img}
-            src={article.img}
-            height="200px"
-            width="150px"
-            alt={article.title}
-          />
-        </div>
+    <ArticleMainBox id={article.id}>
+      <div className={style.articleImg}>
+        <img
+          className={style.img}
+          src={article.img}
+          height="200px"
+          width="150px"
+          alt={article.title.en}
+        />
+      </div>
 
-        <ArticleBox {...article}>
-          <ArticleTitle>{article.title}</ArticleTitle>
+      <ArticleBox {...article}>
+        <ArticleTitle>{article.title.en}</ArticleTitle>
 
-          <ArticleDescription>{article.description1}</ArticleDescription>
+        <ArticleDescription>{article.description1.en}</ArticleDescription>
 
-          <ArticleDescription>{article.description2}</ArticleDescription>
+        <ArticleDescription>{article.description2.en}</ArticleDescription>
 
-          <ArticleDescription>{article.descriptionSpan}</ArticleDescription>
-        </ArticleBox>
-      </ArticleMainBox>
-    </>
+        
+      </ArticleBox>
+    </ArticleMainBox>
   );
 };
 

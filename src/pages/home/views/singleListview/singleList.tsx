@@ -1,22 +1,50 @@
+import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import axios from "axios";
 import SingleList from "./singleList/singleList";
-import articleContent from "../../static/dummy-data";
 
-const SingleListView = () => {
-  const { id } = useParams();
 
-  const articleInfo = articleContent.find((article) => article.id == id);
+type Article = {
+  id: string;
+  img: string;
+  title: {
+    ka: string;
+    en: string;
+  };
+  description1: {
+    ka: string;
+    en: string;
+  };
+  description2: {
+    ka: string;
+    en: string;
+  };
+  descriptionSpan: {
+    ka: string;
+    en: string;
+  };
+};
 
-  console.log(articleInfo);
+const SingleListView: React.FC = () => {
+  const { id } = useParams<{ id: string }>();
+  const [articleInfo, setArticleInfo] = useState<Article | null>(null);
 
+ 
+  useEffect(() => {
+    axios
+      .get(`http://localhost:3000/countries/${id}`)
+      .then((res) => {
+        setArticleInfo(res.data);
+      })
+      .catch((error) => {
+        console.error("Error fetching article data:", error);
+      });
+  }, [id]);
   if (!articleInfo) {
-    return <div>page not found</div>;
+    return <div>Article not found</div>; 
   }
-  return (
-    <>
-      <SingleList />
-    </>
-  );
+
+  return <SingleList article={articleInfo} />;
 };
 
 export default SingleListView;
