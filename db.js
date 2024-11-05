@@ -1,7 +1,6 @@
 import axios from "axios";
 import fs from "fs";
 
-
 const clearDatabase = () => {
   const dbPath = "./database.json";
   if (fs.existsSync(dbPath)) {
