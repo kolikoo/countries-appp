@@ -1,158 +1,20 @@
 {
   "countries": [
     {
-      "id": "FR",
-      "title": {
-        "ka": "France",
-        "en": "France"
-      },
-      "description1": {
-        "ka": "ინფორმაცია France შესახებ",
-        "en": "Information about France"
-      },
-      "description2": {
-        "ka": "",
-        "en": ""
-      },
-      "descriptionSpan": {
-        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
-        "en": "For more information, click here..."
-      },
-      "img": "https://flagcdn.com/fr.svg",
-      "likeCount": 0,
-      "isDeleted": false
+      "incrementLike": true,
+      "id": "GA"
     },
     {
-      "id": "LY",
-      "title": {
-        "ka": "Libya",
-        "en": "Libya"
-      },
-      "description1": {
-        "ka": "ინფორმაცია Libya შესახებ",
-        "en": "Information about Libya"
-      },
-      "description2": {
-        "ka": "",
-        "en": ""
-      },
-      "descriptionSpan": {
-        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
-        "en": "For more information, click here..."
-      },
-      "img": "https://flagcdn.com/ly.svg",
-      "likeCount": 0,
-      "isDeleted": false
+      "incrementLike": true,
+      "id": "MP"
     },
     {
-      "id": "MX",
-      "title": {
-        "ka": "Mexico",
-        "en": "Mexico"
-      },
-      "description1": {
-        "ka": "ინფორმაცია Mexico შესახებ",
-        "en": "Information about Mexico"
-      },
-      "description2": {
-        "ka": "",
-        "en": ""
-      },
-      "descriptionSpan": {
-        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
-        "en": "For more information, click here..."
-      },
-      "img": "https://flagcdn.com/mx.svg",
-      "likeCount": 0,
-      "isDeleted": false
+      "incrementLike": true,
+      "id": "MK"
     },
     {
-      "id": "GA",
-      "title": {
-        "ka": "Gabon",
-        "en": "Gabon"
-      },
-      "description1": {
-        "ka": "ინფორმაცია Gabon შესახებ",
-        "en": "Information about Gabon"
-      },
-      "description2": {
-        "ka": "",
-        "en": ""
-      },
-      "descriptionSpan": {
-        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
-        "en": "For more information, click here..."
-      },
-      "img": "https://flagcdn.com/ga.svg",
-      "likeCount": 0,
-      "isDeleted": false
-    },
-    {
-      "id": "MP",
-      "title": {
-        "ka": "Northern Mariana Islands",
-        "en": "Northern Mariana Islands"
-      },
-      "description1": {
-        "ka": "ინფორმაცია Northern Mariana Islands შესახებ",
-        "en": "Information about Northern Mariana Islands"
-      },
-      "description2": {
-        "ka": "",
-        "en": ""
-      },
-      "descriptionSpan": {
-        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
-        "en": "For more information, click here..."
-      },
-      "img": "https://flagcdn.com/mp.svg",
-      "likeCount": 0,
-      "isDeleted": false
-    },
-    {
-      "id": "MK",
-      "title": {
-        "ka": "North Macedonia",
-        "en": "North Macedonia"
-      },
-      "description1": {
-        "ka": "ინფორმაცია North Macedonia შესახებ",
-        "en": "Information about North Macedonia"
-      },
-      "description2": {
-        "ka": "",
-        "en": ""
-      },
-      "descriptionSpan": {
-        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
-        "en": "For more information, click here..."
-      },
-      "img": "https://flagcdn.com/mk.svg",
-      "likeCount": 0,
-      "isDeleted": false
-    },
-    {
-      "id": "CN",
-      "title": {
-        "ka": "China",
-        "en": "China"
-      },
-      "description1": {
-        "ka": "ინფორმაცია China შესახებ",
-        "en": "Information about China"
-      },
-      "description2": {
-        "ka": "",
-        "en": ""
-      },
-      "descriptionSpan": {
-        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
-        "en": "For more information, click here..."
-      },
-      "img": "https://flagcdn.com/cn.svg",
-      "likeCount": 0,
-      "isDeleted": false
+      "incrementLike": true,
+      "id": "CN"
     },
     {
       "id": "YE",
