@@ -8,18 +8,15 @@ type Card = {
   likesCount: number;
 };
 
-
 export const getCountries = async (): Promise<Article[]> => {
   try {
     const response = await httpClient.get("/countries");
-    return response.data; 
-    
+    return response.data;
   } catch (error) {
     console.log("Error fetching countries:", error);
-    return []; 
+    return [];
   }
 };
-
 
 export const updateCountry = ({
   id,

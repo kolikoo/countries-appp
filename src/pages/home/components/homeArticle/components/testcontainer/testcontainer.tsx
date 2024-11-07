@@ -35,7 +35,6 @@ type Article = {
   likeCount: number;
 };
 
-
 const ArticleContainerTest: React.FC = () => {
   const [articleList, setArticleList] = useState<Article[]>([]);
   const [title, setTitle] = useState("");
@@ -45,12 +44,10 @@ const ArticleContainerTest: React.FC = () => {
 
   const formRef = useRef<HTMLFormElement | null>(null);
 
-
   const { data, isError, isLoading, refetch } = useQuery<Article[]>({
     queryKey: ["countries-ley"],
     queryFn: getCountries,
   });
-
 
   const { mutate } = useMutation({ mutationFn: CarddeleteCountry });
 
@@ -180,7 +177,7 @@ const ArticleContainerTest: React.FC = () => {
       </div>
       {isError ? "Error" : null}
       {isLoading ? "loading..." : null}
-      {data?.map((article:Article) => (
+      {data?.map((article: Article) => (
         <ArticleMainBox key={article.id} id={article.id}>
           <div className={style.articleImg}>
             <img
