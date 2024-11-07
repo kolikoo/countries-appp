@@ -1,4 +1,4 @@
-import React, { FormEvent, useEffect, useRef, useState } from "react";
+import React, { FormEvent, useRef, useState } from "react";
 import style from "../articleContent/components/articleDescription.module.css";
 import ArticleBox from "../articleContent/ArticleBox";
 import ArticleTitle from "../articleContent/components/articleTitle";
@@ -9,6 +9,8 @@ import LikeButton from "../articleContent/components/likebutton";
 import ArticleCreateForm from "../articleContent/components/articleCreateForm/articleCreateForm";
 import OtpInput from "../articleContent/components/OtpInput/otpInput";
 import axios from "axios";
+import { useMutation, useQuery } from "@tanstack/react-query";
+import { CarddeleteCountry, getCountries } from "@/API/countries";
 
 type Article = {
   isDeleted: boolean;
@@ -42,15 +44,26 @@ const ArticleContainerTest: React.FC = () => {
 
   const formRef = useRef<HTMLFormElement | null>(null);
 
-  useEffect(() => {
-    axios.get("http://localhost:3000/countries").then((res) => {
-      console.log(res.data);
-      setArticleList(res.data);
-    });
-  }, []);
+  const { data, isError, isLoading, refetch } = useQuery<Article[]>({
+    queryKey: ["countries-ley"],
+    queryFn: getCountries,
+  });
+
+  const { mutate } = useMutation({ mutationFn: CarddeleteCountry });
 
   const handleOtpChange = (newOtp: string) => {
     setOtp(newOtp);
+  };
+
+  const handleDeleteArticle = (id: string) => {
+    mutate(id, {
+      onSuccess: () => {
+        refetch();
+      },
+      onError: (error) => {
+        console.log("error deleting card", error);
+      },
+    });
   };
 
   const handleLike = (id: string) => {
@@ -122,14 +135,6 @@ const ArticleContainerTest: React.FC = () => {
     }
   };
 
-  const handleDeleteArticle = (id: string) => {
-    axios.delete(`http://localhost:3000/countries/${id}`).then(() => {
-      setArticleList((prevArticleList) =>
-        prevArticleList.filter((article) => article.id !== id),
-      );
-    });
-  };
-
   const handleEditClick = (id: string) => {
     const articleToEdit = articleList.find((article) => article.id === id);
     if (articleToEdit) {
@@ -170,8 +175,9 @@ const ArticleContainerTest: React.FC = () => {
           onDescriptionChange={(e) => setDescription(e.target.value)}
         />
       </div>
-
-      {articleList.map((article) => (
+      {isError ? "Error" : null}
+      {isLoading ? "loading..." : null}
+      {data?.map((article: Article) => (
         <ArticleMainBox key={article.id} id={article.id}>
           <div className={style.articleImg}>
             <img
