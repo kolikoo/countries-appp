@@ -13,8 +13,8 @@ export const getCountries = async (): Promise<Article[]> => {
     const response = await httpClient.get("/countries");
     return response.data;
   } catch (error) {
-    console.log("Error fetching countries:", error);
-    return [];
+    console.error("Error fetching countries:", error);
+    throw new Error("Error fetching countries");
   }
 };
 
