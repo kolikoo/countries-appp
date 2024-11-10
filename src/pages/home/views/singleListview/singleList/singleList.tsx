@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import ArticleBox from "@/pages/home/components/homeArticle/components/articleContent/ArticleBox";
 import ArticleMainBox from "@/pages/home/components/homeArticle/components/articleContent/articleMainBox";
 import ArticleDescription from "@/pages/home/components/homeArticle/components/articleContent/components/articleDescription";
 import ArticleTitle from "@/pages/home/components/homeArticle/components/articleContent/components/articleTitle";
 import style from "@/pages/home/components/homeArticle/components/articleContent/components/articleDescription.module.css";
+import { getCountries } from "@/API/countries";
+import { useParams } from "react-router-dom";
 
 type Article = {
   id: string;
@@ -31,6 +33,25 @@ interface SingleListProps {
 }
 
 const SingleList: React.FC<SingleListProps> = ({ article }) => {
+  const [cardList, setCardList] = useState<Article[]>([]);
+  const { id } = useParams<{ id: string }>();
+
+  useEffect(() => {
+    const fetchCountries = async () => {
+      try {
+        const response = await getCountries();
+        setCardList(response);
+      } catch (error) {
+        console.log("error:", error);
+      }
+    };
+    fetchCountries();
+  }, []);
+  const cardInfo = cardList.find((country) => country.id === id);
+
+  if (!cardInfo) {
+    return <div>Card not found.</div>;
+  }
   return (
     <ArticleMainBox id={article.id}>
       <div className={style.articleImg}>
