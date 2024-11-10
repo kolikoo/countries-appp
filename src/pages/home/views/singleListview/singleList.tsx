@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import axios from "axios";
 import SingleList from "./singleList/singleList";
+import { getCountries } from "@/API/countries";
 
 type Article = {
   id: string;
@@ -25,24 +25,28 @@ type Article = {
 };
 
 const SingleListView: React.FC = () => {
+  const [cardList, setCardList] = useState<Article[]>([]);
   const { id } = useParams<{ id: string }>();
-  const [articleInfo, setArticleInfo] = useState<Article | null>(null);
 
   useEffect(() => {
-    axios
-      .get(`http://localhost:3000/countries/${id}`)
-      .then((res) => {
-        setArticleInfo(res.data);
-      })
-      .catch((error) => {
-        console.error("Error fetching article data:", error);
-      });
-  }, [id]);
-  if (!articleInfo) {
-    return <div>Article not found</div>;
+    const fetchCountries = async () => {
+      try {
+        const response = await getCountries();
+        setCardList(response);
+      } catch (error) {
+        console.log("error:", error);
+      }
+    };
+    fetchCountries();
+  }, []);
+
+  const cardInfo = cardList.find((country) => country.id === id);
+
+  if (!cardInfo) {
+    return <div style={{ color: "#fff" }}> There's no such card </div>;
   }
 
-  return <SingleList article={articleInfo} />;
+  return <SingleList article={cardInfo} />;
 };
 
 export default SingleListView;
