@@ -2,10 +2,10 @@ import React from "react";
 
 interface LikeButtonProps {
   onClick: () => void;
-  count: number;
+  likeCount: number;
 }
 
-const LikeButton: React.FC<LikeButtonProps> = ({ onClick, count }) => {
+const LikeButton: React.FC<LikeButtonProps> = ({ onClick, likeCount }) => {
   return (
     <button
       style={{ height: "40px" }}
@@ -16,7 +16,7 @@ const LikeButton: React.FC<LikeButtonProps> = ({ onClick, count }) => {
         onClick();
       }}
     >
-      Likes: {count}
+      Likes: {likeCount}
     </button>
   );
 };

@@ -8,7 +8,7 @@ const clearDatabase = () => {
     fs.writeFileSync(dbPath, JSON.stringify(emptyDb, null, 2));
   }
 };
-
+fetch("https://api.spaceflightnewsapi.net/v4/articles?limit=1000");
 axios
   .get("https://restcountries.com/v3.1/all")
   .then((res) => {
