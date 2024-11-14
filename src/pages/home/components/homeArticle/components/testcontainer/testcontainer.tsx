@@ -4,13 +4,19 @@ import ArticleBox from "../articleContent/ArticleBox";
 import ArticleTitle from "../articleContent/components/articleTitle";
 import ArticleDescription from "../articleContent/components/articleDescription";
 import ArticleMainBox from "../articleContent/articleMainBox";
-import { Link, useParams } from "react-router-dom";
+import { Link, useParams, useSearchParams } from "react-router-dom";
 import LikeButton from "../articleContent/components/likebutton";
 import ArticleCreateForm from "../articleContent/components/articleCreateForm/articleCreateForm";
 import OtpInput from "../articleContent/components/OtpInput/otpInput";
 import axios from "axios";
-import { useMutation, useQuery } from "@tanstack/react-query";
-import { CarddeleteCountry, getCountries } from "@/API/countries";
+import { useInfiniteQuery, useMutation } from "@tanstack/react-query";
+import {
+  articleLike,
+  CarddeleteCountry,
+  getCountries,
+} from "@/API/countries/countries";
+import { useWindowVirtualizer } from "@tanstack/react-virtual";
+import { useWindowSize } from "react-use";
 
 type Article = {
   isDeleted: boolean;
@@ -42,12 +48,64 @@ const ArticleContainerTest: React.FC = () => {
   const [otp, setOtp] = useState("");
   const [editableCard, setEditableCard] = useState<Article | null>(null);
 
+  const [searchParams, setSearchParams] = useSearchParams();
+  const sortType = searchParams.get("sort") === "asc" ? "asc" : "desc";
+  const { width } = useWindowSize();
+
   const formRef = useRef<HTMLFormElement | null>(null);
 
-  const { data, isError, isLoading, refetch } = useQuery<Article[]>({
-    queryKey: ["countries-ley"],
-    queryFn: getCountries,
+  // const { data:countriesList, isError, isLoading, refetch } = useQuery<Article[]>({
+  //    queryKey: ["countries", sortType],
+  //   queryFn: () => getCountries(sortType),
+  // });
+
+  const {
+    isError,
+    isLoading,
+    status,
+    refetch,
+    data,
+    error,
+    isFetchingNextPage,
+    fetchNextPage,
+    hasNextPage,
+  } = useInfiniteQuery({
+    queryKey: ["countries", sortType],
+    queryFn: ({ pageParam }) => getCountries(sortType, pageParam, 10),
+    getNextPageParam: (lastGroup) => lastGroup.nextOffset,
+    initialPageParam: 1,
   });
+
+  const allRows = data ? data.pages.flatMap((d) => d.rows) : [];
+
+  const rowVirtualizer = useWindowVirtualizer({
+    count: hasNextPage ? allRows.length + 1 : allRows.length,
+    estimateSize: () => (width <= 768 ? 800 : 348),
+    overscan: 5,
+  });
+
+  const virtualItems = rowVirtualizer.getVirtualItems();
+  React.useEffect(() => {
+    const [lastItem] = [...virtualItems].reverse();
+
+    if (!lastItem) {
+      return;
+    }
+
+    if (
+      lastItem.index >= allRows.length - 1 &&
+      hasNextPage &&
+      !isFetchingNextPage
+    ) {
+      fetchNextPage();
+    }
+  }, [
+    hasNextPage,
+    fetchNextPage,
+    allRows.length,
+    isFetchingNextPage,
+    virtualItems,
+  ]);
 
   const { mutate } = useMutation({ mutationFn: CarddeleteCountry });
 
@@ -66,14 +124,18 @@ const ArticleContainerTest: React.FC = () => {
     });
   };
 
+  const { mutate: likeMutation } = useMutation({
+    mutationFn: articleLike,
+    onSuccess: () => {
+      refetch();
+    },
+    onError: (error) => {
+      console.error("Failed to like article:", error);
+    },
+  });
+
   const handleLike = (id: string) => {
-    setArticleList((prevArticles) =>
-      prevArticles.map((article) =>
-        article.id === id
-          ? { ...article, likeCount: article.likeCount + 1 }
-          : article,
-      ),
-    );
+    likeMutation(id);
   };
 
   const handleCreateOrUpdateArticle = (
@@ -144,19 +206,21 @@ const ArticleContainerTest: React.FC = () => {
       formRef.current?.scrollIntoView({ behavior: "smooth" });
     }
   };
+  //  const sortedArticles = data
+  //    ? [
+  //        ...data.pages.flatMap((page) => page.rows), // Flatten all pages
+  //      ].sort((a, b) =>
+  //        sortType === "asc"
+  //          ? a.likesCount - b.likesCount
+  //          : b.likesCount - a.likesCount,
+  //      )
+  //    : [];
 
-  const handleArticleSort = (sortType: "asc" | "desc") => {
-    const sortedArticles = [...articleList];
-    sortedArticles.sort((a, b) =>
-      sortType === "asc"
-        ? a.likeCount - b.likeCount
-        : b.likeCount - a.likeCount,
-    );
-    setArticleList(sortedArticles);
+  const handleArticleSort = (type: "asc" | "desc") => {
+    setSearchParams({ sort: type });
   };
 
   const { language } = useParams<{ language: "ka" | "en" }>();
-
   return (
     <>
       <OtpInput length={4} value={otp} onChange={handleOtpChange} />
@@ -175,76 +239,117 @@ const ArticleContainerTest: React.FC = () => {
           onDescriptionChange={(e) => setDescription(e.target.value)}
         />
       </div>
-      {isError ? "Error" : null}
-      {isLoading ? "loading..." : null}
-      {data?.map((article: Article) => (
-        <ArticleMainBox key={article.id} id={article.id}>
-          <div className={style.articleImg}>
-            <img
-              src={article.img}
-              height="200"
-              width="150"
-              alt={article.title?.en || "Article Image"}
-            />
-          </div>
 
-          <ArticleBox {...article}>
-            <ArticleTitle>
-              {article.title
-                ? language === "ka"
-                  ? article.title.ka
-                  : article.title.en
-                : "Title not available"}
-            </ArticleTitle>
+      {isError && <p>Error: {error.message}</p>}
+      {isLoading && <p>Loading...</p>}
 
-            <ArticleDescription>
-              {article.description1
-                ? language === "ka"
-                  ? article.description1.ka
-                  : article.description1.en
-                : "Description not available"}
-            </ArticleDescription>
+      {status === "pending" ? (
+        <p>Loading...</p>
+      ) : status === "error" ? (
+        <span>Error: {error.message}</span>
+      ) : (
+        virtualItems.map((virtualRow) => {
+          const isLoaderRow = virtualRow.index >= allRows.length; // Check if this row is a "loader" row
+          const article = allRows[virtualRow.index];
 
-            <Link
+          return (
+            <div
+              key={virtualRow.index}
               style={{
-                borderRadius: "10px",
-                backgroundColor: "#c77415",
-                padding: "5px",
-                color: "white",
-                width: "20%",
-                fontSize: "20px",
+                position: "absolute",
+                top: 0,
+                left: 0,
+                width: "100%",
+                height: `${virtualRow.size}px`,
+                transform: `translateY(${virtualRow.start}px)`,
               }}
-              to={`/${language}/home/${article.id}`}
             >
-              <ArticleDescription>
-                {article.descriptionSpan
-                  ? language === "ka"
-                    ? article.descriptionSpan.ka
-                    : article.descriptionSpan.en
-                  : "More info"}
-              </ArticleDescription>
-            </Link>
+              {isLoaderRow ? (
+                hasNextPage ? (
+                  <p>Loading more...</p>
+                ) : (
+                  <p>Nothing more to load</p>
+                )
+              ) : (
+                <ArticleMainBox key={article.id} id={article.id}>
+                  <div className={style.articleImg}>
+                    <img
+                      src={article.img}
+                      height="200"
+                      width="150"
+                      alt={article.title?.en || "Article Image"} // Fix alt image text
+                    />
+                  </div>
 
-            <LikeButton
-              onClick={() => handleLike(article.id)}
-              count={article.likeCount}
-            />
-            <div
-              style={{ color: "red", fontSize: "26px", cursor: "pointer" }}
-              onClick={() => handleDeleteArticle(article.id)}
-            >
-              Delete
-            </div>
+                  <ArticleBox {...article}>
+                    <ArticleTitle>
+                      {article.title
+                        ? language === "ka"
+                          ? article.title.ka
+                          : article.title.en
+                        : "Title not available"}
+                    </ArticleTitle>
 
-            <div
-              style={{ color: "blue", fontSize: "26px", cursor: "pointer" }}
-              onClick={() => handleEditClick(article.id)}
-            >
-              Edit
+                    <ArticleDescription>
+                      {article.description1
+                        ? language === "ka"
+                          ? article.description1.ka
+                          : article.description1.en
+                        : "Description not available"}
+                    </ArticleDescription>
+
+                    <Link
+                      style={{
+                        borderRadius: "10px",
+                        backgroundColor: "#c77415",
+                        padding: "5px",
+                        color: "white",
+                        width: "20%",
+                        fontSize: "20px",
+                      }}
+                      to={`/${language}/home/${article.id}`}
+                    >
+                      <ArticleDescription>
+                        {article.descriptionSpan
+                          ? language === "ka"
+                            ? article.descriptionSpan.ka
+                            : article.descriptionSpan.en
+                          : "More info"}
+                      </ArticleDescription>
+                    </Link>
+
+                    <LikeButton
+                      onClick={() => handleLike(article.id)}
+                      likeCount={article.likesCount}
+                    />
+                    <div
+                      style={{
+                        color: "red",
+                        fontSize: "26px",
+                        cursor: "pointer",
+                      }}
+                      onClick={() => handleDeleteArticle(article.id)}
+                    >
+                      Delete
+                    </div>
+
+                    <div
+                      style={{
+                        color: "blue",
+                        fontSize: "26px",
+                        cursor: "pointer",
+                      }}
+                      onClick={() => handleEditClick(article.id)}
+                    >
+                      Edit
+                    </div>
+                  </ArticleBox>
+                </ArticleMainBox>
+              )}
             </div>
-          </ArticleBox>
-        </ArticleMainBox>
-      ))}
+          );
+        })
+      )}
     </>
   );
 };
