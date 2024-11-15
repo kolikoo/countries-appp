@@ -54,10 +54,7 @@ const ArticleContainerTest: React.FC = () => {
 
   const formRef = useRef<HTMLFormElement | null>(null);
 
-  // const { data:countriesList, isError, isLoading, refetch } = useQuery<Article[]>({
-  //    queryKey: ["countries", sortType],
-  //   queryFn: () => getCountries(sortType),
-  // });
+  
 
   const {
     isError,
@@ -127,10 +124,10 @@ const ArticleContainerTest: React.FC = () => {
   const { mutate: likeMutation } = useMutation({
     mutationFn: articleLike,
     onSuccess: () => {
-      refetch();
+
     },
     onError: (error) => {
-      console.error("Failed to like article:", error);
+      console.error("Error liking article:", error);
     },
   });
 
@@ -254,10 +251,11 @@ const ArticleContainerTest: React.FC = () => {
 
           return (
             <div
+            className={style.virtualDivs}
               key={virtualRow.index}
               style={{
                 position: "absolute",
-                top: 0,
+                top: -300,
                 left: 0,
                 width: "100%",
                 height: `${virtualRow.size}px`,
@@ -320,7 +318,7 @@ const ArticleContainerTest: React.FC = () => {
 
                     <LikeButton
                       onClick={() => handleLike(article.id)}
-                      likeCount={article.likesCount}
+                      likeCount={article.likeCount}
                     />
                     <div
                       style={{
