@@ -1,72 +1,6 @@
 {
   "countries": [
     {
-      "id": "MS",
-      "title": {
-        "ka": "Montserrat",
-        "en": "Montserrat"
-      },
-      "description1": {
-        "ka": "ინფორმაცია Montserrat შესახებ",
-        "en": "Information about Montserrat"
-      },
-      "description2": {
-        "ka": "",
-        "en": ""
-      },
-      "descriptionSpan": {
-        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
-        "en": "For more information, click here..."
-      },
-      "img": "https://flagcdn.com/ms.svg",
-      "likeCount": 9,
-      "isDeleted": false
-    },
-    {
-      "id": "VI",
-      "title": {
-        "ka": "United States Virgin Islands",
-        "en": "United States Virgin Islands"
-      },
-      "description1": {
-        "ka": "ინფორმაცია United States Virgin Islands შესახებ",
-        "en": "Information about United States Virgin Islands"
-      },
-      "description2": {
-        "ka": "",
-        "en": ""
-      },
-      "descriptionSpan": {
-        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
-        "en": "For more information, click here..."
-      },
-      "img": "https://flagcdn.com/vi.svg",
-      "likeCount": 0,
-      "isDeleted": false
-    },
-    {
-      "id": "CO",
-      "title": {
-        "ka": "Colombia",
-        "en": "Colombia"
-      },
-      "description1": {
-        "ka": "ინფორმაცია Colombia შესახებ",
-        "en": "Information about Colombia"
-      },
-      "description2": {
-        "ka": "",
-        "en": ""
-      },
-      "descriptionSpan": {
-        "ka": "მეტი ინფორმაციისთვის დააჭირეთ...",
-        "en": "For more information, click here..."
-      },
-      "img": "https://flagcdn.com/co.svg",
-      "likeCount": 1,
-      "isDeleted": false
-    },
-    {
       "id": "GR",
       "title": {
         "ka": "Greece",
@@ -85,7 +19,7 @@
         "en": "For more information, click here..."
       },
       "img": "https://flagcdn.com/gr.svg",
-      "likeCount": 3,
+      "likeCount": 9,
       "isDeleted": false
     },
     {
@@ -107,7 +41,7 @@
         "en": "For more information, click here..."
       },
       "img": "https://flagcdn.com/hr.svg",
-      "likeCount": 0,
+      "likeCount": 6,
       "isDeleted": false
     },
     {
@@ -129,7 +63,7 @@
         "en": "For more information, click here..."
       },
       "img": "https://flagcdn.com/ma.svg",
-      "likeCount": 0,
+      "likeCount": 6,
       "isDeleted": false
     },
     {

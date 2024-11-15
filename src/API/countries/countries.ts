@@ -30,11 +30,7 @@ interface CountriesApiResponse {
 }
 // getCountries;
 
-function getNextPageNumber(relType: string, pagination: string) {
-  const regex = new RegExp(`<[^>]*[?&]_page=(\\d+)[^>]*>; rel="${relType}"`);
-  const match = pagination.match(regex);
-  return match ? parseInt(match[1], 10) : null;
-}
+
 
 export const getCountries = async (
   sortType: "asc" | "desc",
@@ -42,12 +38,15 @@ export const getCountries = async (
   limit: number,
 ): Promise<CountriesApiResponse> => {
   try {
-    const response = await httpClient.get<Card[]>(
-      `/countries?_page=${page}&_limit=${limit}?_sort=${sortType === "asc" ? "countLike" : "-countLike"}`,
+    const response = await httpClient.get<{
+      data:Card[];
+      next:number;
+    }>(
+      `/countries?_page=${page}&_per_page=${limit}?_sort=${sortType === "asc" ? "countLike" : "-countLike"}`,
     );
     return {
-      rows: response.data,
-      nextOffset: getNextPageNumber("next", response.headers.link),
+     rows:response.data.data,
+     nextOffset:response.data.next
     };
   } catch (error) {
     console.error("Error fetching countries:", error);
@@ -75,21 +74,17 @@ export const CarddeleteCountry = async (id: string) => {
 
 export const articleLike = async (id: string) => {
   try {
-    console.log("Attempting to like article:", id);
-
     const currentDataResponse = await httpClient.get(`/countries/${id}`);
     const currentData = currentDataResponse.data;
 
     const updatedLikeCount = currentData.likeCount + 1;
 
-    const response = await httpClient.put(`/countries/${id}`, {
+    await httpClient.put(`/countries/${id}`, {
       ...currentData,
       likeCount: updatedLikeCount,
     });
-
-    console.log("Like successful:", response.data);
   } catch (error) {
-    console.log("Can't like article", error);
+    console.error("Error liking article:", error);
     throw error;
   }
 };
